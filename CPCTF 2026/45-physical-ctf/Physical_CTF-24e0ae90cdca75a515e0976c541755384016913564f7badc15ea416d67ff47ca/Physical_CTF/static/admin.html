@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Admin - Physical CTF</title>
+</head>
+<body>
+  <h1>Admin Panel</h1>
+  <div id="content">Loading...</div>
+
+  <script>
+    const content = document.getElementById('content');
+
+    function b64encode(buf) {
+      return btoa(String.fromCharCode(...new Uint8Array(buf)))
+        .replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
+    }
+
+    function b64decode(s) {
+      s = s.replace(/-/g, '+').replace(/_/g, '/');
+      while (s.length % 4) s += '=';
+      return Uint8Array.from(atob(s), c => c.charCodeAt(0));
+    }
+
+    async function checkStatus() {
+      const resp = await fetch('/api/me');
+      if (!resp.ok) {
+        content.innerHTML = '<p>Not logged in. <a href="/">Go to login</a></p>';
+        return;
+      }
+      const me = await resp.json();
+      if (!me.isAdmin) {
+        content.innerHTML = '<p>Access denied. You are not an admin.</p>';
+        return;
+      }
+      if (me.adminVerified) {
+        content.innerHTML = '<p>Already verified.</p>';
+        return;
+      }
+      content.innerHTML = '<p>Additional authentication required. Use your admin security key.</p>' +
+        '<button onclick="verify()">Verify</button><p id="result"></p>';
+    }
+
+    async function verify() {
+      const result = document.getElementById('result');
+
+      const resp = await fetch('/api/admin/verify/begin', {method: 'POST'});
+      if (!resp.ok) { result.textContent = await resp.text(); return; }
+
+      const options = await resp.json();
+      options.publicKey.challenge = b64decode(options.publicKey.challenge);
+      options.publicKey.user.id = b64decode(options.publicKey.user.id);
+
+      let credential;
+      try {
+        credential = await navigator.credentials.create(options);
+      } catch (e) {
+        result.textContent = e.message;
+        return;
+      }
+
+      const finishResp = await fetch('/api/admin/verify/finish', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+          id: credential.id,
+          rawId: b64encode(credential.rawId),
+          type: credential.type,
+          response: {
+            clientDataJSON: b64encode(credential.response.clientDataJSON),
+            attestationObject: b64encode(credential.response.attestationObject),
+          },
+        }),
+      });
+
+      const data = await finishResp.json().catch(() => null);
+      if (!finishResp.ok) {
+        result.textContent = data ? JSON.stringify(data) : 'Verification failed';
+        return;
+      }
+      result.textContent = 'Flag: ' + data.flag;
+    }
+
+    checkStatus();
+  </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "cpctf-market-user-bot",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "playwright": "1.59.1"
+  }
+}

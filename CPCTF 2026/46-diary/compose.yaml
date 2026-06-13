@@ -1,0 +1,6 @@
+services:
+  ctf-diary:
+    build: .
+    restart: always
+    ports:
+      - "30080:30080"

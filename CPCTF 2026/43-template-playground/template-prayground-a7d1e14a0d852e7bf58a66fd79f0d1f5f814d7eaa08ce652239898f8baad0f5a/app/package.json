@@ -1,0 +1,10 @@
+{
+  "name": "template-playground",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "acorn": "8.14.0",
+    "express": "5.2.1",
+    "lodash": "4.17.21"
+  }
+}

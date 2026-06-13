@@ -1,0 +1,6 @@
+services:
+  ctf-coding-agent:
+    build: .
+    restart: always
+    ports:
+      - "31200:31200"

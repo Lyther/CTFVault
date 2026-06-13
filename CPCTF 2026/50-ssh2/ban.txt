@@ -1,0 +1,1 @@
+cat,tac,less,more,head,tail,nl,rev

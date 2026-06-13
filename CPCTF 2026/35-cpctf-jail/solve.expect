@@ -1,0 +1,8 @@
+#!/usr/bin/expect -f
+set timeout 15
+spawn ssh -o StrictHostKeyChecking=no -p 32175 cpctf-jail@133.88.122.244
+expect "password:"
+send "cpctf2026\r"
+expect "> "
+send {$(</f*/*)\r}
+expect eof

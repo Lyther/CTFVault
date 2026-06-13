@@ -1,0 +1,9 @@
+services:
+  problem:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - FLAG=CPCTF{dummy}

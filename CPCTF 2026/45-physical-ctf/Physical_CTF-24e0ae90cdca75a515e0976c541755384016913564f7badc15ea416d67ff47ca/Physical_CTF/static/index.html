@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Physical CTF</title>
+</head>
+<body>
+  <h1>Physical CTF</h1>
+
+  <h2>Register</h2>
+  <input id="reg-username" placeholder="Username">
+  <button onclick="register()">Register with Passkey</button>
+
+  <h2>Login</h2>
+  <button onclick="passkeyLogin()">Login with Passkey</button>
+  <div>
+    <input id="login-username" placeholder="Username">
+    <button onclick="securityKeyLogin()">Login with Security Key</button>
+  </div>
+
+  <p id="status"></p>
+  <a href="/admin.html">Admin Panel</a>
+
+  <script>
+    const status = document.getElementById('status');
+
+    function b64encode(buf) {
+      return btoa(String.fromCharCode(...new Uint8Array(buf)))
+        .replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
+    }
+
+    function b64decode(s) {
+      s = s.replace(/-/g, '+').replace(/_/g, '/');
+      while (s.length % 4) s += '=';
+      return Uint8Array.from(atob(s), c => c.charCodeAt(0));
+    }
+
+    function serializeAssertion(credential) {
+      return {
+        id: credential.id,
+        rawId: b64encode(credential.rawId),
+        type: credential.type,
+        response: {
+          authenticatorData: b64encode(credential.response.authenticatorData),
+          clientDataJSON: b64encode(credential.response.clientDataJSON),
+          signature: b64encode(credential.response.signature),
+          userHandle: credential.response.userHandle ? b64encode(credential.response.userHandle) : undefined,
+        },
+      };
+    }
+
+    async function register() {
+      const username = document.getElementById('reg-username').value;
+      if (!username) return;
+
+      const resp = await fetch('/api/register/begin', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({username}),
+      });
+      if (!resp.ok) { status.textContent = await resp.text(); return; }
+
+      const options = await resp.json();
+      options.publicKey.challenge = b64decode(options.publicKey.challenge);
+      options.publicKey.user.id = b64decode(options.publicKey.user.id);
+
+      let credential;
+      try {
+        credential = await navigator.credentials.create(options);
+      } catch (e) {
+        status.textContent = e.message;
+        return;
+      }
+
+      const finishResp = await fetch('/api/register/finish', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+          id: credential.id,
+          rawId: b64encode(credential.rawId),
+          type: credential.type,
+          response: {
+            clientDataJSON: b64encode(credential.response.clientDataJSON),
+            attestationObject: b64encode(credential.response.attestationObject),
+          },
+        }),
+      });
+      if (!finishResp.ok) { status.textContent = await finishResp.text(); return; }
+      status.textContent = 'Registered!';
+    }
+
+    async function passkeyLogin() {
+      const resp = await fetch('/api/login/passkey/begin', {method: 'POST'});
+      if (!resp.ok) { status.textContent = await resp.text(); return; }
+
+      const options = await resp.json();
+      options.publicKey.challenge = b64decode(options.publicKey.challenge);
+
+      let credential;
+      try {
+        credential = await navigator.credentials.get(options);
+      } catch (e) {
+        status.textContent = e.message;
+        return;
+      }
+
+      const finishResp = await fetch('/api/login/finish', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(serializeAssertion(credential)),
+      });
+      if (!finishResp.ok) { status.textContent = await finishResp.text(); return; }
+      status.textContent = 'Logged in!';
+    }
+
+    async function securityKeyLogin() {
+      const username = document.getElementById('login-username').value;
+      if (!username) return;
+
+      const resp = await fetch('/api/login/security-key/begin', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({username}),
+      });
+      if (!resp.ok) { status.textContent = await resp.text(); return; }
+
+      const options = await resp.json();
+      options.publicKey.challenge = b64decode(options.publicKey.challenge);
+      if (options.publicKey.allowCredentials) {
+        options.publicKey.allowCredentials = options.publicKey.allowCredentials.map(c => ({
+          ...c, id: b64decode(c.id),
+        }));
+      }
+
+      let credential;
+      try {
+        credential = await navigator.credentials.get(options);
+      } catch (e) {
+        status.textContent = e.message;
+        return;
+      }
+
+      const finishResp = await fetch('/api/login/finish', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(serializeAssertion(credential)),
+      });
+      if (!finishResp.ok) { status.textContent = await finishResp.text(); return; }
+      status.textContent = 'Logged in!';
+    }
+  </script>
+</body>
+</html>
