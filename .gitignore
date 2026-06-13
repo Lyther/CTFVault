@@ -1,0 +1,100 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.AppleDouble
+.LSOverride
+
+# Editor / IDE (LOCAL ONLY)
+.idea/
+.vscode/
+.claude/
+.obsidian/
+.cursor/
+.gemini/
+.agent/
+.cursorrules
+.geminirules
+.cursorignore
+.roorules
+.clinerules
+.traerules
+.windsurfrules
+*.code-workspace
+
+# Project-level AI instructions (local overlays only)
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
+# Sensitive
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python solver scratch
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# Node solver / harness scratch (challenges that ship a JS app)
+node_modules/
+
+# Reverse engineering scratch (NOT committed; keep originals only)
+*.idb
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.bndb
+*.bnpr
+ghidra_projects/
+*.gpr
+*.rep
+*.gzf
+.radare2/
+*.r2
+.r2_history
+.frida-*
+.gdb_history
+.gdbinit-local
+
+# Pwn / dynamic analysis scratch
+core
+core.*
+*.core
+peda-session-*.txt
+gdb-peda-session-*.txt
+*.gef.history
+
+# Containers / volumes
+.docker/
+docker-volumes/
+
+# Solver build / temp output
+build/
+dist/
+out/
+target/
+tmp/
+.tmp/
+scratch/
+
+# Local-only artifacts
+CYPHRPNK.TOR
+
+# Optional huge artifacts (uncomment if not using LFS)
+# *.dmp
+# *.mem
+# *.E01

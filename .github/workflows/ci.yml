@@ -1,0 +1,50 @@
+name: ci
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  lint-md:
+    name: markdownlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install -g markdownlint-cli@0.41.0
+      - run: |
+          markdownlint '**/*.md' \
+            --ignore node_modules \
+            --ignore '*/node_modules/**' \
+            --ignore '*/*/node_modules/**' \
+            --disable MD013 MD033 MD041 MD024 -- \
+            || true   # do not block writeups on style; report only
+
+  lint-shell:
+    name: shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ludeeus/action-shellcheck@2.0.0
+        with:
+          scandir: ./scripts
+          severity: warning
+
+  links:
+    name: link-check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2.0.2
+        with:
+          args: >-
+            --no-progress --max-concurrency 4 --exclude-mail --exclude-path
+            'node_modules' './**/*.md'
+          fail: false
