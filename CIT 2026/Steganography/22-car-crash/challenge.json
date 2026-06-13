@@ -1,0 +1,16 @@
+{
+  "id": 22,
+  "name": "Car Crash",
+  "category": "Steganography",
+  "value": 980,
+  "description": "video games are ruining this country...\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+  "attachments": [
+    {
+      "filename": "car_crash.png",
+      "url": "https://ctf.cyber-cit.club/files/7f0779be3aa3a98489859070d9a8ea10/car_crash.png",
+      "local_path": "files/car_crash.png"
+    }
+  ],
+  "author": "by **ronnie**",
+  "path": "Steganography/22-car-crash"
+}

@@ -1,0 +1,32 @@
+import math
+import random
+import collections
+
+# A simple bigram frequency dict for English
+# Just some common bigrams
+bigrams = {
+    'TH': 1.52, 'HE': 1.28, 'IN': 0.94, 'ER': 0.94, 'AN': 0.82, 'RE': 0.68,
+    'ND': 0.63, 'AT': 0.59, 'ON': 0.57, 'NT': 0.56, 'HA': 0.56, 'ES': 0.56,
+    'ST': 0.55, 'EN': 0.55, 'ED': 0.53, 'TO': 0.52, 'IT': 0.50, 'OU': 0.50,
+    'EA': 0.47, 'HI': 0.46, 'IS': 0.46, 'OR': 0.43, 'TI': 0.34, 'AS': 0.33,
+    'TE': 0.27, 'ET': 0.19, 'NG': 0.18, 'OF': 0.16, 'AL': 0.09, 'DE': 0.09,
+    'SE': 0.08, 'LE': 0.08, 'SA': 0.06, 'SI': 0.05, 'AR': 0.04, 'VE': 0.04,
+    'RA': 0.04, 'LD': 0.02, 'UR': 0.02
+}
+
+# we can just use a generic MCMC solver, but since I don't have a full corpus,
+# I will just print the text with the most common pairs mapped to " ETAOINSHRDLCUMWFGYPBVKJXQZ"
+text = "GJZTYOZFYTccWBHFaBZYCcHFCFLPXQYHHQYaaODaaOTHWTRHaTYHWTFIHEGXYTcMWNLPDOPHHTUIHPbXGJZFGJZTYTccaNLPDQYHHOFHHZEaHODHHOFIHPSGYTLJWBQVaBHPEcZYCcHJCBZYKBQECKQXCAQTCAcPHAcPHAAGXNLXDJPaHTFHEQTaHQPaHZRaHQUIHTXUGaZHGaHHYOSKYTLTCFJJ"
+
+freqs = collections.Counter(text)
+sorted_chars = [c for c, _ in freqs.most_common()]
+english_freqs = " ETAOINSHRDLCUMWFGYPBVKJXQZ"
+
+mapping = {}
+for i, c in enumerate(sorted_chars):
+    if i < len(english_freqs):
+        mapping[c] = english_freqs[i]
+    else:
+        mapping[c] = "?"
+
+print("".join(mapping[c] for c in text))

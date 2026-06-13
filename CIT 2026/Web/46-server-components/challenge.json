@@ -1,0 +1,11 @@
+{
+  "id": 46,
+  "name": "Server Components",
+  "category": "Web",
+  "value": 957,
+  "description": "I've patched the components on the application, we are secure now!",
+  "attachments": [],
+  "author": "by **10splayaSec**",
+  "connection_info": "http://23.179.17.92:5555",
+  "path": "Web/46-server-components"
+}

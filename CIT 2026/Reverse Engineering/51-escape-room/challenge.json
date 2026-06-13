@@ -1,0 +1,16 @@
+{
+  "id": 51,
+  "name": "Escape Room",
+  "category": "Reverse Engineering",
+  "value": 888,
+  "description": "Can you escape?\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+  "attachments": [
+    {
+      "filename": "escaperoom",
+      "url": "https://ctf.cyber-cit.club/files/84280e77e2f020245540113842f3b57f/escaperoom",
+      "local_path": "files/escaperoom"
+    }
+  ],
+  "author": "by **ronnie**",
+  "path": "Reverse Engineering/51-escape-room"
+}

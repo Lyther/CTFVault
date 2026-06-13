@@ -1,0 +1,277 @@
+{
+  "Crypto/02-the-onion": {
+    "name": "The Onion",
+    "task_id": 32254,
+    "writeup_id": 40728
+  },
+  "Crypto/03-brainiac": {
+    "name": "Brainiac",
+    "skip": "unsolved",
+    "task_id": 32255
+  },
+  "Crypto/04-rotor-rooter": {
+    "name": "Rotor Rooter",
+    "task_id": 32256,
+    "writeup_id": 40729
+  },
+  "Crypto/32-farcical-clones": {
+    "name": "Farcical Clones",
+    "task_id": 32278,
+    "writeup_id": 40730
+  },
+  "Crypto/58-baby-exponent": {
+    "name": "Baby Exponent",
+    "task_id": 32301,
+    "writeup_id": 40731
+  },
+  "Forensics/43-larping-101": {
+    "name": "Larping 101",
+    "task_id": 32287,
+    "writeup_id": 40732
+  },
+  "Forensics/49-the-evil-files": {
+    "name": "The Evil Files",
+    "task_id": 32292,
+    "writeup_id": 40733
+  },
+  "Forensics/56-transmission-from-1993": {
+    "name": "Transmission from 1993",
+    "task_id": 32299,
+    "writeup_id": 40734
+  },
+  "Forensics/57-wiretap": {
+    "name": "Wiretap",
+    "task_id": 32300,
+    "writeup_id": 40735
+  },
+  "Forensics/61-the-click-that-may-have-fixed": {
+    "name": "The click that may have fixed",
+    "task_id": 32304,
+    "writeup_id": 40736
+  },
+  "Forensics/63-autonomous": {
+    "name": "Autonomous",
+    "task_id": 32305
+  },
+  "Forensics/64-ping-pong": {
+    "name": "Ping Pong",
+    "task_id": 32306
+  },
+  "Forensics/65-start-me-up": {
+    "name": "Start Me Up",
+    "task_id": 32307,
+    "writeup_id": 40737
+  },
+  "Forensics/66-you-gotta-run-run-run-run-run": {
+    "name": "You gotta run, run, run, run, run",
+    "task_id": 32308
+  },
+  "Fullpwn/37-wingstop-1": {
+    "name": "Wingstop 1",
+    "task_id": 32282,
+    "writeup_id": 40738
+  },
+  "Fullpwn/38-wingstop-2": {
+    "name": "Wingstop 2",
+    "skip": "unsolved",
+    "task_id": 32283
+  },
+  "Fullpwn/40-goober-1": {
+    "name": "Goober 1",
+    "task_id": 32285
+  },
+  "Fullpwn/41-goober-2": {
+    "name": "Goober 2",
+    "task_id": 32286,
+    "writeup_id": 40739
+  },
+  "Game/55-coin-jam": {
+    "name": "Coin Jam",
+    "task_id": 32298,
+    "writeup_id": 40740
+  },
+  "Misc/05-whats-the-word": {
+    "name": "What's the word?",
+    "task_id": 32257,
+    "writeup_id": 40741
+  },
+  "Misc/06-robots": {
+    "name": "Robots",
+    "task_id": 32258,
+    "writeup_id": 40727
+  },
+  "Misc/15-dog-barking": {
+    "name": "Dog barking",
+    "task_id": 32264,
+    "writeup_id": 40742
+  },
+  "Misc/26-open-my-vault-live": {
+    "name": "Open My Vault Live",
+    "task_id": 32273,
+    "writeup_id": 40743
+  },
+  "Misc/30-very-expansive": {
+    "name": "Very Expansive",
+    "task_id": 32276
+  },
+  "Misc/31-peel-carefully": {
+    "name": "Peel Carefully",
+    "task_id": 32277,
+    "writeup_id": 40744
+  },
+  "Misc/33-sam-i-am": {
+    "name": "SAM, I am",
+    "task_id": 32279
+  },
+  "Misc/35-call-me-maybe-no-wrong-decade": {
+    "name": "Call me, maybe? No… wrong decade.",
+    "task_id": 32280,
+    "writeup_id": 40745
+  },
+  "Misc/36-help-ive-forgotten-my-password-and-i-cant-login": {
+    "name": "Help! I've forgotten my password and I can't login!",
+    "task_id": 32281
+  },
+  "Misc/59-your-car-called": {
+    "name": "Your Car Called",
+    "task_id": 32302
+  },
+  "Misc/60-121-gigawatts": {
+    "name": "1.21 Gigawatts",
+    "task_id": 32303,
+    "writeup_id": 40746
+  },
+  "Misc/70-ascii-and-ye-shall-receive": {
+    "name": "ASCII and Ye Shall Receive",
+    "skip": "unsolved",
+    "task_id": 32312
+  },
+  "OSINT/07-the-curators-exit": {
+    "name": "The Curator's Exit",
+    "task_id": 32259
+  },
+  "OSINT/08-the-curators-exit-part-2": {
+    "name": "The Curator's Exit - Part 2",
+    "skip": "unsolved",
+    "task_id": 32260
+  },
+  "OSINT/20-follow-the-flock": {
+    "name": "Follow the Flock",
+    "task_id": 32267
+  },
+  "OSINT/21-cartographers-secret": {
+    "name": "Cartographer's Secret",
+    "task_id": 32268
+  },
+  "OSINT/24-has-it-really-been-2-years": {
+    "name": "Has it really been 2 years?",
+    "skip": "unsolved",
+    "task_id": 32271
+  },
+  "OSINT/67-the-forbidden-sock": {
+    "name": "The Forbidden Sock",
+    "task_id": 32309,
+    "writeup_id": 40747
+  },
+  "OSINT/69-yannella": {
+    "name": "Yannella",
+    "task_id": 32311
+  },
+  "Reverse Engineering/50-really-secure-password-manager": {
+    "name": "Really Secure Password Manager",
+    "task_id": 32293
+  },
+  "Reverse Engineering/51-escape-room": {
+    "name": "Escape Room",
+    "task_id": 32294
+  },
+  "Reverse Engineering/52-faultline": {
+    "name": "Faultline",
+    "task_id": 32295,
+    "writeup_id": 40748
+  },
+  "Reverse Engineering/53-catacombs": {
+    "name": "Catacombs",
+    "task_id": 32296
+  },
+  "Reverse Engineering/54-say-my-name": {
+    "name": "Say My Name",
+    "task_id": 32297,
+    "writeup_id": 40749
+  },
+  "Steganography/17-insert-challenge-title-here": {
+    "name": "[INSERT CHALLENGE TITLE HERE]",
+    "task_id": 32265,
+    "writeup_id": 40750
+  },
+  "Steganography/18-theres-no-room-left": {
+    "name": "There's no room left",
+    "task_id": 32266
+  },
+  "Steganography/22-car-crash": {
+    "name": "Car Crash",
+    "task_id": 32269,
+    "writeup_id": 40751
+  },
+  "Steganography/23-cool-car": {
+    "name": "Cool Car",
+    "task_id": 32270,
+    "writeup_id": 40752
+  },
+  "Steganography/39-are-ya-winning-son": {
+    "name": "Are ya winning, son?",
+    "task_id": 32284
+  },
+  "Web/25-hit-your-limit": {
+    "name": "Hit Your Limit",
+    "task_id": 32272
+  },
+  "Web/27-intern-portal": {
+    "name": "Intern Portal",
+    "task_id": 32274
+  },
+  "Web/28-debug-disaster": {
+    "name": "Debug Disaster",
+    "task_id": 32275
+  },
+  "Web/45-a-massive-problem": {
+    "name": "A Massive Problem",
+    "task_id": 32288
+  },
+  "Web/46-server-components": {
+    "name": "Server Components",
+    "task_id": 32289,
+    "writeup_id": 40753
+  },
+  "Web/47-sign-up-and-enjoy": {
+    "name": "Sign Up and Enjoy",
+    "task_id": 32290
+  },
+  "Web/48-temporary-destruction": {
+    "name": "Temporary Destruction",
+    "task_id": 32291,
+    "writeup_id": 40754
+  },
+  "Web/68-bankroll": {
+    "name": "Bankroll",
+    "task_id": 32310
+  },
+  "Welcome/11-welcome-to-ctf-cit-2026": {
+    "name": "Welcome to CTF@CIT 2026!",
+    "task_id": 32253,
+    "writeup_id": 40725
+  },
+  "Welcome/12-rules": {
+    "name": "Rules",
+    "task_id": 32261,
+    "writeup_id": 40755
+  },
+  "Welcome/13-discord": {
+    "name": "Discord",
+    "task_id": 32262
+  },
+  "Welcome/14-linkedin": {
+    "name": "LinkedIn",
+    "task_id": 32263
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": 53,
+  "name": "Catacombs",
+  "category": "Reverse Engineering",
+  "value": 751,
+  "description": "good luck\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+  "attachments": [
+    {
+      "filename": "catacombs",
+      "url": "https://ctf.cyber-cit.club/files/540b0e2c35fc554f968c04c0f2fd68e4/catacombs",
+      "local_path": "files/catacombs"
+    }
+  ],
+  "author": "by **ronnie**",
+  "path": "Reverse Engineering/53-catacombs"
+}

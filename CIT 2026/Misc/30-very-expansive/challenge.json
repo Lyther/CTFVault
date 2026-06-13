@@ -1,0 +1,10 @@
+{
+  "id": 30,
+  "name": "Very Expansive",
+  "category": "Misc",
+  "value": 865,
+  "description": "Where in the wide, wide world of sports is this, beratna? Good place for Dusters, mi pensa.\r\n\r\n**FLAG FORMAT:** `CIT{Name_of_Place}`\r\n\r\n**Example:** `CIT{Grand_Canyon}`",
+  "attachments": [],
+  "author": "bootstrap",
+  "path": "Misc/30-very-expansive"
+}

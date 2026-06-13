@@ -1,0 +1,16 @@
+{
+  "id": 5,
+  "name": "What's the word?",
+  "category": "Misc",
+  "value": 927,
+  "description": "B-b-b-bird, bird, bird!\r\n\r\nThe flag is in the file, but where??\r\n\r\n**SHA1:**\r\n`b2b621068c3632d102c62be9b3cc386c6c175eff`",
+  "attachments": [
+    {
+      "filename": "file",
+      "url": "https://ctf.cyber-cit.club/files/f3504bfb395003f5b23f8ea6bd848b82/file",
+      "local_path": "files/file"
+    }
+  ],
+  "author": "bootstrap",
+  "path": "Misc/05-whats-the-word"
+}

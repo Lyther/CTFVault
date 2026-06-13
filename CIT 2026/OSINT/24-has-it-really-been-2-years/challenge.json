@@ -1,0 +1,16 @@
+{
+  "id": 24,
+  "name": "Has it really been 2 years?",
+  "category": "OSINT",
+  "value": 989,
+  "description": "Has it really been 2 years...? Find the name of this menu item\r\n\r\n**FLAG FORMAT:** `CIT{name_of_item}` or `CIT{name-of-item}`",
+  "attachments": [
+    {
+      "filename": "has_it_really_been_2_years.webp",
+      "url": "https://ctf.cyber-cit.club/files/720ee070c1c2ef24d4801aea725aa2ff/has_it_really_been_2_years.webp",
+      "local_path": "files/has_it_really_been_2_years.webp"
+    }
+  ],
+  "author": "by **ronnie**",
+  "path": "OSINT/24-has-it-really-been-2-years"
+}

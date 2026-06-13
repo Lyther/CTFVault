@@ -1,0 +1,18 @@
+{
+  "automated_attempts": 30,
+  "challenge_id": 24,
+  "challenge_slug": "has-it-really-been-2-years",
+  "delay_range_seconds": [
+    8.0,
+    12.0
+  ],
+  "last_attempt_at": "2026-04-19T17:33:59.088532+00:00",
+  "last_candidate": "CIT{BBQ_Ranch}",
+  "last_status": "incorrect",
+  "manual_estimate_prior_attempts": 200,
+  "notes": [
+    "Baseline estimate carried over from other/status.md.",
+    "This file tracks automated attempts from scripts/attempt.py."
+  ],
+  "total_known_attempts": 230
+}

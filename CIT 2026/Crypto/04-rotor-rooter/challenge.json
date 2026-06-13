@@ -1,0 +1,10 @@
+{
+  "id": 4,
+  "name": "Rotor Rooter",
+  "category": "Crypto",
+  "value": 884,
+  "description": "Spin it till it drains\r\n\r\n`KLEGCKRGGONTBNBVPIIZWXQQEZYAXXWQMGIZDNEWWUTOVZRWOMZKGWNKWZBQXOGZSTVCGU`\r\n\r\n**FLAG FORMAT:** `CIT{underscore_between_each_word}`",
+  "attachments": [],
+  "author": "elemental",
+  "path": "Crypto/04-rotor-rooter"
+}

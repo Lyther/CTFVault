@@ -1,0 +1,10 @@
+{
+  "id": 37,
+  "name": "Wingstop 1",
+  "category": "Fullpwn",
+  "value": 996,
+  "description": "Find flag1. Good luck!\r\n\r\n`23.179.17.68`\r\n\r\n> **Disclaimer**\r\n> \r\n> By accessing this challenge environment, you agree to use the provided instance solely for the purpose of solving the intended CTF challenge.\r\n> \r\n> Any activity outside the scope of the challenge is strictly prohibited, including but not limited to:\r\n> \r\n> * Using the system for personal projects or unrelated testing\r\n> * Hosting services, files, or external content\r\n> * Attempting to pivot, scan, or attack external systems\r\n> * Establishing persistence, backdoors, or unauthorized access mechanisms other than those required to complete the challenge\r\n> * Deploying or participating in botnets, command-and-control infrastructure, or any form of distributed attack tooling\r\n> * Running cryptocurrency miners or using system resources for unauthorized computation\r\n> * Interfering with the availability, performance, or integrity of the instance\r\n> \r\n> This is a shared, limited resource. Actions that degrade performance, abuse compute resources, or disrupt fair play may result in immediate disqualification.\r\n> \r\n> We reserve the right to monitor activity, revoke access, and reset or terminate the instance at any time in response to misuse.",
+  "attachments": [],
+  "author": "bootstrap",
+  "path": "Fullpwn/37-wingstop-1"
+}

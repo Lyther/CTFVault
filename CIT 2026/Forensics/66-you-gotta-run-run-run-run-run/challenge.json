@@ -1,0 +1,15 @@
+{
+  "id": 66,
+  "name": "You gotta run, run, run, run, run",
+  "category": "Forensics",
+  "value": 990,
+  "description": "Waiter, waiter! More persistence mechanisms please!!\r\n\r\nYet another persistence mechanism seems to have been setup. It's funny because I remember the user saying everytime they logged into their system, something just felt odd when they'd see some sort of black box flash on their screen. There must be a name associated with what this is..\r\n\r\n**SHA1:** `cc0060d01e8dc3fe69a8ca888c203bc9e57959e1`\r\n\r\n**FLAG FORMAT:** `CIT{XXXXXXXXXXXX}`",
+  "attachments": [
+    {
+      "filename": "challenge.dat",
+      "local_path": "files/challenge.dat"
+    }
+  ],
+  "author": "boom",
+  "path": "Forensics/66-you-gotta-run-run-run-run-run"
+}

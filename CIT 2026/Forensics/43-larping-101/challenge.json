@@ -1,0 +1,16 @@
+{
+  "id": 43,
+  "name": "Larping 101",
+  "category": "Forensics",
+  "value": 763,
+  "description": "To larp, one must become the larper.. \r\n\r\nWhat do you think of my presentation? It feels like it might be missing something so maybe you can tell me what it is?\r\n\r\n**SHA1**: `e72c9837de62168b2b5cc573a55800ea1e440b42`",
+  "attachments": [
+    {
+      "filename": "challenge.pptx",
+      "url": "https://ctf.cyber-cit.club/files/3b57ddb5fd97322bcfa9d1f9b8455246/challenge.pptx",
+      "local_path": "files/challenge.pptx"
+    }
+  ],
+  "author": "boom",
+  "path": "Forensics/43-larping-101"
+}

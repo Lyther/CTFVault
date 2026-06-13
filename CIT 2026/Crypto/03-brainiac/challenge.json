@@ -1,0 +1,16 @@
+{
+  "id": 3,
+  "name": "Brainiac",
+  "category": "Crypto",
+  "value": 629,
+  "description": "**SHA1:** `33746b3052f748a9d41f030d2be4f196d02453cb`\r\n\r\n**FLAG FORMAT:** `CIT{string}`",
+  "attachments": [
+    {
+      "filename": "challenge.txt",
+      "url": "https://ctf.cyber-cit.club/files/ebcb553e2344adb6e767b1b631350cf1/challenge.txt",
+      "local_path": "files/challenge.txt"
+    }
+  ],
+  "author": "elemental",
+  "path": "Crypto/03-brainiac"
+}

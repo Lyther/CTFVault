@@ -1,0 +1,11 @@
+9: vim flag2.txt
+10: cat flag2.txt
+12: chmod 440 ./flag2.txt
+14: cat flag2.txt
+15: chmod 400 ./flag2.txt
+16: cat flag2.txt
+50: mysql -u jimbo -pADFwPAcHDNCSGoyCwik6
+439: cat flag2.txt
+476: cat flag2.txt
+511: cat flag2.txt
+606: cat flag2.txt

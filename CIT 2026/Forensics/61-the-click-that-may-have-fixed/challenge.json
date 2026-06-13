@@ -1,0 +1,16 @@
+{
+  "id": 61,
+  "name": "The click that may have fixed",
+  "category": "Forensics",
+  "value": 985,
+  "description": "So one of the CTF@CIT 2026 players tried to download more RAM and it seems they may have gotten pwned. They said they got to one website, but the captcha required them to run some PowerShell..\r\n\r\nCan you identify what time that website was last visited?\r\n\r\n**FLAG FORMAT:** `CIT{YYYY-MM-DDThh:mm:ssZ}`\r\n\r\n**SHA1:** `aa50aa4516d0bc7b0aa23139f95d38edd916164a`",
+  "attachments": [
+    {
+      "filename": "challenge.zip",
+      "url": "http://23.179.17.92/challenge.zip",
+      "local_path": "files/challenge.zip"
+    }
+  ],
+  "author": "boom",
+  "path": "Forensics/61-the-click-that-may-have-fixed"
+}

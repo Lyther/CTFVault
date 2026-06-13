@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Console · Campaign City</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <div class="backdrop"></div>
+  <main class="layout-shell">
+    <header class="top-nav panel">
+      <div>
+        <div class="brand-mark">Campaign City</div>
+        <div class="nav-title">Admin Console</div>
+      </div>
+      <div class="nav-actions">
+        <a class="button ghost compact" href="/workspace">Workspace</a>
+
+        <a class="button primary compact" href="/admin">Admin</a>
+
+        <form method="post" action="/logout">
+          <button class="button ghost compact" type="submit">Sign out</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="admin-console panel">
+      <div>
+        <div class="section-kicker">Protected area</div>
+        <h1>Administrative access confirmed.</h1>
+        <p>This area is reserved for privileged workspace sessions.</p>
+      </div>
+      <div class="flag-panel alt-flag">
+        <span>Vault token</span>
+        <strong>CIT{W3ak_S3cr3t5_C@n_B3_Un5ign3d}</strong>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+AS      | IP               | BGP Prefix          | CC | Registry | Allocated  | AS Name
+399562  | 23.179.17.92     | 23.179.17.0/24      | US | arin     | 2022-11-30 | IZT-CLOUD-UNIVERSAL - IZT Cloud, US

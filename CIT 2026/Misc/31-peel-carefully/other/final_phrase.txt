@@ -1,0 +1,3 @@
+I thought there were 65536 ports, but I guess I was wrong, it was 65535.
+
+CIT{3mb3d_@ll_3nc0d1ng5}

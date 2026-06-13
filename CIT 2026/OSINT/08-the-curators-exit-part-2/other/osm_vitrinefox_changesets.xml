@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+    <changeset id="181448797" created_at="2026-04-17T09:41:26Z" open="false" comments_count="0" changes_count="1" created_count="0" modified_count="1" deleted_count="0" closed_at="2026-04-17T09:41:26Z" min_lat="41.2909719" min_lon="-72.9636546" max_lat="41.2909719" max_lon="-72.9636546" uid="24022625" user="vitrinefox">
+        <tag k="changesets_count" v="3"/>
+        <tag k="comment" v="Fixed angles camera is facing"/>
+        <tag k="created_by" v="iD 2.39.6"/>
+        <tag k="host" v="https://www.openstreetmap.org/edit"/>
+        <tag k="imagery_used" v="CT ECO Orthoimagery (2023)"/>
+        <tag k="locale" v="en-US"/>
+    </changeset>
+    <changeset id="181448748" created_at="2026-04-17T09:40:08Z" open="false" comments_count="0" changes_count="1" created_count="0" modified_count="1" deleted_count="0" closed_at="2026-04-17T09:40:08Z" min_lat="41.2909719" min_lon="-72.9636546" max_lat="41.2909719" max_lon="-72.9636546" uid="24022625" user="vitrinefox">
+        <tag k="changesets_count" v="2"/>
+        <tag k="comment" v="Update: CIT{ch3ck_th3_OSM_t4gs}"/>
+        <tag k="created_by" v="iD 2.39.6"/>
+        <tag k="host" v="https://www.openstreetmap.org/edit"/>
+        <tag k="imagery_used" v="CT ECO Orthoimagery (2023)"/>
+        <tag k="locale" v="en-US"/>
+    </changeset>
+    <changeset id="181432141" created_at="2026-04-16T21:13:38Z" open="false" comments_count="0" changes_count="1" created_count="1" modified_count="0" deleted_count="0" closed_at="2026-04-16T21:13:39Z" min_lat="41.2909719" min_lon="-72.9636546" max_lat="41.2909719" max_lon="-72.9636546" uid="24022625" user="vitrinefox">
+        <tag k="changesets_count" v="1"/>
+        <tag k="comment" v="New upload"/>
+        <tag k="created_by" v="iD 2.39.6"/>
+        <tag k="host" v="https://www.openstreetmap.org/edit"/>
+        <tag k="imagery_used" v="CT ECO Orthoimagery (2023)"/>
+        <tag k="locale" v="en-US"/>
+        <tag k="source" v="local knowledge"/>
+    </changeset>
+</osm>

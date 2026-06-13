@@ -1,0 +1,17 @@
+{
+  "id": 48,
+  "name": "Temporary Destruction",
+  "category": "Web",
+  "value": 801,
+  "description": "I hear something....\r\n\r\n**SHA1:** `f03edd0e2d6a6a41916605ae0f7b3ba479e317d6`",
+  "attachments": [
+    {
+      "filename": "temporary-destruction.zip",
+      "url": "https://ctf.cyber-cit.club/files/94c76436892fb245466c12499c246f7a/temporary-destruction.zip",
+      "local_path": "files/temporary-destruction.zip"
+    }
+  ],
+  "author": "by **10splayaSec**",
+  "connection_info": "http://23.179.17.92:5558",
+  "path": "Web/48-temporary-destruction"
+}

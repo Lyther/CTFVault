@@ -1,0 +1,11 @@
+{
+  "id": 28,
+  "name": "Debug Disaster",
+  "category": "Web",
+  "value": 784,
+  "description": "Developing this application is tough, and I needed debug mode to be enabled... but I'm nervous I forgot to turn it off in production. I also think I may have forgot to remove something from the application structure.",
+  "attachments": [],
+  "author": "by **10splayaSec**",
+  "connection_info": "http://23.179.17.92:5002",
+  "path": "Web/28-debug-disaster"
+}

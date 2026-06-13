@@ -1,0 +1,16 @@
+{
+  "id": 67,
+  "name": "The Forbidden Sock",
+  "category": "OSINT",
+  "value": 997,
+  "description": "Our friend is really exposing himself out in public where is he??\r\n\r\n**SHA1:** `d3b932b3695a0faa8d994fdc8d86b7d5e13a22cd`\r\n\r\n**FLAG FORMAT:** `CIT{Team_Section_#}`\r\n\r\n**Example:** `CIT{Nuggets_Section_2}`",
+  "attachments": [
+    {
+      "filename": "IMG_0185.jpg",
+      "url": "https://ctf.cyber-cit.club/files/a079001df39e99dda1b1954e7787a00a/IMG_0185.jpg",
+      "local_path": "files/IMG_0185.jpg"
+    }
+  ],
+  "author": "elemental",
+  "path": "OSINT/67-the-forbidden-sock"
+}

@@ -1,0 +1,5 @@
+--- SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+OneDrive	"C:\Users\kurt\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background
+AzureTenant	"C:\Users\kurt\AppData\Roaming\fj3493.exe"
+--- SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+--- SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run

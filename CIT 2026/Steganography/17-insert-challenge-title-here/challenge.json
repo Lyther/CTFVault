@@ -1,0 +1,16 @@
+{
+  "id": 17,
+  "name": "[INSERT CHALLENGE TITLE HERE]",
+  "category": "Steganography",
+  "value": 672,
+  "description": "[[INSERT CHALLENGE DESCRIPTION HERE]\r\n\r\n**SHA1:** `1cdc80f8c797645b9d92e34a4c6c09022e5378aa`",
+  "attachments": [
+    {
+      "filename": "flag.jpg",
+      "url": "https://ctf.cyber-cit.club/files/05953992be500dedb0a6e21c59d34075/flag.jpg",
+      "local_path": "files/flag.jpg"
+    }
+  ],
+  "author": "boom",
+  "path": "Steganography/17-insert-challenge-title-here"
+}

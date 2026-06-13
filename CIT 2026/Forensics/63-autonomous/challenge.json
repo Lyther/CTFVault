@@ -1,0 +1,15 @@
+{
+  "id": 63,
+  "name": "Autonomous",
+  "category": "Forensics",
+  "value": 987,
+  "description": "Let's dig a little deeper into where this script might be coming from. What is the ASN associated clickfix site?\r\n\r\n**FLAG FORMAT:** `CIT{XXXXXX}`",
+  "attachments": [
+    {
+      "filename": "challenge.zip",
+      "local_path": "files/challenge.zip"
+    }
+  ],
+  "author": "boom",
+  "path": "Forensics/63-autonomous"
+}

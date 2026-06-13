@@ -1,0 +1,14 @@
+2026-04-19
+
+Port checks:
+
+21/tcp open
+80/tcp ConnectionRefusedError: [Errno 61] Connection refused
+3300/tcp open
+5985/tcp open
+
+WinRM credential checks with Password@1:
+
+Administrator InvalidCredentialsError the specified credentials were rejected by the server
+bob InvalidCredentialsError the specified credentials were rejected by the server
+Admin InvalidCredentialsError the specified credentials were rejected by the server

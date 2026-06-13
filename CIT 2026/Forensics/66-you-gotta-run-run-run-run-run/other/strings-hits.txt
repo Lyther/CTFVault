@@ -1,0 +1,9 @@
+918:%SystemRoot%_System32_WindowsPowerShell_v1.0_powershell.exe
+922:%SystemRoot%_SysWOW64_WindowsPowerShell_v1.0_powershell.exe
+4400:StartupApproved
+6243:RunOnce
+8511:Us{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe0
+8722:{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe
+8762:{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe
+8786:e9fje2.txt.lnk
+8807:e9fje2.txt.lnk

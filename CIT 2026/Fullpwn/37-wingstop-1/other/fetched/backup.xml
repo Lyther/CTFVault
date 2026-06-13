@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<ADMIN_ACCOUNTS Description="Wing FTP Server Admin Accounts">
+    <ADMIN>
+        <Admin_Name>Admin</Admin_Name>
+        <Password>44ffe44097bbce02fbaa42734e92ae04</Password>
+        <Type>0</Type>
+        <Readonly>0</Readonly>
+        <IsDomainAdmin>0</IsDomainAdmin>
+        <DomainList></DomainList>
+        <MyDirectory></MyDirectory>
+        <EnableTwoFactor>0</EnableTwoFactor>
+        <TwoFactorCode></TwoFactorCode>
+    </ADMIN>
+</ADMIN_ACCOUNTS>

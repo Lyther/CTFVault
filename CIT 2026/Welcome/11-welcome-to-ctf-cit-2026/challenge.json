@@ -1,0 +1,9 @@
+{
+  "id": 11,
+  "name": "Welcome to CTF@CIT 2026!",
+  "category": "Welcome",
+  "value": 10,
+  "description": "Like the challenge name says, welcome to CTF@CIT 2026!\r\n\r\nThis is our third annual CTF and we're looking forward to it being better than the last. To returning players, welcome back! To new faces, welcome! Make sure you get familiar with the [rules](https://ctf.cyber-cit.club/rules) and make sure to check out our [sponsors](https://ctf.cyber-cit.club/sponsors) who play a huge part in making this happen every year!\r\n\r\nWE WILL HAVE NEW CHALLENGES THROUGHOUT THE WEEKEND!\r\n\r\nThe flag format this year is `CIT{flag}`\r\n\r\nIf the flag format changes for a challenge, the challenge description will explicitly mention what the flag format will be. If you have any questions on this or anything else throughout the CTF, please reach out to CIT ModMail on discord!\r\n\r\n glhf :)\r\n\r\n`CIT{w3lc0m3_to_C1T_2026}`",
+  "attachments": [],
+  "path": "Welcome/11-welcome-to-ctf-cit-2026"
+}

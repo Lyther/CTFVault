@@ -1,0 +1,15 @@
+{
+  "id": 64,
+  "name": "Ping Pong",
+  "category": "Forensics",
+  "value": 987,
+  "description": "What website does the PowerShell script they executed ping?\r\n\r\n**FLAG FORMAT:** `CIT{website}`",
+  "attachments": [
+    {
+      "filename": "challenge.zip",
+      "local_path": "files/challenge.zip"
+    }
+  ],
+  "author": "boom",
+  "path": "Forensics/64-ping-pong"
+}

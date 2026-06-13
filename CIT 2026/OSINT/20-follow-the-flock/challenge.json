@@ -1,0 +1,16 @@
+{
+  "id": 20,
+  "name": "Follow the Flock",
+  "category": "OSINT",
+  "value": 828,
+  "description": "Man these damn seagulls keep following me around… always in a flock, obnoxious sirens blaring.\r\nAnd they smell like pizza.\r\n\r\nFeels like I’m being watched everywhere I go…\r\n\r\n**FLAG FORMAT:** `CIT{Street_Name_City_Name_State}`\r\n\r\n**Example:** `CIT{Main_Street_Los_Angeles_CA}`",
+  "attachments": [],
+  "author": "elemental",
+  "hints": [
+    {
+      "cost": 0,
+      "content": null
+    }
+  ],
+  "path": "OSINT/20-follow-the-flock"
+}

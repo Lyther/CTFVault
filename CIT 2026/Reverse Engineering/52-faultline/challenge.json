@@ -1,0 +1,16 @@
+{
+  "id": 52,
+  "name": "Faultline",
+  "category": "Reverse Engineering",
+  "value": 856,
+  "description": "good luck!\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+  "attachments": [
+    {
+      "filename": "faultline",
+      "url": "https://ctf.cyber-cit.club/files/8a4a9937740c08a51cc3eaa2678a3735/faultline",
+      "local_path": "files/faultline"
+    }
+  ],
+  "author": "by **ronnie**",
+  "path": "Reverse Engineering/52-faultline"
+}

@@ -1,0 +1,10 @@
+Live observations captured before the instance stopped responding:
+
+- Root page is a static Next.js App Router site titled "Northstar Workspace".
+- `POST /` with `Next-Action: x` and malformed multipart Flight data returned `500` with `text/x-component`, confirming the vulnerable RSC code path.
+- Redirect-based `React2Shell` RCE worked. `pwd` returned `/app`.
+- `ls -la /app` showed the instance had already been polluted by prior requests:
+  - `flag.txt` contained `Request logged successfully.`
+  - multiple files like `flag=...`, `app`, and `index.html` also contained the same message
+  - the only surviving flag-shaped artifact was the filename `flag=CIT{R3aCt_1s_Vu1n3r@bl3}`
+- The live target timed out during full artifact mirroring, so `http/` is a clean public-surface snapshot while `known-file-list.txt` is the recovered remote inventory.

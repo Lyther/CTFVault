@@ -1,0 +1,16 @@
+{
+  "id": 31,
+  "name": "Peel Carefully",
+  "category": "Misc",
+  "value": 995,
+  "description": "It's all there, just buried.\r\n\r\nOne layer at a time, the message reveals itself... can you read it?\r\n\r\n**SHA1:** `b7ac0151a536f150b4a2c41e456482513125267c`",
+  "attachments": [
+    {
+      "filename": "challenge.txt",
+      "url": "https://ctf.cyber-cit.club/files/e805b3b36861c9f8119723098a0ca931/challenge.txt",
+      "local_path": "files/challenge.txt"
+    }
+  ],
+  "author": "by **10splayaSec**",
+  "path": "Misc/31-peel-carefully"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 21,
+  "name": "Cartographer's Secret",
+  "category": "OSINT",
+  "value": 977,
+  "description": "Solve Follow the Flock first\r\n\r\nI swear I’ve looked everywhere…\r\n\r\nMaybe I’m not looking closely enough.\r\n\r\n**FLAG FORMAT:** `CIT{underscore_between_words}`",
+  "attachments": [],
+  "author": "elemental",
+  "hints": [
+    {
+      "cost": 0,
+      "content": null
+    }
+  ],
+  "path": "OSINT/21-cartographers-secret"
+}

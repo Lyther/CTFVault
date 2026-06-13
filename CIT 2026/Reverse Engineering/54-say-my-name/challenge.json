@@ -1,0 +1,16 @@
+{
+  "id": 54,
+  "name": "Say My Name",
+  "category": "Reverse Engineering",
+  "value": 822,
+  "description": "Say My Name!\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+  "attachments": [
+    {
+      "filename": "saymyname",
+      "url": "https://ctf.cyber-cit.club/files/615474313a75676448c6f64ec68b5f44/saymyname",
+      "local_path": "files/saymyname"
+    }
+  ],
+  "author": "by **ronnie**",
+  "path": "Reverse Engineering/54-say-my-name"
+}

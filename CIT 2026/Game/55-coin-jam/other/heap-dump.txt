@@ -1,0 +1,4 @@
+Recovered fake heap allocation after the protected return:
+
+0x51000000: 43 49 54 7b 35 78 34 57 32 38 63 4c 49 62 55 71 7d 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ASCII: CIT{5x4W28cLIbUq}

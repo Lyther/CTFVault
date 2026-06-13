@@ -1,0 +1,15 @@
+{
+  "id": 65,
+  "name": "Start Me Up",
+  "category": "Forensics",
+  "value": 1000,
+  "description": "Are we dealing with TrickBot here or something? What's with the persistence?!\r\n\r\nUse the challenge.zip from \"The click that may have fixed\" to solve this challenge :)",
+  "attachments": [
+    {
+      "filename": "challenge.zip",
+      "local_path": "files/challenge.zip"
+    }
+  ],
+  "author": "boom",
+  "path": "Forensics/65-start-me-up"
+}

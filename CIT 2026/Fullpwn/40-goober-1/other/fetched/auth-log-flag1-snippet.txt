@@ -1,0 +1,64 @@
+2026-04-18T13:22:11.155930+00:00 goober sshd[876073]: Accepted password for jimbo from 197.4.112.107 port 50583 ssh2
+2026-04-18T13:22:11.157741+00:00 goober sshd[876073]: pam_unix(sshd:session): session opened for user jimbo(uid=1000) by jimbo(uid=0)
+2026-04-18T13:22:11.161889+00:00 goober systemd-logind[774]: New session 213 of user jimbo.
+2026-04-18T13:22:12.185684+00:00 goober sudo:    jimbo : PWD=/home/jimbo ; USER=root ; COMMAND=/usr/bin/ls -la /home/greg
+2026-04-18T13:22:12.186118+00:00 goober sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jimbo(uid=1000)
+2026-04-18T13:22:12.189427+00:00 goober sudo: pam_unix(sudo:session): session closed for user root
+2026-04-18T13:22:12.196583+00:00 goober sudo:    jimbo : PWD=/home/jimbo ; USER=root ; COMMAND=/usr/bin/cat /home/greg/flag1.txt
+2026-04-18T13:22:12.197123+00:00 goober sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jimbo(uid=1000)
+2026-04-18T13:22:12.199134+00:00 goober sudo: pam_unix(sudo:session): session closed for user root
+2026-04-18T13:22:12.522964+00:00 goober sshd[876073]: pam_unix(sshd:session): session closed for user jimbo
+2026-04-18T13:22:12.527906+00:00 goober systemd-logind[774]: Session 213 logged out. Waiting for processes to exit.
+2026-04-18T13:22:12.528666+00:00 goober systemd-logind[774]: Removed session 213.
+2026-04-18T13:22:20.611744+00:00 goober sshd[876125]: Accepted password for jimbo from 197.4.112.107 port 50584 ssh2
+2026-04-18T15:23:08.537228+00:00 goober sshd[979820]: Invalid user goober from 105.74.128.1 port 60004
+2026-04-18T15:23:08.684891+00:00 goober sshd[979812]: Failed password for root from 87.251.64.144 port 29008 ssh2
+2026-04-18T15:23:08.915360+00:00 goober sshd[979820]: pam_unix(sshd:auth): check pass; user unknown
+2026-04-18T15:23:08.915463+00:00 goober sshd[979820]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=105.74.128.1 
+2026-04-18T15:23:09.001059+00:00 goober sudo:     root : TTY=pts/4 ; PWD=/home/greg ; USER=root ; COMMAND=/usr/bin/cat /home/greg/flag1.txt
+2026-04-18T15:23:09.002113+00:00 goober sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jimbo(uid=0)
+2026-04-18T15:23:09.006719+00:00 goober sudo: pam_unix(sudo:session): session closed for user root
+2026-04-18T15:23:09.488593+00:00 goober sshd[979758]: Failed password for invalid user goober from 105.74.128.1 port 60798 ssh2
+2026-04-18T15:23:09.489455+00:00 goober sshd[979768]: Failed password for invalid user goober from 105.74.128.1 port 59743 ssh2
+2026-04-18T15:23:09.489763+00:00 goober sshd[979770]: Failed password for invalid user goober from 105.74.128.1 port 43135 ssh2
+2026-04-18T15:23:09.497213+00:00 goober sshd[979757]: Failed password for invalid user goober from 105.74.128.1 port 36875 ssh2
+2026-04-18T15:23:09.781850+00:00 goober sshd[979758]: error: maximum authentication attempts exceeded for invalid user goober from 105.74.128.1 port 60798 ssh2 [preauth]
+2026-04-18T15:23:09.781990+00:00 goober sshd[979758]: Disconnecting invalid user goober 105.74.128.1 port 60798: Too many authentication failures [preauth]
+2026-04-18T15:23:09.783137+00:00 goober sshd[979758]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=105.74.128.1 
+2026-04-18T15:23:09.783223+00:00 goober sshd[979758]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-04-18T15:23:09.791111+00:00 goober sshd[979757]: error: maximum authentication attempts exceeded for invalid user goober from 105.74.128.1 port 36875 ssh2 [preauth]
+2026-04-18T15:23:09.791197+00:00 goober sshd[979757]: Disconnecting invalid user goober 105.74.128.1 port 36875: Too many authentication failures [preauth]
+2026-04-18T15:23:09.792614+00:00 goober sshd[979757]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=105.74.128.1 
+2026-04-18T15:23:09.792720+00:00 goober sshd[979757]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-04-18T15:23:09.973958+00:00 goober sshd[979770]: pam_unix(sshd:auth): check pass; user unknown
+2026-04-18T15:23:09.982141+00:00 goober sshd[979768]: pam_unix(sshd:auth): check pass; user unknown
+2026-04-18T15:23:10.678125+00:00 goober sshd[979812]: Connection reset by authenticating user root 87.251.64.144 port 29008 [preauth]
+2026-04-18T15:23:10.774339+00:00 goober sshd[979820]: Failed password for invalid user goober from 105.74.128.1 port 60004 ssh2
+2026-04-18T15:23:11.127224+00:00 goober sshd[979820]: Connection closed by invalid user goober 105.74.128.1 port 60004 [preauth]
+2026-04-18T15:23:11.625704+00:00 goober sshd[979825]: Invalid user goober from 105.74.128.1 port 40499
+2026-04-18T15:23:11.628454+00:00 goober sshd[979825]: pam_unix(sshd:auth): check pass; user unknown
+2026-04-18T15:23:11.628525+00:00 goober sshd[979825]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=105.74.128.1 
+2026-04-18T15:23:11.638219+00:00 goober sshd[979770]: Failed password for invalid user goober from 105.74.128.1 port 43135 ssh2
+2026-04-18T15:23:11.646303+00:00 goober sshd[979768]: Failed password for invalid user goober from 105.74.128.1 port 59743 ssh2
+2026-04-18T15:23:12.232172+00:00 goober sshd[979770]: pam_unix(sshd:auth): check pass; user unknown
+2026-04-18T15:23:12.263263+00:00 goober sshd[979768]: pam_unix(sshd:auth): check pass; user unknown
+2026-04-18T15:23:12.478755+00:00 goober sshd[979829]: Invalid user goober from 105.74.128.1 port 61046
+2026-04-18T15:23:12.481512+00:00 goober sshd[979829]: pam_unix(sshd:auth): check pass; user unknown
+2026-04-18T15:23:12.481573+00:00 goober sshd[979829]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=105.74.128.1 
+2026-04-18T15:23:12.924023+00:00 goober sshd[979831]: Invalid user goober from 105.74.128.1 port 33320
+2026-04-18T15:23:13.001245+00:00 goober sshd[979827]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=87.251.64.144  user=root
+2026-04-18T15:23:13.361280+00:00 goober sshd[979831]: pam_unix(sshd:auth): check pass; user unknown
+2026-04-18T15:23:13.361905+00:00 goober sshd[979831]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=105.74.128.1 
+2026-04-18T15:23:13.900221+00:00 goober sshd[979825]: Failed password for invalid user goober from 105.74.128.1 port 40499 ssh2
+2026-04-18T15:23:14.308021+00:00 goober sshd[979770]: Failed password for invalid user goober from 105.74.128.1 port 43135 ssh2
+2026-04-18T15:23:14.339043+00:00 goober sshd[979768]: Failed password for invalid user goober from 105.74.128.1 port 59743 ssh2
+2026-04-18T15:23:14.557275+00:00 goober sshd[979829]: Failed password for invalid user goober from 105.74.128.1 port 61046 ssh2
+2026-04-18T15:23:15.076836+00:00 goober sshd[979827]: Failed password for root from 87.251.64.144 port 29038 ssh2
+2026-04-18T15:23:15.241163+00:00 goober sshd[979831]: Failed password for invalid user goober from 105.74.128.1 port 33320 ssh2
+2026-04-18T15:23:15.580195+00:00 goober sshd[979831]: Connection closed by invalid user goober 105.74.128.1 port 33320 [preauth]
+2026-04-18T15:23:15.829895+00:00 goober sshd[979825]: pam_unix(sshd:auth): check pass; user unknown
+2026-04-18T15:23:16.210214+00:00 goober sudo:     root : TTY=pts/4 ; PWD=/home/greg ; USER=root ; COMMAND=/usr/bin/cat /home/greg/flag1.txt
+2026-04-18T15:23:16.210882+00:00 goober sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jimbo(uid=0)
+2026-04-18T15:23:16.215297+00:00 goober sudo: pam_unix(sudo:session): session closed for user root
+2026-04-18T15:23:16.268462+00:00 goober sshd[979770]: error: maximum authentication attempts exceeded for invalid user goober from 105.74.128.1 port 43135 ssh2 [preauth]
+2026-04-18T15:23:16.268563+00:00 goober sshd[979770]: Disconnecting invalid user goober 105.74.128.1 port 43135: Too many authentication failures [preauth]

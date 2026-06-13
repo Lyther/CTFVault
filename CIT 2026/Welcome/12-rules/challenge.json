@@ -1,0 +1,9 @@
+{
+  "id": 12,
+  "name": "Rules",
+  "category": "Welcome",
+  "value": 10,
+  "description": "Please make sure you read and understand all of the rules for the CTF!\r\n\r\n1. We reserve the right to modify any existing rules or create new rules during the competition as we see fit.\r\n2. Teams of **up to 5 members** are allowed due to prizing structure (**SCHOOLS CAN HAVE MULTIPLE TEAMS!)**.\r\n3. Do **NOT** attack CTF@CIT infrastructure in any way. Our infrastructure is strictly out of scope.\r\n4. Do not share accounts to bypass team limits, each team member should have their own account.\r\n5. Prizes are limited to participants with a **VALID .edu email (or your region's equivalent)**.\r\n6. Participants are **NOT** allowed to share flags or solutions with each other.\r\n7. Please save any publishing of writeups until **AFTER** the CTF concludes.\r\n8. **DO** have fun!\r\n\r\nBreaking any of these rules may lead to disqualification from the event. If you have any questions regarding the rules or anything else during the event, please reach out to CIT ModMail on Discord!\r\n\r\n`CIT{i_read_and_understand_and_will_follow_the_rules!}`\r\n",
+  "attachments": [],
+  "path": "Welcome/12-rules"
+}

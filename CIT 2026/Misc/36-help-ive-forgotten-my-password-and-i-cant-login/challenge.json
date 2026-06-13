@@ -1,0 +1,16 @@
+{
+  "id": 36,
+  "name": "Help! I've forgotten my password and I can't login!",
+  "category": "Misc",
+  "value": 986,
+  "description": "Can you recover the password to my Keepass database, I will forever be in your debt.\r\n\r\n**FLAG FORMAT:** `CIT{flag}`\r\n\r\n**SHA1:** `a7e20fa5c173473caacbe15f786ff61d9cc84074`",
+  "attachments": [
+    {
+      "filename": "Database.kdbx",
+      "url": "https://ctf.cyber-cit.club/files/24a6bc37bbc5ab18516289d78f30ab66/Database.kdbx",
+      "local_path": "files/Database.kdbx"
+    }
+  ],
+  "author": "elemental",
+  "path": "Misc/36-help-ive-forgotten-my-password-and-i-cant-login"
+}

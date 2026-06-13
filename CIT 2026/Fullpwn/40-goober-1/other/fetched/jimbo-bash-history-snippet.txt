@@ -1,0 +1,4 @@
+50:mysql -u jimbo -pADFwPAcHDNCSGoyCwik6
+454:lxc config show pwnx --expanded | sed -n '1,220p'
+502:mysql -u jimbo -pADFwPAcHDNCSGoyCwik6 -e 'SHOW DATABASES;'
+546:cat /home/greg/flag1.txt

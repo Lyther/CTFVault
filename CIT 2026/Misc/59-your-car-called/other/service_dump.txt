@@ -1,0 +1,29 @@
+=== banner ===
+'ELM327 v1.5\r\r>'
+=== reset + echo off ===
+ATZ: 'ATZ\rELM327 v1.5\r>'
+ATE0: 'ATE0\rOK\r>'
+=== identifiers / protocol ===
+ATI: 'ELM327 v1.5\r>'
+AT@1: 'ELM327 v1.5\r>'
+AT@2: '?\r>'
+AT@3: '?\r>'
+ATDP: 'ISO 15765-4 (CAN 11/500)\r>'
+ATDPN: 'A6\r>'
+ATRV: '14.2V\r>'
+ATBI: '?\r>'
+ATST: 'OK\r>'
+ATWS: '?\r>'
+=== mode 01 all ===
+0100: '41 00 BE 3F A8 13\r>'
+0105: '41 05 5C\r>'
+010C: '41 0C 1B 20\r>'
+010D: '41 0D 52\r>'
+0111: '41 11 4D\r>'
+0120: '41 20 80 00 00 01\r>'
+=== mode 03 ===
+'008\r0: 43 03 03 01 04 20 01\r1: 71\r>'
+=== mode 04 ===
+'44\r>'
+=== mode 09 all ===
+0902: '014\r0: 49 02 01 31 48 47 43\r1: 4D 38 32 36 33 33 41\r2: 30 30 34 33 35 32\r>'

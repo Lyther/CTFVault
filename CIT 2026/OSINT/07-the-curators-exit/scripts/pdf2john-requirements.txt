@@ -1,0 +1,2 @@
+# For extracting $pdf$… hashes (pdf2john.py from John the Ripper jumbo).
+pyhanko>=0.21.0

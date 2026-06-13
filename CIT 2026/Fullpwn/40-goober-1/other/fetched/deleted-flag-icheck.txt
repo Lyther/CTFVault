@@ -1,0 +1,8 @@
+# Block mapping for exact candidate offsets
+# 949627883 -> block 231842 -> inode 921390 -> /var/log/auth.log
+# 949628018 -> block 231842 -> inode 921390 -> /var/log/auth.log
+# 15209611245 -> block 3713283 -> <block not found>
+# 15209611264 -> block 3713284 -> <block not found>
+# 17740429735 -> block 4331159 -> inode 921968 -> /var/log/journal/.../user-1000.journal
+# 17740429870 -> block 4331159 -> inode 921968 -> /var/log/journal/.../user-1000.journal
+# 17740436769 -> block 4331161 -> inode 921968 -> /var/log/journal/.../user-1000.journal

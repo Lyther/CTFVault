@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workspace · Campaign City</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <div class="backdrop"></div>
+  <main class="layout-shell">
+    <header class="top-nav panel">
+      <div>
+        <div class="brand-mark">Campaign City</div>
+        <div class="nav-title">Creator Workspace</div>
+      </div>
+      <div class="nav-actions">
+
+        <form method="post" action="/logout">
+          <button class="button ghost compact" type="submit">Sign out</button>
+        </form>
+      </div>
+    </header>
+
+
+
+
+
+    <section class="workspace-hero panel">
+      <div>
+        <div class="section-kicker">Active workspace</div>
+        <h1>Keep campaign assets, publishing tools, and private releases in one place.</h1>
+        <p>Manage internal media, monitor queue state, and review distribution activity across the live workspace.</p>
+      </div>
+      <div class="workspace-usercard">
+        <span class="muted-label">Signed in</span>
+        <strong>Fetch User</strong>
+        <em>@fetch1776508124662743000</em>
+      </div>
+    </section>
+
+    <section class="workspace-grid">
+      <div class="panel dashboard-card wide-card">
+        <div class="section-head">
+          <h3>Workspace queue</h3>
+          <a class="text-link" href="/tools/link-preview">Open Link Preview</a>
+        </div>
+        <div class="list-stack">
+
+          <div class="list-row alt-row">
+            <div>
+              <strong>Investor room export</strong>
+              <span>Records</span>
+            </div>
+            <em>Ready</em>
+          </div>
+
+          <div class="list-row alt-row">
+            <div>
+              <strong>Document seal refresh</strong>
+              <span>Brand</span>
+            </div>
+            <em>In review</em>
+          </div>
+
+          <div class="list-row alt-row">
+            <div>
+              <strong>Guest link moderation</strong>
+              <span>Trust</span>
+            </div>
+            <em>Queued</em>
+          </div>
+
+          <div class="list-row alt-row">
+            <div>
+              <strong>Preview queue balancing</strong>
+              <span>Platform</span>
+            </div>
+            <em>Monitoring</em>
+          </div>
+
+        </div>
+      </div>
+      <div class="panel dashboard-card stats-card">
+        <div class="section-kicker">Workspace status</div>
+        <div class="stats-grid">
+          <div>
+            <span>Published</span>
+            <strong>18</strong>
+          </div>
+          <div>
+            <span>Queued</span>
+            <strong>4</strong>
+          </div>
+          <div>
+            <span>Shared</span>
+            <strong>11</strong>
+          </div>
+          <div>
+            <span>Restricted</span>
+            <strong>3</strong>
+          </div>
+        </div>
+      </div>
+      <div class="panel dashboard-card wide-card">
+        <div class="section-head">
+          <h3>Asset library</h3>
+          <span>Curated</span>
+        </div>
+        <div class="asset-grid">
+
+          <article class="asset-tile">
+            <span>Media</span>
+            <strong>Press Kit</strong>
+            <em>Published</em>
+          </article>
+
+          <article class="asset-tile">
+            <span>Sales</span>
+            <strong>Partner Packet</strong>
+            <em>Ready</em>
+          </article>
+
+          <article class="asset-tile">
+            <span>Executive</span>
+            <strong>Board Brief</strong>
+            <em>Restricted</em>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+  "id": 33,
+  "name": "SAM, I am",
+  "category": "Misc",
+  "value": 764,
+  "description": "I dumped the SAM hive and found a document stating the password policy is 5 characters + complexity\r\n\r\n`97a3e51e5a006eccac91e0ceabd4965b`\r\n\r\n**FLAG FORMAT:** `CIT{password}`",
+  "attachments": [],
+  "author": "elemental",
+  "path": "Misc/33-sam-i-am"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 56,
+  "name": "Transmission from 1993",
+  "category": "Forensics",
+  "value": 968,
+  "description": "REEEEEE–KRRR–SKREEEEEE–BEEP BEEP BEEP\r\n\r\n**SHA1:** `6d69c28f3a8d3ba2a07ca95bdc7646f90dfb540e`",
+  "attachments": [
+    {
+      "filename": "call-69e26052e9f5b0c1da0ee369.pcap",
+      "url": "https://ctf.cyber-cit.club/files/4d1132b34766d8c0655d2d3fe1627249/call-69e26052e9f5b0c1da0ee369.pcap",
+      "local_path": "files/call-69e26052e9f5b0c1da0ee369.pcap"
+    }
+  ],
+  "author": "hypnos",
+  "path": "Forensics/56-transmission-from-1993"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 55,
+  "name": "Coin Jam",
+  "category": "Game",
+  "value": 950,
+  "description": "Can you collect all the coins?\r\n\r\nFlag Format:\r\nCIT{example_flag}",
+  "attachments": [
+    {
+      "filename": "coinjam.exe",
+      "url": "https://ctf.cyber-cit.club/files/1fa9aa6b0630789c5c690a4475dd7353/coinjam.exe",
+      "local_path": "files/coinjam.exe"
+    }
+  ],
+  "author": "by **ronnie**",
+  "path": "Game/55-coin-jam"
+}

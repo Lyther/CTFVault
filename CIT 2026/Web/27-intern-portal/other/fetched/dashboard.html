@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logout {
+      text-decoration: none;
+      color: #fff;
+      background: #e74c3c;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .logout:hover {
+      background: #c0392b;
+    }
+
+    h3 {
+      margin-top: 30px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    .report-list a {
+      display: block;
+      padding: 10px;
+      margin: 8px 0;
+      background: #f1f3f5;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #333;
+      transition: 0.2s;
+    }
+
+    .report-list a:hover {
+      background: #e0e6ed;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      background: #3498db;
+      color: #fff;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    button:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h2>Dashboard</h2>
+      <a href="/logout" class="logout">Logout</a>
+    </div>
+
+    <h3>Your Reports</h3>
+    <div class="report-list">
+
+    </div>
+
+    <h3>Create a New Report</h3>
+    <form method="POST" action="/report">
+      <input name="title" placeholder="Enter report title..." required>
+      <input name="content" placeholder="Enter report content..." required>
+      <button type="submit">Create Report</button>
+    </form>
+
+  </div>
+
+</body>
+
+</html>

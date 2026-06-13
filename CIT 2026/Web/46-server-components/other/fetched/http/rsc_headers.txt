@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 4294967294
+Cache-Control: s-maxage=31536000,
+Content-Type: text/x-component
+Date: Sat, 18 Apr 2026 09:35:16 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+

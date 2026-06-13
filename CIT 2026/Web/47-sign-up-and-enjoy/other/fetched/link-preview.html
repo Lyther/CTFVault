@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Link Preview · Campaign City</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <div class="backdrop"></div>
+  <main class="layout-shell">
+    <header class="top-nav panel">
+      <div>
+        <div class="brand-mark">Campaign City</div>
+        <div class="nav-title">Link Preview</div>
+      </div>
+      <div class="nav-actions">
+        <a class="button ghost compact" href="/workspace">Back to workspace</a>
+        <form method="post" action="/logout">
+          <button class="button ghost compact" type="submit">Sign out</button>
+        </form>
+      </div>
+    </header>
+
+
+
+
+
+    <section class="preview-stage panel">
+      <div class="preview-copy">
+        <div class="section-kicker">Content verification</div>
+        <h1>Preview remote links before sharing them to your workspace.</h1>
+        <p>Use the review pipeline to validate external links and attached metadata before release.</p>
+      </div>
+      <form method="post" class="preview-shell">
+        <label class="field">
+          <span>Target URL</span>
+          <input type="url" name="target_url" placeholder="https://example.com/resource" value="" required>
+        </label>
+        <button class="button primary full-width" type="submit">Fetch preview</button>
+      </form>
+      <div class="status-center panel ">
+        <div class="status-pill">Preview Queue</div>
+        <strong id="preview-status-title">Awaiting a preview request.</strong>
+        <p id="preview-status-copy">Submit a URL to place a preview request into the queue.</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

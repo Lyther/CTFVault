@@ -1,0 +1,16 @@
+{
+  "id": 49,
+  "name": "The Evil Files",
+  "category": "Forensics",
+  "value": 706,
+  "description": "Dr. Evil be dreamin and schemin\r\n\r\n**SHA1**: `2230cff50d7ae8672ab072d275df7057773f11eb`",
+  "attachments": [
+    {
+      "filename": "challenge.pdf",
+      "url": "https://ctf.cyber-cit.club/files/2188a83da7e9f3ab4a86f16ff790491b/challenge.pdf",
+      "local_path": "files/challenge.pdf"
+    }
+  ],
+  "author": "boom",
+  "path": "Forensics/49-the-evil-files"
+}

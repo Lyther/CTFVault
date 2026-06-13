@@ -1,0 +1,89 @@
+Title: Acknowledgments
+
+URL Source: http://doe.responsibledisclosure.com/hc/en-us/articles/360052066474-Acknowledgments
+
+Markdown Content:
+Below is a list of researchers that have responsibly disclosed valid vulnerabilities to the Department of Energy:
+
+**Name****Profile**
+Anas Boulbali linkedin.com/in/anasboulbali
+Mohit kumar linkedin.com/in/mohitkumar786
+Qazi Abdullah Alam linkedin.com/in/qaziabdullahalam
+Rizaldi Wahaz linkedin.com/in/rizaldi-wahaz
+Zeeshan Khan linkedin.com/in/zshnkhn
+Ammar Mu'tashim linkedin.com/in/myactivity
+Dhaval Ramani x.com/d4rk_hors3
+Hasan Ali Chocor linkedin.com/in/hasan-chocor
+Felipe Gabriel Renzi linkedin.com/in/felipe-gabriel-renzi
+ByWho
+Kevin Yehezkiel Gurning linkedin.com/in/vinzel
+aringo linkedin.com/in/aaron-ringo
+jRingo linkedin.com/in/johnny-ringo
+Jose Carlos Exposito Bueno
+Hashir Khan linkedin.com/in/p4n7h3r
+Robert Willis x.com/rej_ex
+Salih Dumlu linkedin.com/in/salihdumlu
+Rupesh Kumar linkedin.com/in/rupeshkumar33
+xveysel10 instagram.com/xveysel10
+Shaheen Fazim x.com/shaheenfazim
+Fahad Faridi x.com/saphyra_d
+Souravkr529 linkedin.com/in/souravkr529
+Muhamed Shafik linkedin.com/in/mohamed-shafik-el-deeb-123438132
+Robby Delaware x.com/RobbyDelaware
+Grant Smith linkedin.com/in/grant-smith-129240199
+Kiwan Yahya hackerone.com/ezx0xkurdim
+Benjamin Rabeck
+Benjamin Nichols
+Mike Buehl
+Vedant Tekale x.com/_justYnot
+Jaime Lightfoot linkedin.com/in/jaime-lightfoot
+Mohamed Ahmed Albashir x.com/mrxv301
+Jordy Tello linkedin.com/in/jordytello
+notnotnotveg github.com/notnotnotveg wiki.notveg.ninja/whoami
+Adrian Gough linkedin.com/in/adrian-gough
+NITYA NAND JHA (Shunux)linkedin.com/in/shunux-stuxnet x.com/ShunuxStuxnet
+Saeid Khater linkedin.com/in/saeidmicro x.com/SaeidMicro
+Aviv Keller linkedin.com/in/RedYetiDev
+Shay Ben Tikva
+Ahmed Salah Abalhfaz (Elsfa7-110)x.com/Elsfa7110
+EXOSITES x.com/ETHICALEXO
+Farhan Khan linkedin.com/in/farhan8528
+abagtcs
+Alexander Hatala linkedin.com/in/alexander-hatala
+nzhg3i_nzm
+Sarvagn Pathak linkedin.com/in/sarvagn-pathak
+Rajkumar Shanmugam linkedin.com/in/rajkumarshanmugam1
+Miguel Segovia Gil linkedin.com/in/miguelsegoviagil
+Michael Kane linkedin.com/in/thisismikekane
+Patrick Polley linkedin.com/in/patrick-polley
+Abhirup Konwar (LegionHunter)linkedin.com/in/abhirup-konwar-a626201a6
+Roland Hack x.com/RolandHack6
+Tobias linkedin.com/in/tobias-a-3a620627b
+Sri Shavin Kumar Chandra Mohan linkedin.com/in/sri-shavin-kumar-2baa46215
+Patrick Nard linkedin.com/in/patrick-nard-311602284
+Shyam Karthick V B linkedin.com/in/shyam-karthick
+Aashutosh Devkota linkedin.com/in/aasutoshdevkota
+Kaan Karatas linkedin.com/in/hkkaratas
+Orlando Navarrete linkedin.com/in/atuncillo
+Guru Prasad Pattanaik (TH3N00BH4CK3R)linkedin.com/in/guru-prasad-pattanaik x.com/gurupra9161
+Anthony Yannella linkedin.com/in/anthony-y-750309223
+Shivam Dhingra linkedin.com/in/shivam-dhingra
+William Watler linkedin.com/in/william-watler-903987214
+Nathan Accacio linkedin.com/in/nathan-accacio-024524222
+Jaron Rosenau linkedin.com/in/jaronrosenau
+Alexander Ahmann github.com/Alekseyyy bsky.app/profile/epsiloncalculus.bsky.social
+
+infosec.exchange/@complexsystems
+Sayed Abdou linkedin.com/in/sayedabdou
+Rikky Ihza Pratama linkedin.com/in/rikky-i-3954791b3
+Shaikh Yaser Arafat x.com/yaser_s
+Emon Reza x.com/em0n555
+Abdullah Al Jahin x.com/__Jahin
+Ali Firas
+Mangesh Muley linkedin.com/in/mangesh-muley-877a26229
+Bandi Veera Venkata Durga Sai Balaji linkedin.com/in/veera-venkata-durga-sai-balaji-bandi-3b27b8112
+Rivek Raj Tamang linkedin.com/in/rivektamang
+Sheikh Ali Akbar (abbishal)linkedin.com/in/abbishal abbishal.com
+wrecker1602
+Ronald Lovelace (Cloudy_Day)linkedin.com/in/unitedstatesgovernment
+Marcelo Queiroz linkedin.com/in/marceloqueirozjr

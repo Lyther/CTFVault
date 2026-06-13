@@ -1,0 +1,17 @@
+{
+  "id": 45,
+  "name": "A Massive Problem",
+  "category": "Web",
+  "value": 735,
+  "description": "Improper Authorization has been fixed! I think we are ready for production!\r\n\r\n**SHA1:** `d1799d474a5ee0e222fbc7df3cce00772dc4de9b`",
+  "attachments": [
+    {
+      "filename": "a-massive-problem.zip",
+      "url": "https://ctf.cyber-cit.club/files/663e4de53649aa98645255b925b636f0/a-massive-problem.zip",
+      "local_path": "files/a-massive-problem.zip"
+    }
+  ],
+  "author": "by **10splayaSec**",
+  "connection_info": "http://23.179.17.92:5556",
+  "path": "Web/45-a-massive-problem"
+}

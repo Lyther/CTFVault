@@ -1,0 +1,16 @@
+{
+  "id": 57,
+  "name": "Wiretap",
+  "category": "Forensics",
+  "value": 949,
+  "description": "Ton, they're listening to the phones meet me down at the badabing.\r\n\r\n**SHA1: fb8ef1616ef3e993e81d7f23f9d56b76d51175be**",
+  "attachments": [
+    {
+      "filename": "beep_beep_boop.wav",
+      "url": "https://ctf.cyber-cit.club/files/5e9d1b7114aff6d21f69ed2e10220e11/beep_beep_boop.wav",
+      "local_path": "files/beep_beep_boop.wav"
+    }
+  ],
+  "author": "hypnos",
+  "path": "Forensics/57-wiretap"
+}

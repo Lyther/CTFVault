@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:transitionXml xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"
+    xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+
+    <p:slideTransitions>
+
+        <p:transition id="fade">
+            <p:duration>2000</p:duration>
+            <p:speed>medium</p:speed>
+            <p:advanceOnClick>true</p:advanceOnClick>
+        </p:transition>
+
+        <p:transition id="push">
+            <p:direction>left</p:direction>
+            <p:duration>1500</p:duration>
+            <p:speed>fast</p:speed>
+        </p:transition>
+
+        <p:transition id="wipe">
+            <p:direction>right</p:direction>
+            <p:pattern>clock</p:pattern>
+            <p:duration>1800</p:duration>
+        </p:transition>
+
+        <p:transition id="morph">
+            <p:enabled>false</p:enabled>
+            <p:note>legacy feature disabled in runtime</p:note>
+        </p:transition>
+
+    </p:slideTransitions>
+
+    <p:debug>
+        <p:log level="info">transition engine initialized</p:log>
+        <p:log level="warning">compatibility mode enabled</p:log>
+
+        <p:reserved>
+            CIT{l4rp_l4rp_l4rp_s4hur}
+        </p:reserved>
+    </p:debug>
+
+</p:transitionXml>

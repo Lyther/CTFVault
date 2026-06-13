@@ -1,0 +1,16 @@
+{
+  "id": 23,
+  "name": "Cool Car",
+  "category": "Steganography",
+  "value": 979,
+  "description": "I got this cool car here, maybe you can find a flag.\r\n\r\nFlag Format:\r\nCIT{example_flag}",
+  "attachments": [
+    {
+      "filename": "cool_car.png",
+      "url": "https://ctf.cyber-cit.club/files/3c2fe51a58da6f18b6987125c28bf1ef/cool_car.png",
+      "local_path": "files/cool_car.png"
+    }
+  ],
+  "author": "by **ronnie**",
+  "path": "Steganography/23-cool-car"
+}

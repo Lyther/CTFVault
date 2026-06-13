@@ -1,0 +1,16 @@
+{
+  "id": 39,
+  "name": "Are ya winning, son?",
+  "category": "Steganography",
+  "value": 923,
+  "description": "Well.. is he? It almost feels like we're breaking the fourth wall ;)\r\n\r\n**SHA1:** `1a9accb2f56d4cf2594128aa55875dc7bde5774b`",
+  "attachments": [
+    {
+      "filename": "challenge.jpg",
+      "url": "https://ctf.cyber-cit.club/files/1814492b94d1a2bdf37c9439706078ab/challenge.jpg",
+      "local_path": "files/challenge.jpg"
+    }
+  ],
+  "author": "boom",
+  "path": "Steganography/39-are-ya-winning-son"
+}

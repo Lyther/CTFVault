@@ -1,0 +1,623 @@
+[
+  {
+    "id": 3,
+    "name": "Brainiac",
+    "category": "Crypto",
+    "value": 629,
+    "description": "**SHA1:** `33746b3052f748a9d41f030d2be4f196d02453cb`\r\n\r\n**FLAG FORMAT:** `CIT{string}`",
+    "attachments": [
+      {
+        "filename": "challenge.txt",
+        "url": "https://ctf.cyber-cit.club/files/ebcb553e2344adb6e767b1b631350cf1/challenge.txt",
+        "local_path": "files/challenge.txt"
+      }
+    ],
+    "author": "elemental",
+    "path": "Crypto/03-brainiac"
+  },
+  {
+    "id": 2,
+    "name": "The Onion",
+    "category": "Crypto",
+    "value": 798,
+    "description": "Can you peel back the layers?\r\n\r\n**SHA1:** `6ca8b4ae8d7317b27f564bc962a20b3e6fb49c72`\r\n\r\n\r\n**NOTE:** The answer you get will not have the CIT{} wrapper, make sure you add it to the final answer.\r\n\r\n**FLAG FORMAT:** `CIT{string}`",
+    "attachments": [
+      {
+        "filename": "challenge.txt",
+        "url": "https://ctf.cyber-cit.club/files/994e597c18548923e58975ee9ed8ccc2/challenge.txt",
+        "local_path": "files/challenge.txt"
+      }
+    ],
+    "author": "elemental",
+    "path": "Crypto/02-the-onion"
+  },
+  {
+    "id": 4,
+    "name": "Rotor Rooter",
+    "category": "Crypto",
+    "value": 884,
+    "description": "Spin it till it drains\r\n\r\n`KLEGCKRGGONTBNBVPIIZWXQQEZYAXXWQMGIZDNEWWUTOVZRWOMZKGWNKWZBQXOGZSTVCGU`\r\n\r\n**FLAG FORMAT:** `CIT{underscore_between_each_word}`",
+    "attachments": [],
+    "author": "elemental",
+    "path": "Crypto/04-rotor-rooter"
+  },
+  {
+    "id": 32,
+    "name": "Farcical Clones",
+    "category": "Crypto",
+    "value": 999,
+    "description": "May the Force be with you, young padawan.\r\n\r\n095 181 145 039 245 091 212 232 123 220 167 069 091 208 245 164 245 145 123 094, 062 150 094 172 083 135 096 153 002 208 096 172. 201 005 019 {131 091 090 053 095 218 238 211 091 004 201 182 135 245 167 074 090 145 096 238}",
+    "attachments": [],
+    "author": "bootstrap",
+    "path": "Crypto/32-farcical-clones"
+  },
+  {
+    "id": 49,
+    "name": "The Evil Files",
+    "category": "Forensics",
+    "value": 706,
+    "description": "Dr. Evil be dreamin and schemin\r\n\r\n**SHA1**: `2230cff50d7ae8672ab072d275df7057773f11eb`",
+    "attachments": [
+      {
+        "filename": "challenge.pdf",
+        "url": "https://ctf.cyber-cit.club/files/2188a83da7e9f3ab4a86f16ff790491b/challenge.pdf",
+        "local_path": "files/challenge.pdf"
+      }
+    ],
+    "author": "boom",
+    "path": "Forensics/49-the-evil-files"
+  },
+  {
+    "id": 43,
+    "name": "Larping 101",
+    "category": "Forensics",
+    "value": 763,
+    "description": "To larp, one must become the larper.. \r\n\r\nWhat do you think of my presentation? It feels like it might be missing something so maybe you can tell me what it is?\r\n\r\n**SHA1**: `e72c9837de62168b2b5cc573a55800ea1e440b42`",
+    "attachments": [
+      {
+        "filename": "challenge.pptx",
+        "url": "https://ctf.cyber-cit.club/files/3b57ddb5fd97322bcfa9d1f9b8455246/challenge.pptx",
+        "local_path": "files/challenge.pptx"
+      }
+    ],
+    "author": "boom",
+    "path": "Forensics/43-larping-101"
+  },
+  {
+    "id": 57,
+    "name": "Wiretap",
+    "category": "Forensics",
+    "value": 949,
+    "description": "Ton, they're listening to the phones meet me down at the badabing.\r\n\r\n**SHA1: fb8ef1616ef3e993e81d7f23f9d56b76d51175be**",
+    "attachments": [
+      {
+        "filename": "beep_beep_boop.wav",
+        "url": "https://ctf.cyber-cit.club/files/5e9d1b7114aff6d21f69ed2e10220e11/beep_beep_boop.wav",
+        "local_path": "files/beep_beep_boop.wav"
+      }
+    ],
+    "author": "hypnos",
+    "path": "Forensics/57-wiretap"
+  },
+  {
+    "id": 56,
+    "name": "Transmission from 1993",
+    "category": "Forensics",
+    "value": 968,
+    "description": "REEEEEE–KRRR–SKREEEEEE–BEEP BEEP BEEP\r\n\r\n**SHA1:** `6d69c28f3a8d3ba2a07ca95bdc7646f90dfb540e`",
+    "attachments": [
+      {
+        "filename": "call-69e26052e9f5b0c1da0ee369.pcap",
+        "url": "https://ctf.cyber-cit.club/files/4d1132b34766d8c0655d2d3fe1627249/call-69e26052e9f5b0c1da0ee369.pcap",
+        "local_path": "files/call-69e26052e9f5b0c1da0ee369.pcap"
+      }
+    ],
+    "author": "hypnos",
+    "path": "Forensics/56-transmission-from-1993"
+  },
+  {
+    "id": 40,
+    "name": "Goober 1",
+    "category": "Fullpwn",
+    "value": 954,
+    "description": "Find flag1. Good luck!\r\n\r\n`23.179.17.69`\r\n\r\n> **Disclaimer**\r\n> \r\n> By accessing this challenge environment, you agree to use the provided instance solely for the purpose of solving the intended CTF challenge.\r\n> \r\n> Any activity outside the scope of the challenge is strictly prohibited, including but not limited to:\r\n> \r\n> * Using the system for personal projects or unrelated testing\r\n> * Hosting services, files, or external content\r\n> * Attempting to pivot, scan, or attack external systems\r\n> * Establishing persistence, backdoors, or unauthorized access mechanisms other than those required to complete the challenge\r\n> * Deploying or participating in botnets, command-and-control infrastructure, or any form of distributed attack tooling\r\n> * Running cryptocurrency miners or using system resources for unauthorized computation\r\n> * Interfering with the availability, performance, or integrity of the instance\r\n> \r\n> This is a shared, limited resource. Actions that degrade performance, abuse compute resources, or disrupt fair play may result in immediate disqualification.\r\n> \r\n> We reserve the right to monitor activity, revoke access, and reset or terminate the instance at any time in response to misuse.",
+    "attachments": [],
+    "author": "bootstrap",
+    "path": "Fullpwn/40-goober-1"
+  },
+  {
+    "id": 55,
+    "name": "Coin Jam",
+    "category": "Game",
+    "value": 950,
+    "description": "Can you collect all the coins?\r\n\r\nFlag Format:\r\nCIT{example_flag}",
+    "attachments": [
+      {
+        "filename": "coinjam.exe",
+        "url": "https://ctf.cyber-cit.club/files/1fa9aa6b0630789c5c690a4475dd7353/coinjam.exe",
+        "local_path": "files/coinjam.exe"
+      }
+    ],
+    "author": "by **ronnie**",
+    "path": "Game/55-coin-jam"
+  },
+  {
+    "id": 33,
+    "name": "SAM, I am",
+    "category": "Misc",
+    "value": 764,
+    "description": "I dumped the SAM hive and found a document stating the password policy is 5 characters + complexity\r\n\r\n`97a3e51e5a006eccac91e0ceabd4965b`\r\n\r\n**FLAG FORMAT:** `CIT{password}`",
+    "attachments": [],
+    "author": "elemental",
+    "path": "Misc/33-sam-i-am"
+  },
+  {
+    "id": 30,
+    "name": "Very Expansive",
+    "category": "Misc",
+    "value": 865,
+    "description": "Where in the wide, wide world of sports is this, beratna? Good place for Dusters, mi pensa.\r\n\r\n**FLAG FORMAT:** `CIT{Name_of_Place}`\r\n\r\n**Example:** `CIT{Grand_Canyon}`",
+    "attachments": [],
+    "author": "bootstrap",
+    "path": "Misc/30-very-expansive"
+  },
+  {
+    "id": 6,
+    "name": "Robots",
+    "category": "Misc",
+    "value": 877,
+    "description": "Beep Boop",
+    "attachments": [],
+    "author": "bootstrap",
+    "path": "Misc/06-robots"
+  },
+  {
+    "id": 35,
+    "name": "Call me, maybe? No… wrong decade.",
+    "category": "Misc",
+    "value": 887,
+    "description": "I don't have a witty description for this one...\r\n\r\n`$2b$10$Ni0U3D5ibg1NY6G/k8CDHuXG7m/WNZzuV/9PDPnRzgKs4wUjaTwGO`\r\n\r\n\r\n**FLAG FORMAT:** `CIT{password}`",
+    "attachments": [],
+    "author": "elemental",
+    "path": "Misc/35-call-me-maybe-no-wrong-decade"
+  },
+  {
+    "id": 15,
+    "name": "Dog barking",
+    "category": "Misc",
+    "value": 902,
+    "description": "I recorded this audio at the dogpark the other day and I think the dogs were trying to tell me something???\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+    "attachments": [
+      {
+        "filename": "challenge.wav",
+        "url": "https://ctf.cyber-cit.club/files/2607309f2fe03352c09c0e8da2aeb5c5/challenge.wav",
+        "local_path": "files/challenge.wav"
+      }
+    ],
+    "author": "by **ronnie**",
+    "path": "Misc/15-dog-barking"
+  },
+  {
+    "id": 5,
+    "name": "What's the word?",
+    "category": "Misc",
+    "value": 927,
+    "description": "B-b-b-bird, bird, bird!\r\n\r\nThe flag is in the file, but where??\r\n\r\n**SHA1:**\r\n`b2b621068c3632d102c62be9b3cc386c6c175eff`",
+    "attachments": [
+      {
+        "filename": "file",
+        "url": "https://ctf.cyber-cit.club/files/f3504bfb395003f5b23f8ea6bd848b82/file",
+        "local_path": "files/file"
+      }
+    ],
+    "author": "bootstrap",
+    "path": "Misc/05-whats-the-word"
+  },
+  {
+    "id": 26,
+    "name": "Open My Vault Live",
+    "category": "Misc",
+    "value": 974,
+    "description": "One of the challenge authors is also a sponsor this year.\r\nDuring a recent YouTube livestream, something may have been left behind.\r\n\r\nMost people didn't notice.... but it's still there.\r\n\r\nCan you find the flag?\r\n\r\n**Flag Format**: `CIT{test_flag}`",
+    "attachments": [],
+    "author": "by **10splayaSec**",
+    "path": "Misc/26-open-my-vault-live"
+  },
+  {
+    "id": 36,
+    "name": "Help! I've forgotten my password and I can't login!",
+    "category": "Misc",
+    "value": 986,
+    "description": "Can you recover the password to my Keepass database, I will forever be in your debt.\r\n\r\n**FLAG FORMAT:** `CIT{flag}`\r\n\r\n**SHA1:** `a7e20fa5c173473caacbe15f786ff61d9cc84074`",
+    "attachments": [
+      {
+        "filename": "Database.kdbx",
+        "url": "https://ctf.cyber-cit.club/files/24a6bc37bbc5ab18516289d78f30ab66/Database.kdbx",
+        "local_path": "files/Database.kdbx"
+      }
+    ],
+    "author": "elemental",
+    "path": "Misc/36-help-ive-forgotten-my-password-and-i-cant-login"
+  },
+  {
+    "id": 31,
+    "name": "Peel Carefully",
+    "category": "Misc",
+    "value": 995,
+    "description": "It's all there, just buried.\r\n\r\nOne layer at a time, the message reveals itself... can you read it?\r\n\r\n**SHA1:** `b7ac0151a536f150b4a2c41e456482513125267c`",
+    "attachments": [
+      {
+        "filename": "challenge.txt",
+        "url": "https://ctf.cyber-cit.club/files/e805b3b36861c9f8119723098a0ca931/challenge.txt",
+        "local_path": "files/challenge.txt"
+      }
+    ],
+    "author": "by **10splayaSec**",
+    "path": "Misc/31-peel-carefully"
+  },
+  {
+    "id": 20,
+    "name": "Follow the Flock",
+    "category": "OSINT",
+    "value": 828,
+    "description": "Man these damn seagulls keep following me around… always in a flock, obnoxious sirens blaring.\r\nAnd they smell like pizza.\r\n\r\nFeels like I’m being watched everywhere I go…\r\n\r\n**FLAG FORMAT:** `CIT{Street_Name_City_Name_State}`\r\n\r\n**Example:** `CIT{Main_Street_Los_Angeles_CA}`",
+    "attachments": [],
+    "author": "elemental",
+    "hints": [
+      {
+        "cost": 0,
+        "content": null
+      }
+    ],
+    "path": "OSINT/20-follow-the-flock"
+  },
+  {
+    "id": 21,
+    "name": "Cartographer's Secret",
+    "category": "OSINT",
+    "value": 977,
+    "description": "Solve Follow the Flock first\r\n\r\nI swear I’ve looked everywhere…\r\n\r\nMaybe I’m not looking closely enough.\r\n\r\n**FLAG FORMAT:** `CIT{underscore_between_words}`",
+    "attachments": [],
+    "author": "elemental",
+    "hints": [
+      {
+        "cost": 0,
+        "content": null
+      }
+    ],
+    "path": "OSINT/21-cartographers-secret"
+  },
+  {
+    "id": 7,
+    "name": "The Curator's Exit",
+    "category": "OSINT",
+    "value": 982,
+    "description": "We've received a communication from Interpol, containing a PDF. We are unsure of the contents, but believe it contains information on one of the thieves from the Louvre Heist. Your job is to find out as much as you can about this individual and send the information back to the authorities.\r\n\r\nWhat is the thief's name?\r\n\r\n**FLAG FORMAT:** `CIT{First_Last}`\r\n\r\n**SHA1:** `c3c8f91ed60e902be482dc26b61a9bc0fa443f26`",
+    "attachments": [
+      {
+        "filename": "VF0000000011-Enc.pdf",
+        "url": "https://ctf.cyber-cit.club/files/4aaffee3d7e17786b5b24732b095f7ba/VF0000000011-Enc.pdf",
+        "local_path": "files/VF0000000011-Enc.pdf"
+      }
+    ],
+    "author": "elemental",
+    "path": "OSINT/07-the-curators-exit"
+  },
+  {
+    "id": 24,
+    "name": "Has it really been 2 years?",
+    "category": "OSINT",
+    "value": 989,
+    "description": "Has it really been 2 years...? Find the name of this menu item\r\n\r\n**FLAG FORMAT:** `CIT{name_of_item}` or `CIT{name-of-item}`",
+    "attachments": [
+      {
+        "filename": "has_it_really_been_2_years.webp",
+        "url": "https://ctf.cyber-cit.club/files/720ee070c1c2ef24d4801aea725aa2ff/has_it_really_been_2_years.webp",
+        "local_path": "files/has_it_really_been_2_years.webp"
+      }
+    ],
+    "author": "by **ronnie**",
+    "path": "OSINT/24-has-it-really-been-2-years"
+  },
+  {
+    "id": 67,
+    "name": "The Forbidden Sock",
+    "category": "OSINT",
+    "value": 997,
+    "description": "Our friend is really exposing himself out in public where is he??\r\n\r\n**SHA1:** `d3b932b3695a0faa8d994fdc8d86b7d5e13a22cd`\r\n\r\n**FLAG FORMAT:** `CIT{Team_Section_#}`\r\n\r\n**Example:** `CIT{Nuggets_Section_2}`",
+    "attachments": [
+      {
+        "filename": "IMG_0185.jpg",
+        "url": "https://ctf.cyber-cit.club/files/a079001df39e99dda1b1954e7787a00a/IMG_0185.jpg",
+        "local_path": "files/IMG_0185.jpg"
+      }
+    ],
+    "author": "elemental",
+    "path": "OSINT/67-the-forbidden-sock"
+  },
+  {
+    "id": 53,
+    "name": "Catacombs",
+    "category": "Reverse Engineering",
+    "value": 751,
+    "description": "good luck\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+    "attachments": [
+      {
+        "filename": "catacombs",
+        "url": "https://ctf.cyber-cit.club/files/540b0e2c35fc554f968c04c0f2fd68e4/catacombs",
+        "local_path": "files/catacombs"
+      }
+    ],
+    "author": "by **ronnie**",
+    "path": "Reverse Engineering/53-catacombs"
+  },
+  {
+    "id": 54,
+    "name": "Say My Name",
+    "category": "Reverse Engineering",
+    "value": 822,
+    "description": "Say My Name!\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+    "attachments": [
+      {
+        "filename": "saymyname",
+        "url": "https://ctf.cyber-cit.club/files/615474313a75676448c6f64ec68b5f44/saymyname",
+        "local_path": "files/saymyname"
+      }
+    ],
+    "author": "by **ronnie**",
+    "path": "Reverse Engineering/54-say-my-name"
+  },
+  {
+    "id": 52,
+    "name": "Faultline",
+    "category": "Reverse Engineering",
+    "value": 856,
+    "description": "good luck!\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+    "attachments": [
+      {
+        "filename": "faultline",
+        "url": "https://ctf.cyber-cit.club/files/8a4a9937740c08a51cc3eaa2678a3735/faultline",
+        "local_path": "files/faultline"
+      }
+    ],
+    "author": "by **ronnie**",
+    "path": "Reverse Engineering/52-faultline"
+  },
+  {
+    "id": 51,
+    "name": "Escape Room",
+    "category": "Reverse Engineering",
+    "value": 888,
+    "description": "Can you escape?\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+    "attachments": [
+      {
+        "filename": "escaperoom",
+        "url": "https://ctf.cyber-cit.club/files/84280e77e2f020245540113842f3b57f/escaperoom",
+        "local_path": "files/escaperoom"
+      }
+    ],
+    "author": "by **ronnie**",
+    "path": "Reverse Engineering/51-escape-room"
+  },
+  {
+    "id": 50,
+    "name": "Really Secure Password Manager",
+    "category": "Reverse Engineering",
+    "value": 992,
+    "description": "I built this new password manager I think it should be pretty secure",
+    "attachments": [
+      {
+        "filename": "reallysecurepasswordmanager",
+        "url": "https://ctf.cyber-cit.club/files/a3713606fa6e6b1139f6939d082ed933/reallysecurepasswordmanager",
+        "local_path": "files/reallysecurepasswordmanager"
+      }
+    ],
+    "author": "by **ronnie**",
+    "path": "Reverse Engineering/50-really-secure-password-manager"
+  },
+  {
+    "id": 17,
+    "name": "[INSERT CHALLENGE TITLE HERE]",
+    "category": "Steganography",
+    "value": 672,
+    "description": "[[INSERT CHALLENGE DESCRIPTION HERE]\r\n\r\n**SHA1:** `1cdc80f8c797645b9d92e34a4c6c09022e5378aa`",
+    "attachments": [
+      {
+        "filename": "flag.jpg",
+        "url": "https://ctf.cyber-cit.club/files/05953992be500dedb0a6e21c59d34075/flag.jpg",
+        "local_path": "files/flag.jpg"
+      }
+    ],
+    "author": "boom",
+    "path": "Steganography/17-insert-challenge-title-here"
+  },
+  {
+    "id": 18,
+    "name": "There's no room left",
+    "category": "Steganography",
+    "value": 770,
+    "description": "It almost feels like the walls are closing in. Digitally, that is ;)\r\n\r\n**SHA1:** `0f425ef58c8922ef1bad11929b317bc9d7b21a73`",
+    "attachments": [
+      {
+        "filename": "flag.txt",
+        "url": "https://ctf.cyber-cit.club/files/20023661ea25ea124534e17e02280353/flag.txt",
+        "local_path": "files/flag.txt"
+      }
+    ],
+    "author": "boom",
+    "path": "Steganography/18-theres-no-room-left"
+  },
+  {
+    "id": 39,
+    "name": "Are ya winning, son?",
+    "category": "Steganography",
+    "value": 923,
+    "description": "Well.. is he? It almost feels like we're breaking the fourth wall ;)\r\n\r\n**SHA1:** `1a9accb2f56d4cf2594128aa55875dc7bde5774b`",
+    "attachments": [
+      {
+        "filename": "challenge.jpg",
+        "url": "https://ctf.cyber-cit.club/files/1814492b94d1a2bdf37c9439706078ab/challenge.jpg",
+        "local_path": "files/challenge.jpg"
+      }
+    ],
+    "author": "boom",
+    "path": "Steganography/39-are-ya-winning-son"
+  },
+  {
+    "id": 23,
+    "name": "Cool Car",
+    "category": "Steganography",
+    "value": 979,
+    "description": "I got this cool car here, maybe you can find a flag.\r\n\r\nFlag Format:\r\nCIT{example_flag}",
+    "attachments": [
+      {
+        "filename": "cool_car.png",
+        "url": "https://ctf.cyber-cit.club/files/3c2fe51a58da6f18b6987125c28bf1ef/cool_car.png",
+        "local_path": "files/cool_car.png"
+      }
+    ],
+    "author": "by **ronnie**",
+    "path": "Steganography/23-cool-car"
+  },
+  {
+    "id": 22,
+    "name": "Car Crash",
+    "category": "Steganography",
+    "value": 980,
+    "description": "video games are ruining this country...\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+    "attachments": [
+      {
+        "filename": "car_crash.png",
+        "url": "https://ctf.cyber-cit.club/files/7f0779be3aa3a98489859070d9a8ea10/car_crash.png",
+        "local_path": "files/car_crash.png"
+      }
+    ],
+    "author": "by **ronnie**",
+    "path": "Steganography/22-car-crash"
+  },
+  {
+    "id": 45,
+    "name": "A Massive Problem",
+    "category": "Web",
+    "value": 735,
+    "description": "Improper Authorization has been fixed! I think we are ready for production!\r\n\r\n**SHA1:** `d1799d474a5ee0e222fbc7df3cce00772dc4de9b`",
+    "attachments": [
+      {
+        "filename": "a-massive-problem.zip",
+        "url": "https://ctf.cyber-cit.club/files/663e4de53649aa98645255b925b636f0/a-massive-problem.zip",
+        "local_path": "files/a-massive-problem.zip"
+      }
+    ],
+    "author": "by **10splayaSec**",
+    "connection_info": "http://23.179.17.92:5556",
+    "path": "Web/45-a-massive-problem"
+  },
+  {
+    "id": 28,
+    "name": "Debug Disaster",
+    "category": "Web",
+    "value": 784,
+    "description": "Developing this application is tough, and I needed debug mode to be enabled... but I'm nervous I forgot to turn it off in production. I also think I may have forgot to remove something from the application structure.",
+    "attachments": [],
+    "author": "by **10splayaSec**",
+    "connection_info": "http://23.179.17.92:5002",
+    "path": "Web/28-debug-disaster"
+  },
+  {
+    "id": 48,
+    "name": "Temporary Destruction",
+    "category": "Web",
+    "value": 801,
+    "description": "I hear something....\r\n\r\n**SHA1:** `f03edd0e2d6a6a41916605ae0f7b3ba479e317d6`",
+    "attachments": [
+      {
+        "filename": "temporary-destruction.zip",
+        "url": "https://ctf.cyber-cit.club/files/94c76436892fb245466c12499c246f7a/temporary-destruction.zip",
+        "local_path": "files/temporary-destruction.zip"
+      }
+    ],
+    "author": "by **10splayaSec**",
+    "connection_info": "http://23.179.17.92:5558",
+    "path": "Web/48-temporary-destruction"
+  },
+  {
+    "id": 27,
+    "name": "Intern Portal",
+    "category": "Web",
+    "value": 859,
+    "description": "The intern said they made a custom report application... but I don't think security was in mind.\r\n\r\n[Link](http://23.179.17.92:5001)",
+    "attachments": [],
+    "author": "by **10splayaSec**",
+    "connection_info": "http://23.179.17.92:5001",
+    "path": "Web/27-intern-portal"
+  },
+  {
+    "id": 25,
+    "name": "Hit Your Limit",
+    "category": "Web",
+    "value": 929,
+    "description": "A wise man once said, stay calm, cool and collected. Don't go above your limit.",
+    "attachments": [],
+    "author": "by **10splayaSec**",
+    "connection_info": "http://23.179.17.92:5559",
+    "path": "Web/25-hit-your-limit"
+  },
+  {
+    "id": 47,
+    "name": "Sign Up and Enjoy",
+    "category": "Web",
+    "value": 947,
+    "description": "I'm confused, what does this application do exactly?",
+    "attachments": [],
+    "author": "by **10splayaSec**",
+    "connection_info": "http://23.179.17.92:5557",
+    "path": "Web/47-sign-up-and-enjoy"
+  },
+  {
+    "id": 46,
+    "name": "Server Components",
+    "category": "Web",
+    "value": 957,
+    "description": "I've patched the components on the application, we are secure now!",
+    "attachments": [],
+    "author": "by **10splayaSec**",
+    "connection_info": "http://23.179.17.92:5555",
+    "path": "Web/46-server-components"
+  },
+  {
+    "id": 13,
+    "name": "Discord",
+    "category": "Welcome",
+    "value": 10,
+    "description": "Join our Discord and find the flag!\r\n\r\nhttps://discord.gg/s6gXMAc95P",
+    "attachments": [],
+    "path": "Welcome/13-discord"
+  },
+  {
+    "id": 14,
+    "name": "LinkedIn",
+    "category": "Welcome",
+    "value": 10,
+    "description": "There is a flag hidden on our LinkedIn page! Feel free to follow our page for updates :)\r\n\r\nhttps://www.linkedin.com/company/ctf-cit",
+    "attachments": [],
+    "path": "Welcome/14-linkedin"
+  },
+  {
+    "id": 12,
+    "name": "Rules",
+    "category": "Welcome",
+    "value": 10,
+    "description": "Please make sure you read and understand all of the rules for the CTF!\r\n\r\n1. We reserve the right to modify any existing rules or create new rules during the competition as we see fit.\r\n2. Teams of **up to 5 members** are allowed due to prizing structure (**SCHOOLS CAN HAVE MULTIPLE TEAMS!)**.\r\n3. Do **NOT** attack CTF@CIT infrastructure in any way. Our infrastructure is strictly out of scope.\r\n4. Do not share accounts to bypass team limits, each team member should have their own account.\r\n5. Prizes are limited to participants with a **VALID .edu email (or your region's equivalent)**.\r\n6. Participants are **NOT** allowed to share flags or solutions with each other.\r\n7. Please save any publishing of writeups until **AFTER** the CTF concludes.\r\n8. **DO** have fun!\r\n\r\nBreaking any of these rules may lead to disqualification from the event. If you have any questions regarding the rules or anything else during the event, please reach out to CIT ModMail on Discord!\r\n\r\n`CIT{i_read_and_understand_and_will_follow_the_rules!}`\r\n",
+    "attachments": [],
+    "path": "Welcome/12-rules"
+  },
+  {
+    "id": 11,
+    "name": "Welcome to CTF@CIT 2026!",
+    "category": "Welcome",
+    "value": 10,
+    "description": "Like the challenge name says, welcome to CTF@CIT 2026!\r\n\r\nThis is our third annual CTF and we're looking forward to it being better than the last. To returning players, welcome back! To new faces, welcome! Make sure you get familiar with the [rules](https://ctf.cyber-cit.club/rules) and make sure to check out our [sponsors](https://ctf.cyber-cit.club/sponsors) who play a huge part in making this happen every year!\r\n\r\nWE WILL HAVE NEW CHALLENGES THROUGHOUT THE WEEKEND!\r\n\r\nThe flag format this year is `CIT{flag}`\r\n\r\nIf the flag format changes for a challenge, the challenge description will explicitly mention what the flag format will be. If you have any questions on this or anything else throughout the CTF, please reach out to CIT ModMail on discord!\r\n\r\n glhf :)\r\n\r\n`CIT{w3lc0m3_to_C1T_2026}`",
+    "attachments": [],
+    "path": "Welcome/11-welcome-to-ctf-cit-2026"
+  }
+]

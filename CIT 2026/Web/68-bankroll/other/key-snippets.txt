@@ -1,0 +1,18 @@
+main-app/app.py
+- SESSION_COOKIE_HTTPONLY = False
+- forgot-password returns password_hash for non-admin users
+- notes are rendered with |safe
+- sanitize_note() removes on...= but not on... =
+- /devtools/fetch is admin-only SSRF to numeric loopback hosts on port 8080
+
+svc_admin_bot/bot.py
+- polls every 10 seconds
+- logs in as svc_admin
+- visits /dashboard when pending notes exist
+- sleeps 5 seconds on the dashboard before cleanup
+
+internal-app/app.py
+- /search concatenates q directly into SQL
+- WAF blocks lowercase or uppercase SQL keywords
+- mixed-case keywords bypass the filter
+- -- is blocked, /* is not

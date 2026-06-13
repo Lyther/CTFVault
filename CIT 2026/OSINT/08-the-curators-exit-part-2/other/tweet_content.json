@@ -1,0 +1,18 @@
+{
+  "source": "https://api.fxtwitter.com/vitrinefox/status/2044886457161056589",
+  "text": "Post score = Vacation Mode Activated",
+  "photo_url": "https://pbs.twimg.com/media/HGDlZJ3WYAEcusG.jpg?name=orig",
+  "tco_shortlink": "https://t.co/oGGSKKBQKc",
+  "author": {
+    "screen_name": "vitrinefox",
+    "id": "2027417370093109248",
+    "following": 2,
+    "followers": 0,
+    "description_rot13": "Abguvat inyhnoyr vf hathneqrq bayl haabgvprq",
+    "description_plaintext": "Nothing valuable is unguarded only unnoticed",
+    "location": "Nice, France",
+    "joined": "2026-02-27T16:16:08Z"
+  },
+  "tweet_created": "2026-04-16T21:11:38Z",
+  "note": "Tweet content exfiltrated via api.fxtwitter.com. Next angle: reverse-image/OCR the attached photo (pic.x.com/oGGSKKBQKc) for hidden clues. Archive.ph and archive.today were unreachable from every routing path tried, so could not pull /following or /about subpages."
+}

@@ -1,0 +1,16 @@
+{
+  "id": 18,
+  "name": "There's no room left",
+  "category": "Steganography",
+  "value": 770,
+  "description": "It almost feels like the walls are closing in. Digitally, that is ;)\r\n\r\n**SHA1:** `0f425ef58c8922ef1bad11929b317bc9d7b21a73`",
+  "attachments": [
+    {
+      "filename": "flag.txt",
+      "url": "https://ctf.cyber-cit.club/files/20023661ea25ea124534e17e02280353/flag.txt",
+      "local_path": "files/flag.txt"
+    }
+  ],
+  "author": "boom",
+  "path": "Steganography/18-theres-no-room-left"
+}

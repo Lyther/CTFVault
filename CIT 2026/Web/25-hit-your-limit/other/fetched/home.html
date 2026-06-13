@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CTF :: Rate Limit Bypass</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@700;900&display=swap"
+    rel="stylesheet" />
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #04080a;
+      --surface: #0b1318;
+      --border: #1a2e38;
+      --green: #00e676;
+      --red: #ff1744;
+      --dim: #2a4a58;
+      --text: #c8e6f0;
+      --muted: #4a7a90;
+      --glow-g: rgba(0, 230, 118, 0.18);
+      --glow-r: rgba(255, 23, 68, 0.18);
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Share Tech Mono', monospace;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 16px;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0, 0, 0, 0.08) 3px, rgba(0, 0, 0, 0.08) 4px),
+        repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(0, 0, 0, 0.04) 3px, rgba(0, 0, 0, 0.04) 4px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .wrap {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 580px;
+    }
+
+    .eyebrow {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 10px;
+      letter-spacing: 5px;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(28px, 6vw, 52px);
+      font-weight: 900;
+      text-align: center;
+      color: var(--text);
+      line-height: 1.05;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+    }
+
+    h1 span {
+      color: var(--green);
+      text-shadow: 0 0 24px var(--green), 0 0 48px rgba(0, 230, 118, 0.3);
+    }
+
+    .tagline {
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 2px;
+      margin-bottom: 56px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 40px 36px;
+    }
+
+    .field-label {
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .char-count {
+      font-size: 11px;
+      color: var(--dim);
+      letter-spacing: 1px;
+      transition: color 0.2s;
+    }
+
+    .char-count.active {
+      color: var(--muted);
+    }
+
+    .input-wrap {
+      position: relative;
+      margin-bottom: 28px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--green);
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 22px;
+      letter-spacing: 3px;
+      padding: 16px 20px;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+      caret-color: var(--green);
+    }
+
+    input[type="text"]::placeholder {
+      color: var(--dim);
+      letter-spacing: 2px;
+    }
+
+    input.correct {
+      border-color: var(--green);
+      box-shadow: 0 0 0 1px var(--green), 0 0 20px var(--glow-g), inset 0 0 12px var(--glow-g);
+      background: rgba(0, 230, 118, 0.03);
+    }
+
+    input.incorrect {
+      border-color: var(--red);
+      box-shadow: 0 0 0 1px var(--red), 0 0 20px var(--glow-r), inset 0 0 12px var(--glow-r);
+      background: rgba(255, 23, 68, 0.03);
+    }
+
+    input.correct {
+      color: var(--green);
+    }
+
+    input.incorrect {
+      color: var(--red);
+    }
+
+    .status-bar {
+      height: 3px;
+      background: var(--border);
+      margin-bottom: 28px;
+      overflow: hidden;
+    }
+
+    .status-fill {
+      height: 100%;
+      width: 0%;
+      transition: width 0.3s ease, background 0.2s;
+      background: var(--muted);
+    }
+
+    .status-fill.correct {
+      background: var(--green);
+      box-shadow: 0 0 8px var(--green);
+    }
+
+    .status-fill.incorrect {
+      background: var(--red);
+      box-shadow: 0 0 8px var(--red);
+    }
+
+    .status-line {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-align: center;
+      height: 18px;
+      transition: color 0.2s, opacity 0.2s;
+      opacity: 0;
+    }
+
+    .status-line.visible {
+      opacity: 1;
+    }
+
+    .status-line.correct {
+      color: var(--green);
+    }
+
+    .status-line.incorrect {
+      color: var(--red);
+    }
+
+    .status-line.rate-limited {
+      color: #ff9100;
+    }
+
+    .progress-chars {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 28px;
+      justify-content: center;
+    }
+
+    .pchar {
+      width: 24px;
+      height: 30px;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      transition: all 0.2s;
+      color: var(--dim);
+    }
+
+    .pchar.filled {
+      border-color: var(--green);
+      color: var(--green);
+      background: rgba(0, 230, 118, 0.05);
+    }
+
+    .pchar.active {
+      border-color: var(--muted);
+      color: var(--text);
+    }
+
+    .pchar.wrong {
+      border-color: var(--red);
+      color: var(--red);
+      background: rgba(255, 23, 68, 0.05);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="eyebrow">Can You</div>
+    <h1>HIT&nbsp;<span>YOUR</span><br>LIMIT</h1>
+
+    <div class="card">
+      <div class="field-label">
+        <span>Flag Input</span>
+        <span class="char-count" id="charCount">0 / 32</span>
+      </div>
+
+      <div class="input-wrap">
+        <input type="text" id="flagInput" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+          maxlength="32" placeholder="Enter flag..." />
+      </div>
+
+      <div class="status-bar">
+        <div class="status-fill" id="statusFill"></div>
+      </div>
+
+      <div class="status-line" id="statusLine"></div>
+
+      <div class="progress-chars" id="progressChars"></div>
+    </div>
+  </div>
+
+  <script>
+    const FLAG_LENGTH = 32;
+    const input = document.getElementById('flagInput');
+    const statusLine = document.getElementById('statusLine');
+    const statusFill = document.getElementById('statusFill');
+    const charCount = document.getElementById('charCount');
+    const progressChars = document.getElementById('progressChars');
+
+    let debounceTimer = null;
+    let lastChecked = '';
+
+    function buildProgressChars() {
+      progressChars.innerHTML = '';
+      for (let i = 0; i < FLAG_LENGTH; i++) {
+        const d = document.createElement('div');
+        d.className = 'pchar';
+        d.id = `pc-${i}`;
+        d.textContent = '·';
+        progressChars.appendChild(d);
+      }
+    }
+
+    function updateProgressChars(val, state) {
+      for (let i = 0; i < FLAG_LENGTH; i++) {
+        const el = document.getElementById(`pc-${i}`);
+        if (i < val.length) {
+          el.textContent = val[i];
+          if (state === 'correct') el.className = 'pchar filled';
+          else if (state === 'incorrect') el.className = 'pchar wrong';
+          else el.className = 'pchar active';
+        } else if (i === val.length) {
+          el.textContent = '·';
+          el.className = 'pchar active';
+        } else {
+          el.textContent = '·';
+          el.className = 'pchar';
+        }
+      }
+    }
+
+    function setStatus(state, text) {
+      input.className = state || '';
+      statusLine.className = 'status-line visible ' + (state || '');
+      statusLine.textContent = text;
+
+      const pct = (lastChecked.length / FLAG_LENGTH) * 100;
+      statusFill.style.width = pct + '%';
+      statusFill.className = 'status-fill ' + (state || '');
+    }
+
+    function clearStatus() {
+      input.className = '';
+      statusLine.className = 'status-line';
+      statusLine.textContent = '';
+      statusFill.style.width = '0%';
+      statusFill.className = 'status-fill';
+    }
+
+    async function check(val) {
+      if (!val) { clearStatus(); return; }
+
+      try {
+        const res = await fetch(`/api/flag?guess=${encodeURIComponent(val)}`);
+        const data = await res.json();
+
+        lastChecked = val;
+        updateProgressChars(val, res.status === 200 ? 'correct' : 'incorrect');
+
+        if (res.status === 200) {
+          if (val.length === FLAG_LENGTH) {
+            setStatus('correct', 'FLAG CAPTURED');
+          } else {
+            setStatus('correct', 'CORRECT PREFIX');
+          }
+        } else if (res.status === 429) {
+          setStatus('rate-limited', 'RATE LIMITED');
+        } else {
+          setStatus('incorrect', 'INCORRECT');
+        }
+      } catch (e) {
+        setStatus('incorrect', 'ERROR');
+      }
+    }
+
+    input.addEventListener('input', () => {
+      const val = input.value;
+      charCount.textContent = `${val.length} / ${FLAG_LENGTH}`;
+      charCount.className = val.length > 0 ? 'char-count active' : 'char-count';
+
+      clearTimeout(debounceTimer);
+      if (!val) { clearStatus(); updateProgressChars('', null); return; }
+      debounceTimer = setTimeout(() => check(val), 300);
+    });
+
+    buildProgressChars();
+  </script>
+</body>
+
+</html>

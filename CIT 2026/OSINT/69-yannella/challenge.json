@@ -1,0 +1,10 @@
+{
+  "id": 69,
+  "name": "Yannella",
+  "category": "OSINT",
+  "value": 949,
+  "description": "This challenge is dedicated to our late friend Anthony Yannella.\r\n\r\nFind the organization that gave Anthony an acknowledgment for responsibly disclosing a security vulnerability.\r\n\r\nFlag format:\r\nCIT{name_of_organization}\r\n",
+  "attachments": [],
+  "author": "by **ronnie**",
+  "path": "OSINT/69-yannella"
+}

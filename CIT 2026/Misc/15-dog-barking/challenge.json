@@ -1,0 +1,16 @@
+{
+  "id": 15,
+  "name": "Dog barking",
+  "category": "Misc",
+  "value": 902,
+  "description": "I recorded this audio at the dogpark the other day and I think the dogs were trying to tell me something???\r\n\r\n**FLAG FORMAT:** `CIT{example_flag}`",
+  "attachments": [
+    {
+      "filename": "challenge.wav",
+      "url": "https://ctf.cyber-cit.club/files/2607309f2fe03352c09c0e8da2aeb5c5/challenge.wav",
+      "local_path": "files/challenge.wav"
+    }
+  ],
+  "author": "by **ronnie**",
+  "path": "Misc/15-dog-barking"
+}

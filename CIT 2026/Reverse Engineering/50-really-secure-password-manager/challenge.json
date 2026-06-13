@@ -1,0 +1,16 @@
+{
+  "id": 50,
+  "name": "Really Secure Password Manager",
+  "category": "Reverse Engineering",
+  "value": 992,
+  "description": "I built this new password manager I think it should be pretty secure",
+  "attachments": [
+    {
+      "filename": "reallysecurepasswordmanager",
+      "url": "https://ctf.cyber-cit.club/files/a3713606fa6e6b1139f6939d082ed933/reallysecurepasswordmanager",
+      "local_path": "files/reallysecurepasswordmanager"
+    }
+  ],
+  "author": "by **ronnie**",
+  "path": "Reverse Engineering/50-really-secure-password-manager"
+}

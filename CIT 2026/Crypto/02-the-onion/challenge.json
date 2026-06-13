@@ -1,0 +1,16 @@
+{
+  "id": 2,
+  "name": "The Onion",
+  "category": "Crypto",
+  "value": 798,
+  "description": "Can you peel back the layers?\r\n\r\n**SHA1:** `6ca8b4ae8d7317b27f564bc962a20b3e6fb49c72`\r\n\r\n\r\n**NOTE:** The answer you get will not have the CIT{} wrapper, make sure you add it to the final answer.\r\n\r\n**FLAG FORMAT:** `CIT{string}`",
+  "attachments": [
+    {
+      "filename": "challenge.txt",
+      "url": "https://ctf.cyber-cit.club/files/994e597c18548923e58975ee9ed8ccc2/challenge.txt",
+      "local_path": "files/challenge.txt"
+    }
+  ],
+  "author": "elemental",
+  "path": "Crypto/02-the-onion"
+}

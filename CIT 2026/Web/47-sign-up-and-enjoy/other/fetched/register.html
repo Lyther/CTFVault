@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create Account · Campaign City</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <div class="backdrop"></div>
+  <main class="page center-page">
+    <section class="panel auth-form-card narrow-card">
+      <div class="eyebrow">Campaign City</div>
+      <h2>Create your workspace account</h2>
+      <p class="subcopy">Provision access for your document workspace and collaboration tools.</p>
+
+
+
+      <form method="post" class="stack-lg">
+        <label class="field">
+          <span>Full name</span>
+          <input type="text" name="full_name" autocomplete="name" required>
+        </label>
+        <label class="field">
+          <span>Username</span>
+          <input type="text" name="username" autocomplete="username" required>
+        </label>
+        <label class="field">
+          <span>Work email</span>
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label class="field">
+          <span>Password</span>
+          <input type="password" name="password" autocomplete="new-password" required>
+        </label>
+        <div class="password-rule">Use at least 8 characters with uppercase, lowercase, a number, and a symbol.</div>
+        <button class="button primary full-width" type="submit">Create account</button>
+      </form>
+      <div class="inline-link-row">Already have an account? <a href="/login">Sign in</a></div>
+    </section>
+  </main>
+</body>
+
+</html>

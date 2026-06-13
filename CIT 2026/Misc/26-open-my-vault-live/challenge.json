@@ -1,0 +1,10 @@
+{
+  "id": 26,
+  "name": "Open My Vault Live",
+  "category": "Misc",
+  "value": 974,
+  "description": "One of the challenge authors is also a sponsor this year.\r\nDuring a recent YouTube livestream, something may have been left behind.\r\n\r\nMost people didn't notice.... but it's still there.\r\n\r\nCan you find the flag?\r\n\r\n**Flag Format**: `CIT{test_flag}`",
+  "attachments": [],
+  "author": "by **10splayaSec**",
+  "path": "Misc/26-open-my-vault-live"
+}
