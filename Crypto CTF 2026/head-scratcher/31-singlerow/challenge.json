@@ -1,0 +1,16 @@
+{
+  "id": 31,
+  "name": "SingleRow",
+  "category": "Head-Scratcher 😵‍💫",
+  "value": 500,
+  "dynamic_points": 450,
+  "description": "<p><a href=\"/tasks/singlerow_0faac80c2106171f6fb3a287dbf96e65ddf0472c.txz\"><strong>SingleRow’s</strong></a> crypto is one line of defense, turns out it's also one line of nope! ;)</p>\r\n<p><strong>Note:</strong> Please re-download the attachment.</p>\r\n",
+  "attachments": [
+    {
+      "filename": "singlerow_0faac80c2106171f6fb3a287dbf96e65ddf0472c.txz",
+      "local_path": "files/31_singlerow_0faac80c2106171f6fb3a287dbf96e65ddf0472c.txz"
+    }
+  ],
+  "solves": 3,
+  "path": "head-scratcher/31-singlerow"
+}

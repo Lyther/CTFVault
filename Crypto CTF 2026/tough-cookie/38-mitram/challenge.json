@@ -1,0 +1,16 @@
+{
+  "id": 38,
+  "name": "Mitram",
+  "category": "Tough Cookie 🥴",
+  "value": 500,
+  "dynamic_points": 169,
+  "description": "<p>Solving <a href=\"/tasks/mitram_eb796b3545c1f789cc1266165fef96e331ca3525.txz\"><strong>Mitram’s</strong></a> equations? Time to row reduce your expectations... and your sanity.</p>\r\n",
+  "attachments": [
+    {
+      "filename": "mitram_eb796b3545c1f789cc1266165fef96e331ca3525.txz",
+      "local_path": "files/38_mitram_eb796b3545c1f789cc1266165fef96e331ca3525.txz"
+    }
+  ],
+  "solves": 24,
+  "path": "tough-cookie/38-mitram"
+}

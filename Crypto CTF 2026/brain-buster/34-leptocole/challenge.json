@@ -1,0 +1,16 @@
+{
+  "id": 34,
+  "name": "Leptocole",
+  "category": "Brain Buster 🤯",
+  "value": 500,
+  "dynamic_points": 477,
+  "description": "<p><a href=\"/tasks/Leptocole_46ce81f714c5e094b0083af91d65e970eacb75b6.txz\"><strong>Leptocole’s</strong></a> equation is so last-year, yet here you are, still solving for ‘U’ like a nerd!</p>\r\n<p><code>nc 91.107.252.0 37373</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Leptocole_46ce81f714c5e094b0083af91d65e970eacb75b6.txz",
+      "local_path": "files/34_Leptocole_46ce81f714c5e094b0083af91d65e970eacb75b6.txz"
+    }
+  ],
+  "solves": 2,
+  "path": "brain-buster/34-leptocole"
+}

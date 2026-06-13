@@ -1,0 +1,16 @@
+{
+  "id": 4,
+  "name": "Nahan",
+  "category": "Getting There 🤓",
+  "value": 500,
+  "dynamic_points": 334,
+  "description": "<p><a href=\"/tasks/Nahan_d7a2fa3ce5432285b7bc188c069e0f07c2c3d6f7.txz\">Nahan</a> hides better than a cat at bath time; do the right thing at the right moment, and it pops out with the flag!</p>\r\n<p><code>nc 91.107.252.0 33737</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Nahan_d7a2fa3ce5432285b7bc188c069e0f07c2c3d6f7.txz",
+      "local_path": "files/4_Nahan_d7a2fa3ce5432285b7bc188c069e0f07c2c3d6f7.txz"
+    }
+  ],
+  "solves": 8,
+  "path": "getting-there/4-nahan"
+}

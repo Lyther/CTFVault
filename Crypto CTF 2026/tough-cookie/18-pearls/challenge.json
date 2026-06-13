@@ -1,0 +1,16 @@
+{
+  "id": 18,
+  "name": "Pearls",
+  "category": "Tough Cookie 🥴",
+  "value": 500,
+  "dynamic_points": 375,
+  "description": "<p>Unlock <a href=\"/tasks/Pearls_8f20969110d8c7a14f8aa65a749491f6083d7585.txz\"><strong>Pearls</strong></a> by hunting primes, each one brings you closer to the hidden flag!</p>\r\n<p><code>nc 91.107.252.0 37777</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Pearls_8f20969110d8c7a14f8aa65a749491f6083d7585.txz",
+      "local_path": "files/18_Pearls_8f20969110d8c7a14f8aa65a749491f6083d7585.txz"
+    }
+  ],
+  "solves": 6,
+  "path": "tough-cookie/18-pearls"
+}

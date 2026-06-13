@@ -1,0 +1,16 @@
+{
+  "id": 23,
+  "name": "Phoney",
+  "category": "Brain Buster 🤯",
+  "value": 500,
+  "dynamic_points": 164,
+  "description": "<p><a href=\"/tasks/Phoney_17e2fadbe8e8481f4d48e9602743388e6cbf0274.txz\"><strong>Phoney</strong></a> laughs! Until you unpick its multi-prime RSA and random message lock.</p>\r\n<p><code>nc 91.107.252.0 33131</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Phoney_17e2fadbe8e8481f4d48e9602743388e6cbf0274.txz",
+      "local_path": "files/23_Phoney_17e2fadbe8e8481f4d48e9602743388e6cbf0274.txz"
+    }
+  ],
+  "solves": 25,
+  "path": "brain-buster/23-phoney"
+}

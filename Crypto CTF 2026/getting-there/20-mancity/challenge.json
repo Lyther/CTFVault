@@ -1,0 +1,16 @@
+{
+  "id": 20,
+  "name": "Mancity",
+  "category": "Getting There 🤓",
+  "value": 500,
+  "dynamic_points": 55,
+  "description": "<p>Decipher <a href=\"/tasks/Mancity_2a14c2969c2872883e6e78a3481cbcd8f0bdf318.txz\"><strong>Mancity</strong></a> by exploiting RSA modulus secrets, bit by bit, relation by relation.</p>\r\n",
+  "attachments": [
+    {
+      "filename": "Mancity_2a14c2969c2872883e6e78a3481cbcd8f0bdf318.txz",
+      "local_path": "files/20_Mancity_2a14c2969c2872883e6e78a3481cbcd8f0bdf318.txz"
+    }
+  ],
+  "solves": 98,
+  "path": "getting-there/20-mancity"
+}

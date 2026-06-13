@@ -1,0 +1,16 @@
+{
+  "id": 32,
+  "name": "Toffee",
+  "category": "Tough Cookie 🥴",
+  "value": 500,
+  "dynamic_points": 122,
+  "description": "<p>Sticky situation: <a href=\"/tasks/Toffee_508dce3b9f2a0e314a05b7a63a34899b04d59690.txz\"><strong>Toffee’s</strong></a> crypto seems sweet, until you’re stuck chewing on its unsolvable core.</p>\r\n<p><code>nc 91.107.252.0 31111</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Toffee_508dce3b9f2a0e314a05b7a63a34899b04d59690.txz",
+      "local_path": "files/32_Toffee_508dce3b9f2a0e314a05b7a63a34899b04d59690.txz"
+    }
+  ],
+  "solves": 36,
+  "path": "tough-cookie/32-toffee"
+}

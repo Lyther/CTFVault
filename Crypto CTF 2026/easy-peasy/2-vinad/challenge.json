@@ -1,0 +1,16 @@
+{
+  "id": 2,
+  "name": "Vinad",
+  "category": "Easy-Peasy 🍰",
+  "value": 500,
+  "dynamic_points": 34,
+  "description": "<p><a href=\"/tasks/Vinad_9c347fb64604b79eda25a6b2216b292014f38333.txz\">Vinad's</a> ‘random’ keys are as unpredictable as a cat. Poke its weak spots, steal the flag—chaos included!</p>\r\n",
+  "attachments": [
+    {
+      "filename": "Vinad_9c347fb64604b79eda25a6b2216b292014f38333.txz",
+      "local_path": "files/2_Vinad_9c347fb64604b79eda25a6b2216b292014f38333.txz"
+    }
+  ],
+  "solves": 211,
+  "path": "easy-peasy/2-vinad"
+}

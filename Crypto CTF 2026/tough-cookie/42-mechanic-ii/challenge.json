@@ -1,0 +1,16 @@
+{
+  "id": 42,
+  "name": "Mechanic II",
+  "category": "Tough Cookie 🥴",
+  "value": 500,
+  "dynamic_points": 150,
+  "description": "<p><a href=\"/tasks/Mechanic_II_cc462447d42c618c0e96ece07939566584b2c2ae.txz\"><strong>Mechanic II</strong></a> cranks PQC to hilarious levels, bring a quantum wrench and a PhD in pain.</p>\r\n<p><code>nc 91.107.252.0 11111</code></p>\r\n<p><strong>Note:</strong> Please re-download the attachment!</p>\r\n",
+  "attachments": [
+    {
+      "filename": "Mechanic_II_cc462447d42c618c0e96ece07939566584b2c2ae.txz",
+      "local_path": "files/42_Mechanic_II_cc462447d42c618c0e96ece07939566584b2c2ae.txz"
+    }
+  ],
+  "solves": 28,
+  "path": "tough-cookie/42-mechanic-ii"
+}

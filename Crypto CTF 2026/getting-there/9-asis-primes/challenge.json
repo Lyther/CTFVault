@@ -1,0 +1,16 @@
+{
+  "id": 9,
+  "name": "ASIS Primes",
+  "category": "Getting There 🤓",
+  "value": 500,
+  "dynamic_points": 112,
+  "description": "<p><a href=\"/tasks/ASIS_Primes_9dea38b3610089c0bbd131fda474d8a5cc4754cb.txz\"><strong>ASIS Primes</strong></a> is a cryptography challenge requiring primes with printable, meaningful bytes; can you generate such primes effectively?</p>\r\n<p><code>nc 91.107.252.0 13737</code></p>\r\n<p><strong>Note:</strong> Please re-re-download the attachment.</p>\r\n",
+  "attachments": [
+    {
+      "filename": "ASIS_Primes_9dea38b3610089c0bbd131fda474d8a5cc4754cb.txz",
+      "local_path": "files/9_ASIS_Primes_9dea38b3610089c0bbd131fda474d8a5cc4754cb.txz"
+    }
+  ],
+  "solves": 40,
+  "path": "getting-there/9-asis-primes"
+}

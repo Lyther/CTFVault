@@ -1,0 +1,16 @@
+{
+  "id": 39,
+  "name": "Silky",
+  "category": "Tough Cookie 🥴",
+  "value": 500,
+  "dynamic_points": 112,
+  "description": "<p><a href=\"/tasks/Silky_d295907a26ba7934b8f0bac01e8f2f63a5d41b1b.txz\"><strong>Silky’s</strong></a> ‘noisy’ equations are like static on a radio—annoying, but solvable if you tune just right.</p>\r\n<p><code>nc 91.107.252.0 31131</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Silky_d295907a26ba7934b8f0bac01e8f2f63a5d41b1b.txz",
+      "local_path": "files/39_Silky_d295907a26ba7934b8f0bac01e8f2f63a5d41b1b.txz"
+    }
+  ],
+  "solves": 40,
+  "path": "tough-cookie/39-silky"
+}

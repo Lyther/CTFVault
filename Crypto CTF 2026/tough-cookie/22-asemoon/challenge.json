@@ -1,0 +1,16 @@
+{
+  "id": 22,
+  "name": "Asemoon",
+  "category": "Tough Cookie 🥴",
+  "value": 500,
+  "dynamic_points": 300,
+  "description": "<p>No entry until <a href=\"/tasks/Asemoon_bfb17a0a07e7e5aedbf4d401aa931695de848faa.txz\"><strong>Asemoon’s</strong></a> token breaks! Can you reverse its secrets?</p>\r\n<p><code>nc 91.107.252.0 17773</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Asemoon_bfb17a0a07e7e5aedbf4d401aa931695de848faa.txz",
+      "local_path": "files/22_Asemoon_bfb17a0a07e7e5aedbf4d401aa931695de848faa.txz"
+    }
+  ],
+  "solves": 10,
+  "path": "tough-cookie/22-asemoon"
+}

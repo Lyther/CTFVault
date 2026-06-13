@@ -1,0 +1,16 @@
+{
+  "id": 24,
+  "name": "Interpol",
+  "category": "Easy-Peasy 🍰",
+  "value": 500,
+  "dynamic_points": 45,
+  "description": "<p>Only brute force won't crack <a href=\"/tasks/interpol_294c02588bda413403f6ded64c62bcd73f75435e.txz\"><strong>Interpol</strong></a>! Its massive polynomial guards the flag fiercely.</p>\r\n",
+  "attachments": [
+    {
+      "filename": "interpol_294c02588bda413403f6ded64c62bcd73f75435e.txz",
+      "local_path": "files/24_interpol_294c02588bda413403f6ded64c62bcd73f75435e.txz"
+    }
+  ],
+  "solves": 129,
+  "path": "easy-peasy/24-interpol"
+}

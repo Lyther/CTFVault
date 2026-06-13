@@ -1,0 +1,16 @@
+{
+  "id": 33,
+  "name": "Snails",
+  "category": "Brain Buster 🤯",
+  "value": 500,
+  "dynamic_points": 247,
+  "description": "<p>Breaking <a href=\"/tasks/Snails_fa0627cdae00ca3fbfc60da46d381f87e59bebc9.txz\"><strong>Snails’</strong></a> sigs? Even a decrypted flag moves at glacial pace!</p>\r\n<p><code>nc 91.107.252.0 33337</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Snails_fa0627cdae00ca3fbfc60da46d381f87e59bebc9.txz",
+      "local_path": "files/33_Snails_fa0627cdae00ca3fbfc60da46d381f87e59bebc9.txz"
+    }
+  ],
+  "solves": 14,
+  "path": "brain-buster/33-snails"
+}

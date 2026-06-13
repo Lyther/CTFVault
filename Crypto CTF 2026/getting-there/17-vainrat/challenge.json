@@ -1,0 +1,16 @@
+{
+  "id": 17,
+  "name": "Vainrat",
+  "category": "Getting There 🤓",
+  "value": 500,
+  "dynamic_points": 73,
+  "description": "<p>Precision is key, <a href=\"/tasks/Vainrat_21ea2d03fd4f943cb0d1c1f1dee63e3fc2b68276.txz\"><strong>Vainrat</strong></a> escapes sluggish calculators effortlessly.</p>\r\n<p><code>nc 91.107.252.0 11117</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Vainrat_21ea2d03fd4f943cb0d1c1f1dee63e3fc2b68276.txz",
+      "local_path": "files/17_Vainrat_21ea2d03fd4f943cb0d1c1f1dee63e3fc2b68276.txz"
+    }
+  ],
+  "solves": 67,
+  "path": "getting-there/17-vainrat"
+}

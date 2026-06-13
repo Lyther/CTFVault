@@ -1,0 +1,16 @@
+{
+  "id": 19,
+  "name": "Sobata",
+  "category": "Getting There 🤓",
+  "value": 500,
+  "dynamic_points": 103,
+  "description": "<p>Master <a href=\"/tasks/Sobata_960ddde9db079bcb5379cb6567f2fe9604d0bfc7.txz\"><strong>Sobata</strong></a> by dissecting ECC secrets, then tame its <code>walk</code> function’s hidden path.</p>\r\n<p><code>nc 91.107.252.0 11177</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Sobata_960ddde9db079bcb5379cb6567f2fe9604d0bfc7.txz",
+      "local_path": "files/19_Sobata_960ddde9db079bcb5379cb6567f2fe9604d0bfc7.txz"
+    }
+  ],
+  "solves": 44,
+  "path": "getting-there/19-sobata"
+}

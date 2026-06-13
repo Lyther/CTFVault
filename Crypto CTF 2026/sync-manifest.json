@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "path": "warm-up/1-welcome",
+    "name": "Welcome!",
+    "category": "Warm-up ☕"
+  },
+  {
+    "id": 2,
+    "path": "easy-peasy/2-vinad",
+    "name": "Vinad",
+    "category": "Easy-Peasy 🍰"
+  },
+  {
+    "id": 3,
+    "path": "brain-buster/3-multi-shooti",
+    "name": "Multi shooti",
+    "category": "Brain Buster 🤯"
+  },
+  {
+    "id": 4,
+    "path": "getting-there/4-nahan",
+    "name": "Nahan",
+    "category": "Getting There 🤓"
+  },
+  {
+    "id": 5,
+    "path": "tough-cookie/5-lowdown",
+    "name": "Lowdown",
+    "category": "Tough Cookie 🥴"
+  },
+  {
+    "id": 6,
+    "path": "getting-there/6-ikkyu-san",
+    "name": "Ikkyu San",
+    "category": "Getting There 🤓"
+  },
+  {
+    "id": 7,
+    "path": "head-scratcher/7-hoshi",
+    "name": "Hoshi",
+    "category": "Head-Scratcher 😵‍💫"
+  },
+  {
+    "id": 8,
+    "path": "tough-cookie/8-goliver-ii",
+    "name": "Goliver II",
+    "category": "Tough Cookie 🥴"
+  },
+  {
+    "id": 9,
+    "path": "getting-there/9-asis-primes",
+    "name": "ASIS Primes",
+    "category": "Getting There 🤓"
+  },
+  {
+    "id": 10,
+    "path": "head-scratcher/10-alice-sig-slip",
+    "name": "Alice Sig Slip",
+    "category": "Head-Scratcher 😵‍💫"
+  },
+  {
+    "id": 17,
+    "path": "getting-there/17-vainrat",
+    "name": "Vainrat",
+    "category": "Getting There 🤓"
+  },
+  {
+    "id": 18,
+    "path": "tough-cookie/18-pearls",
+    "name": "Pearls",
+    "category": "Tough Cookie 🥴"
+  },
+  {
+    "id": 19,
+    "path": "getting-there/19-sobata",
+    "name": "Sobata",
+    "category": "Getting There 🤓"
+  },
+  {
+    "id": 20,
+    "path": "getting-there/20-mancity",
+    "name": "Mancity",
+    "category": "Getting There 🤓"
+  },
+  {
+    "id": 22,
+    "path": "tough-cookie/22-asemoon",
+    "name": "Asemoon",
+    "category": "Tough Cookie 🥴"
+  },
+  {
+    "id": 23,
+    "path": "brain-buster/23-phoney",
+    "name": "Phoney",
+    "category": "Brain Buster 🤯"
+  },
+  {
+    "id": 24,
+    "path": "easy-peasy/24-interpol",
+    "name": "Interpol",
+    "category": "Easy-Peasy 🍰"
+  },
+  {
+    "id": 31,
+    "path": "head-scratcher/31-singlerow",
+    "name": "SingleRow",
+    "category": "Head-Scratcher 😵‍💫"
+  },
+  {
+    "id": 32,
+    "path": "tough-cookie/32-toffee",
+    "name": "Toffee",
+    "category": "Tough Cookie 🥴"
+  },
+  {
+    "id": 33,
+    "path": "brain-buster/33-snails",
+    "name": "Snails",
+    "category": "Brain Buster 🤯"
+  },
+  {
+    "id": 34,
+    "path": "brain-buster/34-leptocole",
+    "name": "Leptocole",
+    "category": "Brain Buster 🤯"
+  },
+  {
+    "id": 36,
+    "path": "getting-there/36-matemith",
+    "name": "Matemith",
+    "category": "Getting There 🤓"
+  },
+  {
+    "id": 37,
+    "path": "tough-cookie/37-juliax",
+    "name": "Juliax",
+    "category": "Tough Cookie 🥴"
+  },
+  {
+    "id": 38,
+    "path": "tough-cookie/38-mitram",
+    "name": "Mitram",
+    "category": "Tough Cookie 🥴"
+  },
+  {
+    "id": 39,
+    "path": "tough-cookie/39-silky",
+    "name": "Silky",
+    "category": "Tough Cookie 🥴"
+  },
+  {
+    "id": 41,
+    "path": "easy-peasy/41-mechanic",
+    "name": "Mechanic",
+    "category": "Easy-Peasy 🍰"
+  },
+  {
+    "id": 42,
+    "path": "tough-cookie/42-mechanic-ii",
+    "name": "Mechanic II",
+    "category": "Tough Cookie 🥴"
+  },
+  {
+    "id": 45,
+    "path": "tough-cookie/45-sobata-ii",
+    "name": "Sobata II",
+    "category": "Tough Cookie 🥴"
+  }
+]

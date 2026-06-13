@@ -1,0 +1,16 @@
+{
+  "id": 37,
+  "name": "Juliax",
+  "category": "Tough Cookie 🥴",
+  "value": 500,
+  "dynamic_points": 354,
+  "description": "<p><a href=\"/tasks/Juliax_e68598304a9f57b607e4683329a3401ab0f63ad7.txz\"><strong>Juliax’s</strong></a> partial RSA key is like a half-baked cookie crumbling, but still oddly satisfying to crack!</p>\r\n",
+  "attachments": [
+    {
+      "filename": "Juliax_e68598304a9f57b607e4683329a3401ab0f63ad7.txz",
+      "local_path": "files/37_Juliax_e68598304a9f57b607e4683329a3401ab0f63ad7.txz"
+    }
+  ],
+  "solves": 7,
+  "path": "tough-cookie/37-juliax"
+}

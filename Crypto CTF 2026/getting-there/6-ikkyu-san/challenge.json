@@ -1,0 +1,16 @@
+{
+  "id": 6,
+  "name": "Ikkyu San",
+  "category": "Getting There 🤓",
+  "value": 500,
+  "dynamic_points": 138,
+  "description": "<p><a href=\"/tasks/Ikkyu_san_e8cd275eaf114667e2cbca06f24d1a0fddf60083.txz\"><strong>Ikkyu San</strong></a>, a sage child, developed a unique crypto-system that helps young CTF players identify and choose talented individuals.</p>\r\n<p><code>nc 91.107.252.0 37773</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Ikkyu_san_e8cd275eaf114667e2cbca06f24d1a0fddf60083.txz",
+      "local_path": "files/6_Ikkyu_san_e8cd275eaf114667e2cbca06f24d1a0fddf60083.txz"
+    }
+  ],
+  "solves": 31,
+  "path": "getting-there/6-ikkyu-san"
+}

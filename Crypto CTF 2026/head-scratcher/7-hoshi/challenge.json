@@ -1,0 +1,16 @@
+{
+  "id": 7,
+  "name": "Hoshi",
+  "category": "Head-Scratcher 😵‍💫",
+  "value": 500,
+  "dynamic_points": 375,
+  "description": "<p><a href=\"/tasks/Hoshi_06a283c6e36b1837cf65de2a6a1940c20989ee4f.txz\">Hoshi</a>: a cryptic puzzle demanding brilliance, where only the sharpest minds unravel its celestial secrets.</p>\r\n<p><code>nc 91.107.252.0 31117</code></p>\r\n",
+  "attachments": [
+    {
+      "filename": "Hoshi_06a283c6e36b1837cf65de2a6a1940c20989ee4f.txz",
+      "local_path": "files/7_Hoshi_06a283c6e36b1837cf65de2a6a1940c20989ee4f.txz"
+    }
+  ],
+  "solves": 6,
+  "path": "head-scratcher/7-hoshi"
+}
