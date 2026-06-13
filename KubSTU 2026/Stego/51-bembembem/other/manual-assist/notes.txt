@@ -1,0 +1,101 @@
+Current progress for manual assist
+================================
+
+1. Hidden instruction block recovered from the MP4 tail:
+
+========================================
+  bembembem :: записки бурмалдайца
+========================================
+
+ты выловил бутылку от начальника из муринской квартиры №67.
+
+I. слушать не ушами — смотреть цветами звука (нормалдаки).
+   сорок вторая минута, выше десяти тысяч (омайгадность).
+   что рисует шёпот в спектре — то и кодовое слово.
+   (регистр важен, ровно 8 символов.)
+
+II. у этого MP4 длинный хвост. хвост запечатан —
+   за последним атомом лежит груз, XORенный
+   повторяющимся ключом. ключ уже в метаданных
+   файла, зверь носит его на лбу: vid_md5 в hex
+   (32 ASCII-символа).
+
+III. под печатью — старый сундук формата PK.
+    отопри тем, что прошептал спектр.
+    внутри: виноград, сливы, яблоки на зелёных, бананы
+
+три шага, три ключа, одна строка.
+удачи.
+========================================
+
+2. XOR step is already done.
+
+- Metadata key: vid_md5 = 6899efc8f52bffb08c5ac45deee24f64
+- XOR of trailing bytes after the final valid MP4 atom produced:
+  - bembembem_trailer.zip
+
+3. The ZIP is valid and encrypted with ZipCrypto.
+
+- Files inside:
+  - flag.txt
+  - readme.txt
+
+4. What still needs manual help:
+
+- Inspect the spectrogram around the 42nd minute of the audio.
+- The note wording strongly suggests this means the interval 41:00-41:59.
+- The strongest ultrasonic activity is around:
+  - 41:38-41:40
+  - 41:57-41:58
+
+5. Important correction:
+
+- The first inspection set was generated after downmixing to mono.
+- That may have destroyed the hidden word if it is stored differently in left and
+  right channels or in their difference.
+- The better manual targets are the new stereo burst images below.
+
+6. Prepared files for visual inspection:
+
+- 41m37_41m41.png
+- 41m56_41m59.png
+- stft_a_095.png
+- stft_a_097.png
+- stft_a_099.png
+
+7. Best current manual targets:
+
+Folder:
+
+- `stereo-bursts/`
+
+Files:
+
+- `stereo-bursts/burst1_left.png`
+- `stereo-bursts/burst1_right.png`
+- `stereo-bursts/burst1_sum.png`
+- `stereo-bursts/burst1_diff.png`
+- `stereo-bursts/burst2_left.png`
+- `stereo-bursts/burst2_right.png`
+- `stereo-bursts/burst2_sum.png`
+- `stereo-bursts/burst2_diff.png`
+
+Meaning:
+
+- `burst1_*` covers about `41:38.5` to `41:40.1`
+- `burst2_*` covers about `41:57.1` to `41:58.6`
+- `left` and `right` are separate stereo channels
+- `sum` is `L+R`
+- `diff` is `L-R`
+
+What to try:
+
+- Open `sum` and `diff` first.
+- If nothing is obvious, check `left` and `right` separately.
+- Try invert / high contrast if your viewer supports it.
+- The expected result is one 8-character case-sensitive word.
+
+Goal:
+
+- Read the 8-character case-sensitive code word from the spectrogram.
+- Then use it as the password for bembembem_trailer.zip.

@@ -1,0 +1,13 @@
+{
+  "id": 38,
+  "name": "Capybara Admin Portal",
+  "category": "Web",
+  "value": 999,
+  "description": "Админ капибар хранит какой-то важный секрет. Нам удалось узнать только ID его аккаунта - `239716013`. Достаньте этот секрет как можно скорее.\r\r\n\r\r\nhttp://155.212.132.248\r\r\nhttp://83.222.27.64\r\r\n\r\r\n---\r\r\n\r\r\nThe capybara admin is keeping some important secret. We only managed to find out the ID of his account — `239716013`. Retrieve this secret as soon as possible.\r\r\n\r\r\nhttp://155.212.132.248\r\r\nhttp://83.222.27.64",
+  "attachments": [],
+  "author": "@alekseeee",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 13,
+  "path": "Web/38-capybara-admin-portal"
+}

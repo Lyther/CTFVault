@@ -1,0 +1,32 @@
+Current status: UNSOLVED
+
+Packet Tracer:
+- files/14_LightA.pkt decoded to files/14_LightA.xml
+- PC COOPER R.: 10.10.10.10/24 via 10.10.10.1
+- Router Mastif_0828: Gi0/0.10 = 10.10.10.1, Gi0/0.20 = 10.20.20.1
+- Server#1: 10.20.20.100/24
+- Switch description clue: Linked_by_14mB4mb00zl3r
+
+Server-side clues:
+- http:/index.html says the key is archived in copyrights
+- http:/copyrights.html contains kubstu(end_user_license_agreement)
+- FTP account exists: cisco:cisco
+- no custom flag file found in c:/, ftp:/, tftp:/, http:/, or ioe:/
+
+Image extraction:
+- other/extracted-images/wozduhan-from-pkt.jpg
+- other/extracted-images/cluster-bg.jpg
+- stock logo is other/extracted-images/cscoptlogo177x111.jpg
+- RGB LSB renders contain six isolated 8x8 white blocks above the head
+
+Outguess:
+- only key with plausible header: copyrights
+- both embedded JPEGs give seed 29105, len 5625
+- payloads:
+  - other/outguess-extract/copyrights.noec.bin
+  - other/outguess-extract/cluster-copyrights.noec.bin
+- extractor was validated with a local round-trip test, so the non-ECC extraction path is real
+
+Blocker:
+- extracted 5625-byte blob has no recognizable format
+- no convincing second clue exists for a next key, transform, or decoder

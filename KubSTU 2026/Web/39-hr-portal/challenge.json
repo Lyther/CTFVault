@@ -1,0 +1,13 @@
+{
+  "id": 39,
+  "name": "HR portal",
+  "category": "Web",
+  "value": 1000,
+  "description": "Все специалисты знают: главный в компании — не директор, а HR. Именно он решает судьбу и вручает заветный оффер. Исследуйте наш новый портал и раскройте секреты HR-менеджера\r\r\n\r\r\nhttp://159.194.221.24\r\r\n\r\r\n---\r\r\n\r\r\nEvery specialist knows: the most important person in a company is not the director, but HR. It is HR who decides your fate and hands out the coveted job offer. Explore our new portal and uncover the secrets of the HR manager.\r\r\n\r\r\nhttp://159.194.221.24",
+  "attachments": [],
+  "author": "@alekseeee",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 9,
+  "path": "Web/39-hr-portal"
+}

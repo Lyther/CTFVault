@@ -1,0 +1,13 @@
+{
+  "id": 25,
+  "name": "CapyAgro Crop Rescue",
+  "category": "Web",
+  "value": 100,
+  "description": "В экспериментальной теплице №3 на территории CapyAgro произошёл сбой системы управления. Штатные инженеры не могут получить доступ к панели управления. Растения гибнут. Вам, как внешним аудиторам, нужно найти способ восстановить контроль над системой и вернуть параметры в норму.\r\r\n\r\r\nhttp://45.146.165.92\r\r\nhttp://155.212.186.67\r\r\n\r\r\n-----\r\r\nIn experimental greenhouse No. 3 on the territory of CapyAgro, the control system has failed. Staff engineers cannot access the control panel. Plants are dying. As external auditors, you need to find a way to regain control of the system and return the parameters to normal.\r\r\n\r\r\nhttp://45.146.165.92\r\r\nhttp://155.212.186.67",
+  "attachments": [],
+  "author": "@cyber_meow",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 337,
+  "path": "Web/25-capyagro-crop-rescue"
+}

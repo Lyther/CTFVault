@@ -1,0 +1,13 @@
+{
+  "id": 28,
+  "name": "Библиотека Капибара-Сити",
+  "category": "Web",
+  "value": 943,
+  "description": "Старый библиотекарь Капибара спрятал секретный свиток в системе, но забыл куда. Говорят, он оставил подсказку в самом сервере… где-то в забытом файле.\r\r\n\r\r\nhttp://31.129.105.124\r\r\nhttp://155.212.135.246\r\r\n\r\r\n---\r\r\n\r\r\nThe old librarian Capybara hid a secret scroll in the system but forgot where. They say he left a clue in the server itself... somewhere in a forgotten file.\r\r\n\r\r\nhttp://31.129.105.124\r\r\nhttp://155.212.135.246",
+  "attachments": [],
+  "author": "@alekseeee",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 77,
+  "path": "Web/28-библиотека-капибара-сити"
+}

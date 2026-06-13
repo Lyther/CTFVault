@@ -1,0 +1,18 @@
+{
+  "id": 46,
+  "name": "Unlucky 13",
+  "category": "Crypto",
+  "value": 757,
+  "description": "13 - несчастливое число. Три слоя шифрования, тринадцать причин не пытаться это расшифровать.\r\r\nКое-что утекло, надеюсь хоть это тебе поможет.\r\r\n\r\r\nФормат флага KubSTU{}\r\r\n\r\r\n---\r\r\n\r\r\n13 is an unlucky number. Three layers of encryption, thirteen reasons not to try to decrypt this.\r\r\nSomething leaked — hopefully it will help you.\r\r\n\r\r\nFlag format: KubSTU{}",
+  "attachments": [
+    {
+      "filename": "Unlucky_13.zip",
+      "local_path": "files/46_Unlucky_13.zip"
+    }
+  ],
+  "author": "@ST47IC4",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 157,
+  "path": "Crypto/46-unlucky-13"
+}

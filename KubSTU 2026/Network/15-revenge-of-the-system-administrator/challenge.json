@@ -1,0 +1,18 @@
+{
+  "id": 15,
+  "name": "Revenge of the System Administrator",
+  "category": "Network",
+  "value": 877,
+  "description": "В одной обычной школе назревает скандал. Системный администратор, проработавший чуть меньше годам работавший за копейки, внезапно уволился, оставив после себя странную записку:  «Если вы думаете, что экономия на моих нервах пойдет на пользу школе — проверьте свои счета. Я оставил дверь открытой для тех, кто умеет смотреть».  Директор в панике: бухгалтерия утверждает, что доступ к серверу с финансовой отчетностью заблокирован, а все пароли изменены. Вы — приглашенный специалист по кибербезопасности. Ваша задача — проникнуть в сеть школы, восстановить цепочку событий и найти доказательства хищений. \r\n\r\n---\r\n\r\nAt an ordinary school, a scandal is brewing. The system administrator, who worked for just under a year for pennies, suddenly quit, leaving behind a strange note: \"If you think that saving on my nerves will benefit the school — check your accounts. I left the door open for those who know how to look.\" The principal is in a panic: the accounting department says that access to the server with financial reports is blocked and all passwords have been changed. You are an invited cybersecurity specialist. Your task is to penetrate the school's network, reconstruct the chain of events, and find evidence of embezzlement.",
+  "attachments": [
+    {
+      "filename": "School.pkt",
+      "local_path": "files/15_School.pkt"
+    }
+  ],
+  "author": "@MellinBurmont",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 112,
+  "path": "Network/15-revenge-of-the-system-administrator"
+}

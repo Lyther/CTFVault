@@ -1,0 +1,18 @@
+{
+  "id": 9,
+  "name": "Vanilla raw",
+  "category": "Forensics",
+  "value": 884,
+  "description": "Нам передали дамп оперативной памяти, но почему-то мы не можем его проанализировать, помоги нам.\r\r\n\r\r\nФормат флага: `KubSTU{...}`\r\n\r\n---\r\n\r\nWe received a RAM dump, but for some reason we can't analyze it. Help us out.\r\n\r\nFlag format: `KubSTU{...}`",
+  "attachments": [
+    {
+      "filename": "memory.rar",
+      "local_path": "files/9_memory.rar"
+    }
+  ],
+  "author": "@Alkimor1",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 109,
+  "path": "Forensics/9-vanilla-raw"
+}

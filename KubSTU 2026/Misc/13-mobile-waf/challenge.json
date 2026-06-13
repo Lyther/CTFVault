@@ -1,0 +1,13 @@
+{
+  "id": 13,
+  "name": "Mobile Waf",
+  "category": "Misc",
+  "value": 530,
+  "description": "На наш вуз в последнее время очень много запросов поступает, и мне кажется, что они подозрительные. Подключаемся к сервису по `nc` и видим:\r\r\n\r\r\n```\r\r\n=== WAF Challenge ===\r\r\nYou need to correctly classify 100 HTTP requests as malicious or safe.\r\r\nFor each request, respond with:\r\r\n  - 'Block' if the request is malicious\r\r\n  - 'Allow' if the request is safe\r\r\nType 'Start' to begin:\r\r\n```\r\r\n\r\r\n**Задача.** Классифицировать 100 HTTP-запросов подряд без ошибок.\r\r\n\r\r\nФормат флага: `KubSTU(...)`\r\r\n\r\r\nnc 109.69.22.21:1337\r\r\nnc 5.35.82.129:1337\r\r\n\r\r\n---\r\r\n\r\r\nOur university has been receiving a lot of requests lately, and I think they look suspicious. We connect to the service via `nc` and see:\r\r\n\r\r\n```\r\r\n=== WAF Challenge ===\r\r\nYou need to correctly classify 100 HTTP requests as malicious or safe.\r\r\nFor each request, respond with:\r\r\n  - 'Block' if the request is malicious\r\r\n  - 'Allow' if the request is safe\r\r\nType 'Start' to begin:\r\r\n```\r\r\n\r\r\n**Task.** Classify 100 HTTP requests in a row without errors.\r\r\n\r\r\nFlag format: `KubSTU(...)`\r\r\n\r\r\nnc 109.69.22.21:1337\r\r\nnc 5.35.82.129:1337",
+  "attachments": [],
+  "author": "t.me/thankspluxury",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 218,
+  "path": "Misc/13-mobile-waf"
+}

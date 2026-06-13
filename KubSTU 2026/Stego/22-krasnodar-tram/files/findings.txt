@@ -1,0 +1,33 @@
+22-krasnodar-tram findings
+==========================
+
+Target files:
+- 22_267.jpg
+- 22_678.jpg
+
+22_267.jpg
+----------
+- JPEG SOI markers at byte offsets: 0, 4383, 13485
+- JPEG EOI markers at byte offsets: 11225, 20357, 515103
+- Main image decodes from SOI 0 to the final EOI as 1500x1000 RGB
+- The "mid image" is the EXIF thumbnail:
+  - IFD1 ThumbnailOffset: 4383
+  - IFD1 ThumbnailLength: 6844 bytes
+  - Decodes as 160x107 RGB
+  - Starts at the second SOI marker
+- A second embedded thumbnail exists in Photoshop metadata:
+  - Starts at SOI 13485
+  - Decodes as 160x107 RGB
+
+22_678.jpg
+----------
+- JPEG SOI markers at byte offsets: 0
+- JPEG EOI markers at byte offsets: 714528
+- No secondary embedded JPEG markers were found by raw marker scan
+- XMP metadata mentions "Primary, GainMap", but no second standalone JPEG was
+  recoverable from the file by SOI/EOI carving
+
+Conclusion
+----------
+- The only real "mid image" is inside 22_267.jpg at offset 4383
+- 22_678.jpg appears structurally single-image from raw JPEG marker analysis

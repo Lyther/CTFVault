@@ -1,0 +1,18 @@
+{
+  "id": 17,
+  "name": "Bad OpSec",
+  "category": "OSINT",
+  "value": 998,
+  "description": "Один мой знакомый пересмотрел фильмов про хакеров и пытается быть таким же скрытным. Давай ему объясним, что это не так. Найди номер рейса, куда он прилетел, и во сколько.\r\r\n\r\r\nФормат флага: `KubSTU{Flight_City_Arrival:Time}`\r\r\n\r\r\n---\r\r\n\r\r\nA friend of mine watched too many hacker movies and is trying to be just as secretive. Let's show him that it's not working. Find the flight number he arrived on and at what time.\r\r\n\r\r\nFlag format: `KubSTU{Flight_City_Arrival:Time}`",
+  "attachments": [
+    {
+      "filename": "image_3.png",
+      "local_path": "files/17_image_3.png"
+    }
+  ],
+  "author": "@borsch_krd",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 16,
+  "path": "OSINT/17-bad-opsec"
+}

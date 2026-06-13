@@ -1,0 +1,13 @@
+{
+  "id": 26,
+  "name": "CapyBlog",
+  "category": "Web",
+  "value": 612,
+  "description": "В последнее время смена темы барахлит. Может, это всё из-за жуков? Раньше сайт так же работал?\r\r\n\r\r\nhttp://193.42.127.24\r\r\nhttp://159.194.209.128\r\r\n\r\r\n----\r\r\nLately, the theme change is buggy. Maybe it's because of the bugs? Did the site work the same way before?\r\r\n\r\r\nhttp://193.42.127.24\r\r\nhttp://159.194.209.128",
+  "attachments": [],
+  "author": "@cyber_meow",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 198,
+  "path": "Web/26-capyblog"
+}

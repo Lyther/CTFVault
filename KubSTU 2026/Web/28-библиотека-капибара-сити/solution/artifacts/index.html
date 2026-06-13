@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека Капиба-Сити</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍊 Библиотека Капиба-Сити 🍊</h1>
+            <p>Добро пожаловать в главный архив нашего города. Здесь хранятся все знания великих капибар.</p>
+        </header>
+        
+        <main>
+            <div class="search-box">
+                <h2>Проверка наличия книги</h2>
+                <p>Введите ID книги для проверки её наличия в архиве:</p>
+                <div class="input-group">
+                    <input type="text" id="bookId" placeholder="Например: 1">
+                    <button onclick="checkBook()">Проверить</button>
+                </div>
+                <div id="result" class="result-area"></div>
+            </div>
+
+            <div class="info-section">
+                <h3>Доступные разделы:</h3>
+                <ul>
+                    <li>ID 1: История города</li>
+                    <li>ID 2: Культура и отдых</li>
+                    <li>ID 3: Дипломатия</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Муниципалитет Капиба-Сити. Все права защищены грызунами.</p>
+        </footer>
+    </div>
+
+    <script>
+        function checkBook() {
+            const id = document.getElementById('bookId').value;
+            const resultDiv = document.getElementById('result');
+            
+            // Формируем XML запрос
+            const xmlData = `<?xml version="1.0" encoding="UTF-8"?>
+<book>
+    <id>${id}</id>
+</book>`;
+
+            fetch('/check_book', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/xml'
+                },
+                body: xmlData
+            })
+            .then(response => response.text())
+            .then(data => {
+                resultDiv.innerText = data;
+                resultDiv.style.display = 'block';
+            })
+            .catch(error => {
+                resultDiv.innerText = 'Ошибка: ' + error;
+                resultDiv.style.display = 'block';
+            });
+        }
+    </script>
+</body>
+</html>

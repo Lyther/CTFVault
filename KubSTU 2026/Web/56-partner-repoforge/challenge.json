@@ -1,0 +1,13 @@
+{
+  "id": 56,
+  "name": "[Partner] repoforge",
+  "category": "Web",
+  "value": 912,
+  "description": "## 📋 Описание / Description\r\r\n\r\r\n🇷🇺 **RU**\r\r\n\r\r\nЭто задание от нашего партнера. Проходится на отдельной платформе.\r\r\nВаша задача — зарегистрироваться и запустить контейнер. Флаг, который вы найдёте, вставляете у нас :)\r\r\n\r\r\n**HackAdvisor Labs** — это образовательная CTF-платформа по кибербезопасности, где каждое задание представляет собой изолированное веб-приложение с реальной уязвимостью, которую нужно найти и проэксплуатировать для получения флага.\r\r\n\r\r\n---\r\r\n\r\r\n🇬🇧 **EN**\r\r\n\r\r\nThis is a task from our partner. It takes place on a separate platform.\r\r\nYour task is to register and launch a container. The flag that you find is inserted by us :)\r\r\n\r\r\n**HackAdvisor Labs** is an educational cybersecurity CTF platform where each challenge is an isolated web application with a real vulnerability that needs to be found and exploited to obtain a flag.\r\r\n\r\r\n---\r\r\n\r\r\n**👉 [HackAdvisor Labs — Challenge](https://labs.hackadvisor.io/ru/challenges/repoforge-kubstu-event)**",
+  "attachments": [],
+  "author": null,
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 95,
+  "path": "Web/56-partner-repoforge"
+}

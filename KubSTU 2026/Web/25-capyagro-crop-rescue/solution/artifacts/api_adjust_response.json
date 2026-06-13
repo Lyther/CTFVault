@@ -1,0 +1,13 @@
+{
+  "all_capyagro_saved": true,
+  "flag": "KubSTU(Sav3d_th3_CapyArg0S3ct0r)",
+  "message": "\u0412\u0441\u0435 \u0441\u0435\u043a\u0442\u043e\u0440\u0430 CapyAgro \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u044b! \u0423\u0440\u043e\u0436\u0430\u0439 \u0441\u043f\u0430\u0441\u0451\u043d!",
+  "sector": {
+    "humidity": 65.0,
+    "id": 7364,
+    "is_capyagro": true,
+    "sector_number": 4,
+    "temp": 24.0
+  },
+  "success": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": 8,
+  "name": "Is the report in English?",
+  "category": "Forensics",
+  "value": 385,
+  "description": "На почту пришёл странный файл — финансовый отчёт, да ещё и на английском.\r\r\n\r\r\nФормат флага: `KubSTU{...}`\r\n\r\n---\r\n\r\nA strange file arrived by email — a financial report, and it's in English too.\r\n\r\nFlag format: `KubSTU{...}`",
+  "attachments": [
+    {
+      "filename": "KUBSTU_Financial_Report_2025.pdf",
+      "local_path": "files/8_KUBSTU_Financial_Report_2025.pdf"
+    }
+  ],
+  "author": "@Alkimor1",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 249,
+  "path": "Forensics/8-is-the-report-in-english"
+}

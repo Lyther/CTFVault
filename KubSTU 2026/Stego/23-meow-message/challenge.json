@@ -1,0 +1,18 @@
+{
+  "id": 23,
+  "name": "Meow Message",
+  "category": "Stego",
+  "value": 100,
+  "description": "Категория: **Стеганография**. Сложность: **Easy**.\r\r\n\r\r\nДан текстовый файл `message.txt` с ASCII-артом котика и стишком на русском языке. На первый взгляд — просто милая картинка с текстом.\r\r\n\r\r\n*Подсказка: «Не всё, что кажется пустым, на самом деле пусто».*\r\r\n\r\r\nФормат флага: `KubSTU{...}`\r\n\r\n---\r\n\r\nCategory: **Steganography**. Difficulty: **Easy**.\r\n\r\nA text file `message.txt` is given containing an ASCII art cat and a poem in Russian. At first glance — just a cute picture with text.\r\n\r\n*Hint: \"Not everything that seems empty is actually empty.\"*\r\n\r\nFlag format: `KubSTU{...}`",
+  "attachments": [
+    {
+      "filename": "message.txt",
+      "local_path": "files/23_message.txt"
+    }
+  ],
+  "author": "@van_1pi",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 438,
+  "path": "Stego/23-meow-message"
+}

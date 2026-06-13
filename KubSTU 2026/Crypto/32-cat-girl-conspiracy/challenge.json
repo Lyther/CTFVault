@@ -1,0 +1,18 @@
+{
+  "id": 32,
+  "name": "Cat-girl conspiracy",
+  "category": "Crypto",
+  "value": 936,
+  "description": "Слушай, какой-то странный это архив, ещё и название какое-то странное??\r\nРазберись с этим как только сможешь, пожалуйста\r\nФормат флага KUBSTU{}\r\n\r\n---\r\n\r\nListen, this is a strange archive, and the name is weird too??\r\nDeal with this as soon as you can, please.\r\nFlag format: KUBSTU{}",
+  "attachments": [
+    {
+      "filename": "64_what_could_this_mean.zip",
+      "local_path": "files/32_64_what_could_this_mean.zip"
+    }
+  ],
+  "author": "@ST47IC4",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 81,
+  "path": "Crypto/32-cat-girl-conspiracy"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 20,
+  "name": "Where is my Faculty?",
+  "category": "OSINT",
+  "value": 100,
+  "description": "Капибара всё забыла.\r\r\n\r\r\n**Задание.** Когда-то один факультет носил название **ИКСиИБ**, но позже его переименовали. Теперь она никак не может вспомнить:\r\r\n\r\r\n1. Как он называется сейчас?\r\r\n2. Когда у него «день рождения»?\r\r\n\r\r\nПомоги капибаре восстановить справедливость.\r\r\n\r\r\nФормат флага: `KUBSTU{Аббревиатура_ДД.ММ.ГГГГ}`\r\n\r\n---\r\n\r\nThe capybara forgot everything.\r\n\r\n**Task.** Once upon a time, a faculty was called **IKSiIB**, but later it was renamed. Now the capybara can't remember:\r\n\r\n1. What is it called now?\r\n2. When is its \"birthday\"?\r\n\r\nHelp the capybara restore justice.\r\n\r\nFlag format: `KUBSTU{Abbreviation_DD.MM.YYYY}`",
+  "attachments": [],
+  "author": "@van_1pi",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 402,
+  "path": "OSINT/20-where-is-my-faculty"
+}

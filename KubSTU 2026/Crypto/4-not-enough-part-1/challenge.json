@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "name": "Not enough part 1",
+  "category": "Crypto",
+  "value": 100,
+  "description": "Во время дампа системы часть параметров оказалась повреждена: от `p` сохранились только часть бит, последние 72 бита были потеряны. Затем из восстановленных параметров был получен ключ путём хеширования секрета (ещё уцелело это, по-моему, AES-GCM?).\r\r\n\r\r\nФормат флага: `KubSTU{...}`\r\n\r\n---\r\n\r\nDuring a system dump, some parameters were corrupted: the last 72 bits of `p` were lost. Then, from the recovered parameters, a key was derived by hashing the secret (I think it was AES-GCM?).\r\n\r\nFlag format: `KubSTU{...}`",
+  "attachments": [
+    {
+      "filename": "output.txt",
+      "local_path": "files/4_output.txt"
+    }
+  ],
+  "author": "@ST47IC4",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 355,
+  "path": "Crypto/4-not-enough-part-1"
+}

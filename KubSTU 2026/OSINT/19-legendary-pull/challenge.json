@@ -1,0 +1,18 @@
+{
+  "id": 19,
+  "name": "Legendary pull",
+  "category": "OSINT",
+  "value": 999,
+  "description": "У меня слишком много вопросов к данной ситуации и нет ответов. Найди послание кубанского туриста.\r\n\r\n---\r\n\r\nI have too many questions about this situation and no answers. Find the message from the Kuban tourist.",
+  "attachments": [
+    {
+      "filename": "image.png",
+      "local_path": "files/19_image.png"
+    }
+  ],
+  "author": "@borsch_krd",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 13,
+  "path": "OSINT/19-legendary-pull"
+}

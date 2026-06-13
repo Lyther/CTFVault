@@ -1,0 +1,1 @@
+KubSTU{SQLi,shell.php,dbadmin,confidential_data.sql}

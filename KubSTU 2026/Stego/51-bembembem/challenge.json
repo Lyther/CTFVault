@@ -1,0 +1,18 @@
+{
+  "id": 51,
+  "name": "bembembem",
+  "category": "Stego",
+  "value": 988,
+  "description": "Здесь точно есть флаг, но придётся пройти через Мурино, Молочное и возможно встретить котость\r\n\r\n---\r\n\r\nThere is definitely a flag here, but you'll have to go through Murino, Molochnoe, and you might encounter a \"cat-ness\" along the way.",
+  "attachments": [
+    {
+      "filename": "bembembem.mp4",
+      "local_path": "files/51_bembembem.mp4"
+    }
+  ],
+  "author": null,
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 37,
+  "path": "Stego/51-bembembem"
+}

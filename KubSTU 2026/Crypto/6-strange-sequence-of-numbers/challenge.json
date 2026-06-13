@@ -1,0 +1,18 @@
+{
+  "id": 6,
+  "name": "Strange sequence of numbers",
+  "category": "Crypto",
+  "value": 100,
+  "description": "Получил странный документ с числами внутри, что это может значить?\r\r\n\r\r\nФормат флага: `KubSTU(...)`\r\n\r\n---\r\n\r\nI received a strange document with numbers inside. What could it mean?\r\n\r\nFlag format: `KubSTU(...)`",
+  "attachments": [
+    {
+      "filename": "strange_sequence_of_numbers.txt",
+      "local_path": "files/6_strange_sequence_of_numbers.txt"
+    }
+  ],
+  "author": "@ST47IC4",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 540,
+  "path": "Crypto/6-strange-sequence-of-numbers"
+}

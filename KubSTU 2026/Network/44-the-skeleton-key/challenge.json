@@ -1,0 +1,18 @@
+{
+  "id": 44,
+  "name": "The skeleton key",
+  "category": "Network",
+  "value": 818,
+  "description": "Сообщение: «Слушай, у нас какой-то хаос на одном из свичей. Постоянно сыпятся ошибки на портах, логи забиты, но из-за какой-то блокировки конфигурации я не могу пробиться через уровни доступа, чтобы понять, какой интерфейс сбоит.\r\n\r\nПосмотри, что там вообще происходит — мне нужен не просто отчет, а решение проблемы, чтобы сеть перестала сыпать предупреждениями. Только не вздумай сносить конфиг!»\r\n\r\n---\r\n\r\nMessage: \"Listen, we've got some chaos on one of the switches. Errors keep piling up on the ports, logs are full, but because of some configuration lock I can't get through the access levels to figure out which interface is failing.\r\n\r\nTake a look at what's going on — I don't just need a report, I need a solution so the network stops throwing warnings. And don't even think about wiping the config!\"",
+  "attachments": [
+    {
+      "filename": "3_in_1_1.pkt",
+      "local_path": "files/44_3_in_1_1.pkt"
+    }
+  ],
+  "author": "@MellinBurmont",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 136,
+  "path": "Network/44-the-skeleton-key"
+}

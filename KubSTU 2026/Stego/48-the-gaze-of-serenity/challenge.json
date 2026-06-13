@@ -1,0 +1,18 @@
+{
+  "id": 48,
+  "name": "The Gaze of Serenity",
+  "category": "Stego",
+  "value": 1000,
+  "description": "Описания не будет\r\n\r\n---\r\n\r\nNo description will be provided.",
+  "attachments": [
+    {
+      "filename": "image_5.png",
+      "local_path": "files/48_image_5.png"
+    }
+  ],
+  "author": "@MellinBurmont",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 0,
+  "path": "Stego/48-the-gaze-of-serenity"
+}

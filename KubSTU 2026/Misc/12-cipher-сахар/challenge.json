@@ -1,0 +1,18 @@
+{
+  "id": 12,
+  "name": "Cipher \"Сахар\"",
+  "category": "Misc",
+  "value": 935,
+  "description": "\"Sugar Capybara Talks - группа капибар из секретного подразделения шифрует свои переговоры проприетарным протоколом. В PCAP - их перехваченная сессия. Общаются с каким то сервером управления.\r\r\nВот сервер \r\r\nnc 217.26.29.80:31337\r\r\nnc 62.113.108.12:31337\"\r\r\n\r\r\n---\r\r\n\r\r\n\"Sugar Capybara Talks — a group of capybaras from a secret unit encrypts their communications with a proprietary protocol. The PCAP contains their intercepted session. They are communicating with some kind of command server.\r\r\nHere is the server:\r\r\nnc 217.26.29.80:31337\r\r\nnc 62.113.108.12:31337\"",
+  "attachments": [
+    {
+      "filename": "sugar_traffic.pcap",
+      "local_path": "files/12_sugar_traffic.pcap"
+    }
+  ],
+  "author": "t.me/thankspluxury",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 82,
+  "path": "Misc/12-cipher-сахар"
+}

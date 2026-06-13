@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard — bot8564</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-overlay"></div>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <h2 class="logo">VOTING SYSTEM</h2>
+                <div class="nav-links">
+                    <span class="username">bot8564</span>
+                    <a href="/" class="btn-link">Главная</a>
+                    <a href="/logout" class="btn-link">Выход</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="page-layout">
+                <!-- Left: Subway Surfer GIF -->
+                <div class="gif-sidebar">
+                    <img src="/subway-surfer.gif" alt="Subway Surfer" />
+                    <div class="gif-label">LIVE GAMEPLAY</div>
+                </div>
+
+                <div class="content-area">
+                    <div class="dashboard-header">
+                        <h1>DASHBOARD</h1>
+                        <p>Добро пожаловать, bot8564!</p>
+                    </div>
+
+                    
+
+                    <div class="betting-section glass-card">
+                        <h2>СДЕЛАТЬ СТАВКУ</h2>
+                        <p>Угадайте количество лайков в текущем раунде</p>
+
+                        <div class="bet-form">
+                            <input type="number" id="bet-input" min="0" value="0" placeholder="Кол-во лайков">
+                            <button onclick="placeBet()" class="btn-primary">Поставить</button>
+                        </div>
+                        <div id="bet-message" class="message" style="display:none"></div>
+
+                        <div class="timer-info">
+                            <p>Осталось времени: <span id="dashboard-timer">5:00</span></p>
+                        </div>
+                    </div>
+
+                    <div class="history-section glass-card">
+                        <h2>ИСТОРИЯ СТАВОК</h2>
+                        
+                        <p class="no-data">Ставок пока нет</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Music Player -->
+    <div class="music-player" id="music-player">
+        <div class="player-visualizer" id="visualizer">
+            <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+            <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+        </div>
+        <div class="player-track-info">
+            <div class="player-track-name" id="track-name">Loading tracks...</div>
+            <div class="player-progress" id="progress-bar" onclick="seekTrack(event)">
+                <div class="player-progress-fill" id="progress-fill"></div>
+            </div>
+        </div>
+        <div class="player-time" id="player-time">0:00 / 0:00</div>
+        <div class="player-controls">
+            <button class="player-btn" onclick="prevTrack()">⏮</button>
+            <button class="player-btn play-btn" id="play-btn" onclick="togglePlay()">▶</button>
+            <button class="player-btn" onclick="nextTrack()">⏭</button>
+        </div>
+        <div class="player-volume">
+            <span style="color:var(--text-secondary); font-size:0.9rem;">🔊</span>
+            <input type="range" min="0" max="1" step="0.05" value="0.5" oninput="setVolume(this.value)">
+        </div>
+    </div>
+
+    <div id="particles-container"></div>
+
+    <script>
+        // ====== PARTICLES ======
+        (function createParticles() {
+            const container = document.getElementById('particles-container');
+            for (let i = 0; i < 30; i++) {
+                const p = document.createElement('div');
+                p.className = 'particle';
+                p.style.left = Math.random() * 100 + 'vw';
+                p.style.animationDuration = (8 + Math.random() * 12) + 's';
+                p.style.animationDelay = (Math.random() * 10) + 's';
+                p.style.width = p.style.height = (2 + Math.random() * 3) + 'px';
+                const colors = ['#6c5ce7','#00cec9','#fd79a8','#a29bfe','#00ff88'];
+                p.style.background = colors[Math.floor(Math.random() * colors.length)];
+                container.appendChild(p);
+            }
+        })();
+
+        // ====== MUSIC PLAYER ======
+        let tracks = [];
+        let currentTrackIndex = 0;
+        let audio = new Audio();
+        audio.volume = 0.5;
+        let isPlaying = false;
+
+        async function loadTracks() {
+            try {
+                const res = await fetch('/api/music_list');
+                const data = await res.json();
+                tracks = data.tracks;
+                if (tracks.length > 0) {
+                    loadTrack(0);
+                    audio.play().then(() => { isPlaying = true; updatePlayBtn(); }).catch(() => {});
+                }
+            } catch(e) { console.error('Failed to load tracks', e); }
+        }
+
+        function loadTrack(index) {
+            currentTrackIndex = index;
+            const name = tracks[index];
+            audio.src = '/music/' + encodeURIComponent(name);
+            const displayName = name.replace(/\.mp3$/i,'').replace(/_/g,' ').replace(/-/g,' ');
+            document.getElementById('track-name').textContent = displayName;
+        }
+
+        function togglePlay() {
+            if (isPlaying) { audio.pause(); } else { audio.play().catch(()=>{}); }
+            isPlaying = !isPlaying;
+            updatePlayBtn();
+        }
+
+        function updatePlayBtn() {
+            const btn = document.getElementById('play-btn');
+            const viz = document.getElementById('visualizer');
+            if (isPlaying) { btn.textContent = '⏸'; viz.classList.remove('paused'); }
+            else { btn.textContent = '▶'; viz.classList.add('paused'); }
+        }
+
+        function nextTrack() { loadTrack((currentTrackIndex + 1) % tracks.length); if (isPlaying) audio.play().catch(()=>{}); }
+        function prevTrack() { loadTrack((currentTrackIndex - 1 + tracks.length) % tracks.length); if (isPlaying) audio.play().catch(()=>{}); }
+        audio.addEventListener('ended', nextTrack);
+
+        audio.addEventListener('timeupdate', () => {
+            if (audio.duration) {
+                document.getElementById('progress-fill').style.width = ((audio.currentTime / audio.duration) * 100) + '%';
+                document.getElementById('player-time').textContent = formatTime(audio.currentTime) + ' / ' + formatTime(audio.duration);
+            }
+        });
+
+        function formatTime(s) { return Math.floor(s/60) + ':' + String(Math.floor(s%60)).padStart(2,'0'); }
+        function seekTrack(e) { const r = document.getElementById('progress-bar').getBoundingClientRect(); if (audio.duration) audio.currentTime = ((e.clientX - r.left) / r.width) * audio.duration; }
+        function setVolume(v) { audio.volume = parseFloat(v); }
+        loadTracks();
+
+        // ====== BETTING ======
+        async function placeBet() {
+            const betValue = parseInt(document.getElementById('bet-input').value);
+            const messageDiv = document.getElementById('bet-message');
+            if (isNaN(betValue) || betValue < 0) {
+                messageDiv.textContent = 'Введите корректное значение';
+                messageDiv.className = 'message error';
+                messageDiv.style.display = 'block';
+                return;
+            }
+            try {
+                const response = await fetch('/api/bet', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({bet: betValue}) });
+                const data = await response.json();
+                if (response.ok) {
+                    messageDiv.textContent = 'Ставка успешно размещена!';
+                    messageDiv.className = 'message success';
+                } else {
+                    messageDiv.textContent = data.error || 'Ошибка размещения ставки';
+                    messageDiv.className = 'message error';
+                }
+                messageDiv.style.display = 'block';
+            } catch (error) {
+                messageDiv.textContent = 'Ошибка подключения';
+                messageDiv.className = 'message error';
+                messageDiv.style.display = 'block';
+            }
+        }
+
+        // ====== TIMER ======
+        let localRemaining = 300;
+        let lastSyncTime = Date.now();
+        const ROUND_DURATION = 300;
+
+        async function syncWithServer() {
+            try {
+                const response = await fetch('/api/timer');
+                const data = await response.json();
+                localRemaining = Math.max(0, data.remaining);
+                lastSyncTime = Date.now();
+            } catch (error) { console.error('Sync error:', error); }
+        }
+
+        function updateTimer() {
+            const now = Date.now();
+            const elapsed = (now - lastSyncTime) / 1000;
+            if (localRemaining > 0) localRemaining = Math.max(0, localRemaining - elapsed);
+            const minutes = Math.floor(localRemaining / 60);
+            const seconds = Math.floor(localRemaining % 60);
+            const displayTime = minutes > 0
+                ? `${minutes}:${String(seconds).padStart(2, '0')}`
+                : localRemaining.toFixed(1);
+            document.getElementById('dashboard-timer').textContent = displayTime;
+            lastSyncTime = now;
+        }
+
+        syncWithServer();
+        setInterval(updateTimer, 1000);
+        setInterval(syncWithServer, 20000);
+    </script>
+</body>
+</html>

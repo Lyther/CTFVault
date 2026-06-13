@@ -1,0 +1,18 @@
+{
+  "id": 29,
+  "name": "Tunnel?",
+  "category": "Forensics",
+  "value": 951,
+  "description": "Наш отдел ИБ зафиксировал подозрительную активность на одном из рабочих компьютеров. Похоже, злоумышленник смог вынести какие-то данные, используя нестандартный канал связи.\r\n\r\n---\r\n\r\nOur information security department detected suspicious activity on one of the work computers. It appears that an attacker was able to exfiltrate some data using a non-standard communication channel.",
+  "attachments": [
+    {
+      "filename": "Krasnodar.pcap",
+      "local_path": "files/29_Krasnodar.pcap"
+    }
+  ],
+  "author": "@Alkimor1",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 71,
+  "path": "Forensics/29-tunnel"
+}

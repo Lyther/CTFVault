@@ -1,0 +1,18 @@
+{
+  "id": 45,
+  "name": "Nintendo 3DS",
+  "category": "Crypto",
+  "value": 799,
+  "description": "Слушай, я всё не могу запомнить название алгоритма, но что-то очень похожее на Nintendo 3DS, помоги разобраться что там вообще было написано^^\r\n\r\nФормат флага KubSTU{}\r\n\r\n---\r\n\r\nHey, I just can't remember the name of the algorithm, but it's something very similar to Nintendo 3DS. Help me figure out what was written there^^\r\n\r\nFlag format: KubSTU{}",
+  "attachments": [
+    {
+      "filename": "output_2.txt",
+      "local_path": "files/45_output_2.txt"
+    }
+  ],
+  "author": "@ST47IC4",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 143,
+  "path": "Crypto/45-nintendo-3ds"
+}

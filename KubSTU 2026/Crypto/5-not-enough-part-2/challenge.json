@@ -1,0 +1,18 @@
+{
+  "id": 5,
+  "name": "Not enough part 2",
+  "category": "Crypto",
+  "value": 999,
+  "description": "Во время аварийного `g`восстановления системы были сохранены лишь фрагменты двух \\*\\*\\*-ключей. От каждого простого числа уцелели только `c` старшие биты, а младшие были `??????`. После восстановления закрытых параметров из них был сформирован мастер-секрет, который затем `m`через KDF был превращён в ключ для чего-то.\r\r\n\r\r\n\r\r\n\r\r\nФормат флага: `KubSTU{...}`\r\n\r\n---\r\n\r\nDuring an emergency system recovery, only fragments of two ***-keys were saved. Only the top `c` bits of each prime number survived, while the lower bits were `??????`. After recovering the private parameters, a master secret was formed from them, which was then converted through KDF into a key for something.\r\n\r\nFlag format: `KubSTU{...}`",
+  "attachments": [
+    {
+      "filename": "output_1.txt",
+      "local_path": "files/5_output_1.txt"
+    }
+  ],
+  "author": "@ST47IC4",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 13,
+  "path": "Crypto/5-not-enough-part-2"
+}

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: must-revalidate
+Content-Description: File Transfer
+Content-Disposition: attachment; filename=backup-20260502-152752.zip
+Content-Length: 22503
+Content-Transfer-Encoding: binary
+Content-Type: application/zip
+Expires: 0
+Last-Modified: Sat, 02 May 2026 15:27:52 GMT
+Pragma: public
+Request-Id: f766e51e-b7e0-4cf1-aea7-1d7c9dbe867a
+X-Backup-Security: RgWh9SR9CZB1SJT3sO0ce+Z9yw1WnP2lvQ7JqkG4Kmo=:Q60415Gg6JKyVfCEnqCZOw==
+Date: Sat, 02 May 2026 15:27:52 GMT
+

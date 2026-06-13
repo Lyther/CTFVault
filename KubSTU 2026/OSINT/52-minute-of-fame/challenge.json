@@ -1,0 +1,13 @@
+{
+  "id": 52,
+  "name": "Minute of fame",
+  "category": "OSINT",
+  "value": 999,
+  "description": "Команда нашего университета в этом году оказалась на региональном ТВ, но я забыл где и когда публиковался сюжет. Помоги мне его найти.\r\r\n\r\r\nФормат флага - KubSTU{TVChannelName_ReleaseDate}\r\n\r\n---\r\n\r\nOur university's team was on regional TV this year, but I forgot where and when the segment was published. Help me find it.\r\n\r\nFlag format: KubSTU{TVChannelName_ReleaseDate}",
+  "attachments": [],
+  "author": "@borsch_krd",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 12,
+  "path": "OSINT/52-minute-of-fame"
+}

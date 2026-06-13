@@ -1,0 +1,18 @@
+{
+  "id": 18,
+  "name": "Founder",
+  "category": "OSINT",
+  "value": 100,
+  "description": "**Основатель.**\r\r\n\r\r\nВ центре Краснодара стоит прекрасный памятник. У его основания можно заметить трёх атаманов. Как думаешь, кто из них «главный»?\r\r\n\r\r\n*Подсказка: почитай историю...*\r\r\n\r\r\nФормат флага: `KUBSTU{Имя_Фамилия}`\r\n\r\n---\r\n\r\n**Founder.**\r\n\r\nIn the center of Krasnodar stands a beautiful monument. At its base, you can see three atamans. Who do you think is the \"main\" one?\r\n\r\n*Hint: read the history...*\r\n\r\nFlag format: `KUBSTU{FirstName_LastName}`",
+  "attachments": [
+    {
+      "filename": "image_2.png",
+      "local_path": "files/18_image_2.png"
+    }
+  ],
+  "author": "@van_1pi",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 344,
+  "path": "OSINT/18-founder"
+}

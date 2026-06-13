@@ -1,0 +1,18 @@
+{
+  "id": 50,
+  "name": "The Ancient Note",
+  "category": "Stego",
+  "value": 100,
+  "description": "Нам дан текстовый файл ancient_note.txt — якобы старинная рукопись из заброшенной библиотеки. Текст на английском языке, философские размышления о поиске скрытой истины.\r\n\r\n---\r\n\r\nWe are given a text file ancient_note.txt — supposedly an ancient manuscript from an abandoned library. The text is in English, philosophical reflections on the search for hidden truth.",
+  "attachments": [
+    {
+      "filename": "ancient_note.txt",
+      "local_path": "files/50_ancient_note.txt"
+    }
+  ],
+  "author": "@van_1pi",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 397,
+  "path": "Stego/50-the-ancient-note"
+}

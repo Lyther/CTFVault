@@ -1,0 +1,18 @@
+{
+  "id": 47,
+  "name": "Vanishing act",
+  "category": "Stego",
+  "value": 1000,
+  "description": "Красивый рисунок. Сам рисовал 😊\r\n\r\n---\r\n\r\nBeautiful drawing. Drew it myself.",
+  "attachments": [
+    {
+      "filename": "wozduhan.bmp",
+      "local_path": "files/47_wozduhan.bmp"
+    }
+  ],
+  "author": "@MellinBurmont",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 0,
+  "path": "Stego/47-vanishing-act"
+}

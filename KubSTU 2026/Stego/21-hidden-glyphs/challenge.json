@@ -1,0 +1,18 @@
+{
+  "id": 21,
+  "name": "Hidden Glyphs",
+  "category": "Stego",
+  "value": 100,
+  "description": "**Категория:** Steganography / Forensics. **Сложность:** HARD.\r\r\n\r\r\nНаш агент получил зашифрованный документ от информатора. Визуально это обычный PDF, но мы уверены, что в нём скрыто секретное послание.\r\r\n\r\r\nГоворят, что *«ширина взгляда определяет глубину понимания»*.\r\r\n\r\r\nНайдите флаг.\r\r\n\r\r\n**Файлы:** `stego_challenge.pdf` — PDF-документ со скрытым флагом.\r\r\n\r\r\n**Формат:** `KubSTU{...}`\r\n\r\n---\r\n\r\n**Category:** Steganography / Forensics. **Difficulty:** HARD.\r\n\r\nOur agent received an encrypted document from an informant. Visually, it's a regular PDF, but we are confident that a secret message is hidden in it.\r\n\r\nThey say that *\"the breadth of one's view determines the depth of understanding.\"*\r\n\r\nFind the flag.\r\n\r\n**Files:** `stego_challenge.pdf` — a PDF document with a hidden flag.\r\n\r\n**Format:** `KubSTU{...}`",
+  "attachments": [
+    {
+      "filename": "stego_challenge.pdf",
+      "local_path": "files/21_stego_challenge.pdf"
+    }
+  ],
+  "author": "@van_1pi",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 359,
+  "path": "Stego/21-hidden-glyphs"
+}

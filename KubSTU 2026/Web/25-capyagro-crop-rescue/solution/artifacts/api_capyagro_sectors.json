@@ -1,0 +1,12 @@
+{
+  "sectors": [
+    {
+      "humidity": 45.0,
+      "id": 7364,
+      "last_update": "2026-05-02 15:22:43",
+      "sector_number": 4,
+      "status": false,
+      "temp": 30.0
+    }
+  ]
+}

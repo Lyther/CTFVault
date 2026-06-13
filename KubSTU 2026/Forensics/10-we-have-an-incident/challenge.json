@@ -1,0 +1,18 @@
+{
+  "id": 10,
+  "name": "We have an incident!",
+  "category": "Forensics",
+  "value": 1000,
+  "description": "У нас в компании, кажется, произошёл инцидент, пока ничего не ясно, мы изолировали определённые машины от греха подальше. Команда реагирования плотно сотрудничает с вирусными аналитиками. Чтобы облегчить себе работу, нужно предоставить им ВПО, которые вы должны будете найти. Также есть подозрения, что производилась эксфильтрация. Выясните, что же произошло.\r\r\n\r\r\n**Формат флага:** `KubSTU{Уязвимость элемента/атака,которая привела к эскалации привилегий:Список ВПО, включая их расширения:Данные, которые эксфильтровали}`\r\r\n\r\r\n**Внимание!** Списки указывайте в порядке их временных меток запуска с учётом регистра, от раннего к позднему. В случае эксфильтрации также.\r\r\n\r\r\n**Пример:** `KubSTU{polkit:PwnKit.exe_revershell.exe_WannaCry.exe:Конфданные.doc_users.db}`\r\r\n\r\r\n---\r\r\n\r\r\nIt seems an incident has occurred at our company. Nothing is clear yet — we've isolated certain machines to be safe. The response team is working closely with virus analysts. To make their job easier, you need to provide them with the malware that you must find. There are also suspicions that data exfiltration took place. Find out what happened.\r\r\n\r\r\n**Flag format:** `KubSTU{Vulnerability of the element/attack that led to privilege escalation:List of malware including their extensions:Exfiltrated data}`\r\r\n\r\r\n**Note!** List items in chronological order of their launch timestamps (case-sensitive), from earliest to latest. Same applies to exfiltration.\r\r\n\r\r\n**Example:** `KubSTU{polkit:PwnKit.exe_revershell.exe_WannaCry.exe:ConfidentialData.doc_users.db}`",
+  "attachments": [
+    {
+      "filename": "We_have_an_incident.rar",
+      "local_path": "files/10_We_have_an_incident.rar"
+    }
+  ],
+  "author": "@Alkimor1",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 2,
+  "path": "Forensics/10-we-have-an-incident"
+}

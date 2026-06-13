@@ -1,0 +1,18 @@
+{
+  "id": 31,
+  "name": "Furry Cipher",
+  "category": "Crypto",
+  "value": 628,
+  "description": "Пролистывал свою почту и увидел письмо от FurryHater_2009) с просьбой расшифровать какое-то странное сообщение, а также он прикрепил два файла.\r\r\n\r\r\nФормат флага KubSTU()\r\n\r\n---\r\n\r\nI was scrolling through my email and saw a message from FurryHater_2009) asking to decrypt some strange message, and he also attached two files.\r\n\r\nFlag format: KubSTU()",
+  "attachments": [
+    {
+      "filename": "Furry_Cipher.zip",
+      "local_path": "files/31_Furry_Cipher.zip"
+    }
+  ],
+  "author": null,
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 194,
+  "path": "Crypto/31-furry-cipher"
+}

@@ -1,0 +1,18 @@
+{
+  "id": 34,
+  "name": "Morning without coordinates",
+  "category": "OSINT",
+  "value": 908,
+  "description": "Сессия позади — редкий момент, когда можно выдохнуть.\r\nВечером решили отметить окончание экзаменов и, как это часто бывает, слегка переоценили свои силы.\r\n\r\nУтром оказалось, что один из нашей компании пропал. Последнее, что помнят все — мы были где-то на Красноармейской. Дальше — провал.\r\n\r\nПосле обеда пропавший выходит на связь и присылает фотографию с сообщением:\r\n*«Вроде всё нормально. Пахнет морем, без понятия где я. Скиньте денег, попытаюсь домой добраться»*.\r\n\r\nТелефон на последнем дыхании, GPS глушат, а голова у всех по-прежнему тяжёлая.\r\n\r\nВся надежда на тебя — единственного, кто сохранил ясность мышления.\r\n**Определи город и точный адрес, где была сделана фотография.**\r\n\r\nФормат флага - `KubSTU{CityName_StreetName_BuildingNumber}`\r\n\r\n---\r\n\r\nThe exam session is over — a rare moment to breathe.\r\nIn the evening, we decided to celebrate the end of exams and, as it often happens, slightly overestimated our abilities.\r\n\r\nIn the morning, it turned out that one of our group had gone missing. The last thing everyone remembers — we were somewhere on Krasnoarmeyskaya Street. After that — a blackout.\r\n\r\nIn the afternoon, the missing person gets in touch and sends a photo with the message:\r\n*\"Seems fine. Smells like the sea, no idea where I am. Send me some money, I'll try to get home.\"*\r\n\r\nHis phone is on its last breath, GPS is jammed, and everyone's heads are still heavy.\r\n\r\nAll hope is on you — the only one who kept a clear head.\r\n**Determine the city and exact address where the photo was taken.**\r\n\r\nFlag format: `KubSTU{CityName_StreetName_BuildingNumber}`",
+  "attachments": [
+    {
+      "filename": "image_4.png",
+      "local_path": "files/34_image_4.png"
+    }
+  ],
+  "author": "@borsch_krd",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 97,
+  "path": "OSINT/34-morning-without-coordinates"
+}

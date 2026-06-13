@@ -1,0 +1,18 @@
+{
+  "id": 42,
+  "name": "Ratte",
+  "category": "Forensics",
+  "value": 958,
+  "description": "Вы — специалист по расследованию инцидентов. В вашу компанию поступил дамп сетевого трафика (pcap-файл), перехваченный с одного из сегментов корпоративной сети в момент подозрительной активности. Проанализируйте, что же тут не так\r\r\n\r\r\n---\r\r\n\r\r\nYou are an incident response specialist. Your company received a network traffic dump (pcap file) intercepted from one of the corporate network segments during suspicious activity. Analyze what's wrong here.",
+  "attachments": [
+    {
+      "filename": "Ratte.pcap",
+      "local_path": "files/42_Ratte.pcap"
+    }
+  ],
+  "author": "@Alkimor1",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 66,
+  "path": "Forensics/42-ratte"
+}

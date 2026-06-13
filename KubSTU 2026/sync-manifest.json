@@ -1,0 +1,320 @@
+[
+  {
+    "id": 3,
+    "path": "Crypto/3-base",
+    "name": "Base",
+    "category": "Crypto"
+  },
+  {
+    "id": 4,
+    "path": "Crypto/4-not-enough-part-1",
+    "name": "Not enough part 1",
+    "category": "Crypto"
+  },
+  {
+    "id": 5,
+    "path": "Crypto/5-not-enough-part-2",
+    "name": "Not enough part 2",
+    "category": "Crypto"
+  },
+  {
+    "id": 6,
+    "path": "Crypto/6-strange-sequence-of-numbers",
+    "name": "Strange sequence of numbers",
+    "category": "Crypto"
+  },
+  {
+    "id": 7,
+    "path": "Forensics/7-demo",
+    "name": "Demo",
+    "category": "Forensics"
+  },
+  {
+    "id": 8,
+    "path": "Forensics/8-is-the-report-in-english",
+    "name": "Is the report in English?",
+    "category": "Forensics"
+  },
+  {
+    "id": 9,
+    "path": "Forensics/9-vanilla-raw",
+    "name": "Vanilla raw",
+    "category": "Forensics"
+  },
+  {
+    "id": 10,
+    "path": "Forensics/10-we-have-an-incident",
+    "name": "We have an incident!",
+    "category": "Forensics"
+  },
+  {
+    "id": 11,
+    "path": "Forensics/11-wirepass",
+    "name": "wirepass",
+    "category": "Forensics"
+  },
+  {
+    "id": 12,
+    "path": "Misc/12-cipher-сахар",
+    "name": "Cipher \"Сахар\"",
+    "category": "Misc"
+  },
+  {
+    "id": 13,
+    "path": "Misc/13-mobile-waf",
+    "name": "Mobile Waf",
+    "category": "Misc"
+  },
+  {
+    "id": 14,
+    "path": "Network/14-nut-legends",
+    "name": "Nut legends",
+    "category": "Network"
+  },
+  {
+    "id": 15,
+    "path": "Network/15-revenge-of-the-system-administrator",
+    "name": "Revenge of the System Administrator",
+    "category": "Network"
+  },
+  {
+    "id": 16,
+    "path": "Network/16-silence-in-verona",
+    "name": "Silence in Verona",
+    "category": "Network"
+  },
+  {
+    "id": 17,
+    "path": "OSINT/17-bad-opsec",
+    "name": "Bad OpSec",
+    "category": "OSINT"
+  },
+  {
+    "id": 18,
+    "path": "OSINT/18-founder",
+    "name": "Founder",
+    "category": "OSINT"
+  },
+  {
+    "id": 19,
+    "path": "OSINT/19-legendary-pull",
+    "name": "Legendary pull",
+    "category": "OSINT"
+  },
+  {
+    "id": 20,
+    "path": "OSINT/20-where-is-my-faculty",
+    "name": "Where is my Faculty?",
+    "category": "OSINT"
+  },
+  {
+    "id": 21,
+    "path": "Stego/21-hidden-glyphs",
+    "name": "Hidden Glyphs",
+    "category": "Stego"
+  },
+  {
+    "id": 22,
+    "path": "Stego/22-krasnodar-tram",
+    "name": "Krasnodar tram",
+    "category": "Stego"
+  },
+  {
+    "id": 23,
+    "path": "Stego/23-meow-message",
+    "name": "Meow Message",
+    "category": "Stego"
+  },
+  {
+    "id": 24,
+    "path": "Web/24-capy-capy-bank-1",
+    "name": "CAPY-CAPY Bank 1",
+    "category": "Web"
+  },
+  {
+    "id": 25,
+    "path": "Web/25-capyagro-crop-rescue",
+    "name": "CapyAgro Crop Rescue",
+    "category": "Web"
+  },
+  {
+    "id": 26,
+    "path": "Web/26-capyblog",
+    "name": "CapyBlog",
+    "category": "Web"
+  },
+  {
+    "id": 27,
+    "path": "Web/27-deadlock",
+    "name": "Deadlock",
+    "category": "Web"
+  },
+  {
+    "id": 28,
+    "path": "Web/28-библиотека-капибара-сити",
+    "name": "Библиотека Капибара-Сити",
+    "category": "Web"
+  },
+  {
+    "id": 29,
+    "path": "Forensics/29-tunnel",
+    "name": "Tunnel?",
+    "category": "Forensics"
+  },
+  {
+    "id": 30,
+    "path": "Forensics/30-mutant",
+    "name": "Mutant",
+    "category": "Forensics"
+  },
+  {
+    "id": 31,
+    "path": "Crypto/31-furry-cipher",
+    "name": "Furry Cipher",
+    "category": "Crypto"
+  },
+  {
+    "id": 32,
+    "path": "Crypto/32-cat-girl-conspiracy",
+    "name": "Cat-girl conspiracy",
+    "category": "Crypto"
+  },
+  {
+    "id": 33,
+    "path": "Stego/33-capybara-in-nightmare-land",
+    "name": "Capybara in Nightmare Land",
+    "category": "Stego"
+  },
+  {
+    "id": 34,
+    "path": "OSINT/34-morning-without-coordinates",
+    "name": "Morning without coordinates",
+    "category": "OSINT"
+  },
+  {
+    "id": 36,
+    "path": "Web/36-the-battle-of-the-strongest",
+    "name": "The Battle of the Strongest",
+    "category": "Web"
+  },
+  {
+    "id": 37,
+    "path": "Web/37-mcpocalypse",
+    "name": "MCPocalypse",
+    "category": "Web"
+  },
+  {
+    "id": 38,
+    "path": "Web/38-capybara-admin-portal",
+    "name": "Capybara Admin Portal",
+    "category": "Web"
+  },
+  {
+    "id": 39,
+    "path": "Web/39-hr-portal",
+    "name": "HR portal",
+    "category": "Web"
+  },
+  {
+    "id": 40,
+    "path": "Web/40-capy-capy-bank-2",
+    "name": "CAPY-CAPY Bank 2",
+    "category": "Web"
+  },
+  {
+    "id": 41,
+    "path": "Misc/41-bank3",
+    "name": "Bank3",
+    "category": "Misc"
+  },
+  {
+    "id": 42,
+    "path": "Forensics/42-ratte",
+    "name": "Ratte",
+    "category": "Forensics"
+  },
+  {
+    "id": 43,
+    "path": "Misc/43-subway-surfers",
+    "name": "Subway Surfers",
+    "category": "Misc"
+  },
+  {
+    "id": 44,
+    "path": "Network/44-the-skeleton-key",
+    "name": "The skeleton key",
+    "category": "Network"
+  },
+  {
+    "id": 45,
+    "path": "Crypto/45-nintendo-3ds",
+    "name": "Nintendo 3DS",
+    "category": "Crypto"
+  },
+  {
+    "id": 46,
+    "path": "Crypto/46-unlucky-13",
+    "name": "Unlucky 13",
+    "category": "Crypto"
+  },
+  {
+    "id": 47,
+    "path": "Stego/47-vanishing-act",
+    "name": "Vanishing act",
+    "category": "Stego"
+  },
+  {
+    "id": 48,
+    "path": "Stego/48-the-gaze-of-serenity",
+    "name": "The Gaze of Serenity",
+    "category": "Stego"
+  },
+  {
+    "id": 49,
+    "path": "Stego/49-capybara-secret",
+    "name": "Capybara Secret",
+    "category": "Stego"
+  },
+  {
+    "id": 50,
+    "path": "Stego/50-the-ancient-note",
+    "name": "The Ancient Note",
+    "category": "Stego"
+  },
+  {
+    "id": 51,
+    "path": "Stego/51-bembembem",
+    "name": "bembembem",
+    "category": "Stego"
+  },
+  {
+    "id": 52,
+    "path": "OSINT/52-minute-of-fame",
+    "name": "Minute of fame",
+    "category": "OSINT"
+  },
+  {
+    "id": 53,
+    "path": "OSINT/53-city-that-doesnt-exist",
+    "name": "City that doesn't exist",
+    "category": "OSINT"
+  },
+  {
+    "id": 55,
+    "path": "Web/55-partner-teamforge",
+    "name": "[Partner] teamforge",
+    "category": "Web"
+  },
+  {
+    "id": 56,
+    "path": "Web/56-partner-repoforge",
+    "name": "[Partner] repoforge",
+    "category": "Web"
+  },
+  {
+    "id": 57,
+    "path": "Start/57-start",
+    "name": "START",
+    "category": "start"
+  }
+]

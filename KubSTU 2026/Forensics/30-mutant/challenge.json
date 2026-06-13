@@ -1,0 +1,18 @@
+{
+  "id": 30,
+  "name": "Mutant",
+  "category": "Forensics",
+  "value": 898,
+  "description": "Поздравляю! Вы поступили в политех на информационную безопасность. Вам выдали образовательный материал. Завтра экзамен, удачи.\r\n\r\n---\r\n\r\nCongratulations! You've been admitted to the polytechnic university for information security. You were given educational materials. The exam is tomorrow, good luck.",
+  "attachments": [
+    {
+      "filename": "crypt.pdf",
+      "local_path": "files/30_crypt.pdf"
+    }
+  ],
+  "author": "@Alkimor1",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 102,
+  "path": "Forensics/30-mutant"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 24,
+  "name": "CAPY-CAPY Bank 1",
+  "category": "Web",
+  "value": 980,
+  "description": "\" Нам пришёл наш золотой клиент — Михаил Галанков. Говорит, со\r\r\n\r\r\nсчёта ушёл перевод, которого он не делал. Мы разбираемся уже\r\r\n\r\r\nвторую неделю и, честно говоря, не понимаем как: у нас на каждом\r\r\n\r\r\nплатеже одноразовая криптоподпись, а перед списанием банк ещё и\r\r\n\r\r\nPIN спрашивает. Михаил клянётся, что ни PIN, ни подпись никому\r\r\n\r\r\nне диктовал, и мы ему верим — он сам по специальности безопасник.\r\r\n\r\r\nЧтобы вы могли спокойно покопаться, мы подняли отдельный тестовый\r\r\n\r\r\nсегмент — это полная копия нашего банка, только с тестовыми\r\r\n\r\r\nденьгами и горсткой пользователей внутри (мы и сами туда обычно\r\r\n\r\r\nзагоняем человек десять, не больше). Логин Михаила там тот же —\r\r\n\r\r\nmgalankov@4274. Пароль от его учётки админ, к сожалению, в тикет\r\r\n\r\r\nвписать забыл, но вы же опытные. ТУТ - http://5.35.88.34 \" \r\r\n\r\r\n----\r\r\n\r\r\n\" Our golden client, Mikhail Galankov, has come to us. He says, with\r\r\n\r\r\nA transfer that he did not make went away from the account. We're already figuring it out.\r\r\n\r\r\nfor the second week, and, frankly, we don't understand how: we have every\r\r\n\r\r\nthere is a one-time cryptographic signature for the payment, and before the debit, the bank also\r\r\n\r\r\nPIN asks. Mikhail swears that neither PIN nor signature to anyone\r\r\n\r\r\nHe didn't dictate, and we believe him — he's a security professional himself.\r\r\n\r\r\nSo that you can safely dig around, we have raised a separate test\r\r\n\r\r\nThe segment is a complete copy of our bank, only with test ones.\r\r\n\r\r\nwith money and a handful of users inside (we usually go there ourselves\r\r\n\r\r\nwe drive ten people, no more). Mikhail's username is the same there —\r\r\n\r\r\nmgalankov@4274. Unfortunately, the password from his admin account is in the ticket.\r\r\n\r\r\nI forgot to enter it, but you're experienced. HERE - http://5.35.88.34 \"",
+  "attachments": [],
+  "author": "t.me/thankspluxury",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 46,
+  "path": "Web/24-capy-capy-bank-1"
+}

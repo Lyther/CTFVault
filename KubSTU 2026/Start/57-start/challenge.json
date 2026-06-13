@@ -1,0 +1,13 @@
+{
+  "id": 57,
+  "name": "START",
+  "category": "start",
+  "value": 50,
+  "description": "👋 Привет, участник! Добро пожаловать на KubSTU CTF 2026!\r\r\nТы уже на платформе — это главное. Теперь быстро по делу:\r\r\n\r\r\n🚩 Как это работает\r\r\nТвоя задача — решать таски и находить строки вида kubstu{...}. Нашёл — вводишь флаг в форму на платформе и получаешь очки. Всё просто.\r\r\n\r\r\n📋 Правила\r\r\n\r\r\nЗапрещено атаковать инфраструктуру платформы и других участников\r\r\nЗапрещено делиться флагами и решениями во время соревнования (spoilers = ban)\r\r\nКаждая команда решает таски самостоятельно\r\r\nЗа подозрительную активность — дисквалификация без предупреждения\r\r\nБаги платформы сообщай организаторам, а не эксплуатируй\r\r\nВот кстати твой первый флаг - KubSTU{1ets_g0} (или не первый)\r\r\n\r\r\n---\r\r\n\r\r\n👋 Hey, participant! Welcome to KubSTU CTF 2026!\r\r\n You're already on the platform, and that's the most important thing. Now, let's get down to business:\r\r\n\r\r\n🚩 How it works\r\r\n Your task is to solve tasks and find strings like kubstu{...}. Once you find it, enter the flag in the form on the platform and earn points. It's simple.\r\r\n\r\r\n📋 Rules\r\r\n\r\r\n It's forbidden to attack the platform's infrastructure or other participants.\r\r\nIt is forbidden to share flags and solutions during the competition (spoilers = ban)\r\r\nEach team solves the tasks independently\r\r\nSuspicious activity will result in disqualification without warning\r\r\nReport platform bugs to the organizers, do not exploit them\r\r\nHere is your first flag - KubSTU{1ets_g0} (or not the first)\r\r\n",
+  "attachments": [],
+  "author": null,
+  "connection_info": null,
+  "type": "standard",
+  "solves": 650,
+  "path": "Start/57-start"
+}

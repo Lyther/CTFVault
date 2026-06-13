@@ -1,0 +1,22 @@
+{
+  "id": 22,
+  "name": "Krasnodar tram",
+  "category": "Stego",
+  "value": 842,
+  "description": "Мне очень нравятся трамваи в Краснодаре. Это очень удобно, быстро и недорого. Проникнись трамвайным вайбом и найди моё послание.\r\r\n\r\r\nФормат флага: `KubSTU{...}`\r\r\n\r\r\n---\r\r\n\r\r\nI really like the trams in Krasnodar. It's very convenient, fast, and inexpensive. Immerse yourself in the tram vibe and find my message.\r\r\n\r\r\nFlag format: `KubSTU{...}`",
+  "attachments": [
+    {
+      "filename": "267.jpg",
+      "local_path": "files/22_267.jpg"
+    },
+    {
+      "filename": "678.jpg",
+      "local_path": "files/22_678.jpg"
+    }
+  ],
+  "author": "@borsch_krd",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 127,
+  "path": "Stego/22-krasnodar-tram"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 41,
+  "name": "Bank3",
+  "category": "Misc",
+  "value": 1000,
+  "description": "И снова спасибо. Ваш предыдущий отчёт ушёл в продакшн в тот же вечер, инцидент закрыт.\r\r\n\r\r\nТолько у нас параллельно случилась беда: со скандалом ушёл наш крипто-инженер — тот самый, что отвечал за модуль одноразовых подписей. Унёс с собой исходники, доступы и, кажется, душу всей команды. Жить как-то надо, поэтому за выходные мы силами своих бэкендеров переписали генератор подписей с нуля.\r\r\n\r\r\nТестовый сегмент уже поднят, вводные те же. Покажите, как именно.\r\r\n\r\r\nhttp://45.12.238.51\r\r\n\r\r\n---\r\r\n\r\r\nAnd thank you again. Your previous report went into production that same evening, incident closed.\r\r\n\r\r\nBut we had a parallel disaster: our crypto engineer left in a scandal — the very one responsible for the one-time signature module. He took the source code, access credentials, and, it seems, the soul of the entire team with him. Life goes on, so over the weekend our backend developers rewrote the signature generator from scratch.\r\r\n\r\r\nThe test segment is already up, the scenario is the same. Show us how exactly.\r\r\n\r\r\nhttp://45.12.238.51",
+  "attachments": [],
+  "author": "t.me/thankspluxury",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 1,
+  "path": "Misc/41-bank3"
+}

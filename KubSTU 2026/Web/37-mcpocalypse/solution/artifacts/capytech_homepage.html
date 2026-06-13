@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapyTech Solutions | Управляй серверами с помощью ИИ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-deep: #0a0f1e;
+            --bg-card: rgba(13, 27, 42, 0.7);
+            --accent-primary: #3b82f6;
+            --accent-secondary: #60a5fa;
+            --accent-glow: #a78bfa;
+            --text-main: #e0e7ff;
+            --text-muted: #cbd5e1;
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Background Animation */
+        .bg-glow {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(circle at 50% 50%, #1e293b 0%, #0a0f1e 100%);
+        }
+
+        .glow-orb {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            filter: blur(50px);
+            animation: float 20s infinite alternate;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(100px, 100px); }
+        }
+
+        /* Header */
+        header {
+            padding: 1.5rem 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--accent-secondary);
+            text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent-secondary);
+        }
+
+        .btn-login {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow));
+            color: white;
+            padding: 0.6rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .btn-login:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 8rem 10% 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 80vh;
+        }
+
+        .hero-content {
+            max-width: 600px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(to right, #fff, var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-bottom: 2.5rem;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--accent-primary);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary {
+            border: 1px solid var(--glass-border);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            backdrop-filter: blur(5px);
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .hero-visual {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .capy-sphere {
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle at 30% 30%, var(--accent-primary), transparent);
+            border-radius: 50%;
+            box-shadow: 0 0 50px rgba(59, 130, 246, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 8rem;
+            color: rgba(255, 255, 255, 0.8);
+            animation: pulse 4s infinite ease-in-out;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); box-shadow: 0 0 50px rgba(59, 130, 246, 0.3); }
+            50% { transform: scale(1.05); box-shadow: 0 0 80px rgba(59, 130, 246, 0.5); }
+        }
+
+        /* Features */
+        .features {
+            padding: 6rem 10%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: var(--bg-card);
+            padding: 2.5rem;
+            border-radius: 20px;
+            border: 1px solid var(--glass-border);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--accent-primary);
+        }
+
+        .feature-card i {
+            font-size: 2.5rem;
+            color: var(--accent-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+
+        .feature-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Footer */
+        footer {
+            padding: 4rem 10% 2rem;
+            border-top: 1px solid var(--glass-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .dev-hint {
+            opacity: 0.05;
+            font-size: 0.7rem;
+            user-select: none;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .hero { flex-direction: column; text-align: center; padding-top: 4rem; }
+            .hero h1 { font-size: 2.5rem; }
+            .hero-visual { width: 250px; height: 250px; margin-top: 3rem; }
+            .capy-sphere { width: 200px; height: 200px; font-size: 5rem; }
+            nav { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-glow">
+        <div class="glow-orb" style="top: 10%; left: 10%;"></div>
+        <div class="glow-orb" style="bottom: 10%; right: 10%; animation-delay: -5s;"></div>
+    </div>
+
+    <header>
+        <a href="#" class="logo">
+            <i class="fas fa-otter"></i> CapyTech
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Решения</a></li>
+                <li><a href="#">Документация</a></li>
+                <li><a href="#">Блог</a></li>
+            </ul>
+        </nav>
+        <a href="http://localhost:9000" class="btn-login">Войти в панель</a>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Управляй серверами с помощью голоса и ИИ</h1>
+            <p>CapyTech MCP — первый протокол, позволяющий AI-агентам напрямую взаимодействовать с Nginx. Будущее инфраструктуры уже здесь.</p>
+            <div class="hero-btns">
+                <a href="#" class="btn-primary">Попробовать бесплатно</a>
+                <a href="#" class="btn-secondary">Узнать больше</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="capy-sphere">
+                <i class="fas fa-otter"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <i class="fas fa-microphone-lines"></i>
+            <h3>Голосовое управление</h3>
+            <p>Настраивайте прокси-пассинг и SSL-сертификаты простыми голосовыми командами через наш MCP-шлюз.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-network-wired"></i>
+            <h3>Model Context Protocol</h3>
+            <p>Прямая интеграция с LLM для автоматической оптимизации конфигураций Nginx в реальном времени.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-shield-halved"></i>
+            <h3>AI-безопасность</h3>
+            <p>Нейронные сети анализируют трафик и блокируют угрозы до того, как они достигнут ваших бэкендов.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Умная аналитика</h3>
+            <p>Визуализируйте нагрузку и прогнозируйте масштабирование с точностью до 99% благодаря CapyAI.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div>© 2026 CapyTech Solutions.</div>
+        <div class="footer-links">
+            <a href="#">Политика</a>
+            <a href="#">Условия</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div class="dev-hint">dev-port:9000</div>
+    </footer>
+</body>
+</html>

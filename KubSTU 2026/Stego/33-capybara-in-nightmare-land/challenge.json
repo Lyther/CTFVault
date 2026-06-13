@@ -1,0 +1,18 @@
+{
+  "id": 33,
+  "name": "Capybara in Nightmare Land",
+  "category": "Stego",
+  "value": 861,
+  "description": "*Капибара из КубГТУ заснула на лекции по информационной безопасности и попала в странный кошмарный сон...*\r\n\r\n*В этом сне она оставила секретное послание. Сможешь ли ты найти его?*\r\n\r\n**Подсказка:** Не всё то, чем кажется. Загляни глубже.\r\n\r\n---\r\n\r\n*A capybara from KubGTU fell asleep during an information security lecture and found herself in a strange nightmare...*\r\n\r\n*In this dream, she left a secret message. Can you find it?*\r\n\r\n**Hint:** Not everything is as it seems. Look deeper.",
+  "attachments": [
+    {
+      "filename": "capybara_nightmare.png",
+      "local_path": "files/33_capybara_nightmare.png"
+    }
+  ],
+  "author": "@van_1pi",
+  "connection_info": null,
+  "type": "dynamic",
+  "solves": 119,
+  "path": "Stego/33-capybara-in-nightmare-land"
+}
